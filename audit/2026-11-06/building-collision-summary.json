@@ -1,0 +1,68 @@
+{
+  "source": "C:\\VC\\data\\maps\\nbeachw\\nbeachw.col",
+  "sha256": "1e35c374a579223b0be6531289f03ccc451cc6ab60b140fc8844fc09230eff05",
+  "loader": "FileLoader.cpp::LoadCollisionModel (COLL format)",
+  "native_validation_required": true,
+  "archive": {
+    "sector": 158906,
+    "sectors": 128,
+    "identical_prefix": true
+  },
+  "limitations": [
+    "Candidate only: every segment must pass current native full-radius query.",
+    "Other IPL models, mission objects, current collision residency and vehicle dynamics are not modeled here.",
+    "Raw COL floats retained; engine may quantize triangle vertices to 1/128m under COMPRESSED_COL_VECTORS.",
+    "An open floor aperture contains a sloped stair and central divider; it is not a free vertical shaft."
+  ],
+  "publication_note": "Metadata only; full vertex, triangle and collision-box arrays are not distributed.",
+  "models": {
+    "buildingsite2": {
+      "id": 3830,
+      "bounds": [
+        80.11389923095703,
+        5.90826416015625,
+        0.0044727325439453125,
+        62.25035858154297,
+        -47.78673553466797,
+        -36.394195556640625,
+        -0.9427337646484375,
+        59.60326385498047,
+        36.40313720703125,
+        125.44345092773438
+      ],
+      "translation": [
+        114.9088821,
+        -366.1600647,
+        7.630674839
+      ],
+      "spheres_count": 0,
+      "boxes_count": 21,
+      "vertices_count": 240,
+      "triangles_count": 311
+    },
+    "bldngst2mesh": {
+      "id": 3908,
+      "bounds": [
+        71.01507568359375,
+        5.908260345458984,
+        0.004482269287109375,
+        49.82005310058594,
+        -42.54287338256836,
+        -31.150341033935547,
+        8.286865234375,
+        54.35939407348633,
+        31.159305572509766,
+        91.35324096679688
+      ],
+      "translation": [
+        114.9089966,
+        -366.1600037,
+        7.631000042
+      ],
+      "spheres_count": 0,
+      "boxes_count": 0,
+      "vertices_count": 8,
+      "triangles_count": 8
+    }
+  }
+}

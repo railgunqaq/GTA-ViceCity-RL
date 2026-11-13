@@ -1,0 +1,4196 @@
+{
+  "date": "2026-11-13",
+  "hash_scope": "Working-copy file bytes; excludes this manifest and Git metadata. Git may normalize text line endings.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 145,
+      "sha256": "81138583e63f88bc788de1ba5e20e95fc857c005b1c668d9f4526c327cac61f1"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 908,
+      "sha256": "8bf6f9e686ae20df842d918fa6f01a09ddfe61c30dd961d3af48fb44ef60dee1"
+    },
+    {
+      "path": "audit/2026-11-06/building-collision-summary.json",
+      "bytes": 2064,
+      "sha256": "0541e014d7351e206559625ad85d27879fd8c96629663837b9b307efbc9258e7"
+    },
+    {
+      "path": "audit/2026-11-06/BUILDING_ENTRANCE_GEOMETRY.md",
+      "bytes": 3095,
+      "sha256": "6f0c5cc83ba1bd40082017bae599b077c123e5e0b3ed7232c5d0ed1f3aa1bd3d"
+    },
+    {
+      "path": "audit/2026-11-06/extract_building_collision.py",
+      "bytes": 4995,
+      "sha256": "49e9a390edf87c1851228798f985647e4096e8813cb5aefb40e043798c24b74f"
+    },
+    {
+      "path": "audit/2026-11-06/first-floor-route-hints.json",
+      "bytes": 445,
+      "sha256": "ec3f301eda221ca7c7f3022dc867148eaaec4fc796fadc3be008a172695d4672"
+    },
+    {
+      "path": "audit/2026-11-06/navigation-placement-v5/navigation-evidence.png",
+      "bytes": 256648,
+      "sha256": "7826d113ac47141a834d2f78ea1b1209b8415c4d8257ef4274c8ca49f45fea51"
+    },
+    {
+      "path": "audit/2026-11-06/navigation-placement-v5/summary.json",
+      "bytes": 80768,
+      "sha256": "bf818b4794cae93fd5971b88f2070812cd7ff2d7f56c891c94640696d8547075"
+    },
+    {
+      "path": "audit/2026-11-06/smoke-training-walls/verification.json",
+      "bytes": 1848,
+      "sha256": "8680fe9638ea4f9d2ee61f4caf125b35c9cd5e6afaf77e610be92422b26fa78d"
+    },
+    {
+      "path": "audit/2026-11-06/WALL_NAVIGATION_FIX.md",
+      "bytes": 6623,
+      "sha256": "d041e376bd8c1477a3f0185802829d8a38a2153c1ba5e41d6b64cc3110fe4115"
+    },
+    {
+      "path": "audit/2026-11-13/NEXT_STAGE_ASSESSMENT.md",
+      "bytes": 9563,
+      "sha256": "6f556435378d4259f3ad4bbd457d10413ed93330859b1fa5ff47c6bd98ec4a0e"
+    },
+    {
+      "path": "audit/2026-11-13/trajectory-audit.json",
+      "bytes": 18599,
+      "sha256": "58fcff893e7c52a4a031dffe573280f1e7a1075bfb159af532773128309bf0dd"
+    },
+    {
+      "path": "docs/BUILD.md",
+      "bytes": 5360,
+      "sha256": "586dc4d5ad39a9832db8ca6e8d68eba1d8353e81007b139e3f2350720058a293"
+    },
+    {
+      "path": "docs/EVIDENCE.md",
+      "bytes": 2357,
+      "sha256": "c7d89686e918aba39b6929a41940e5f15dd4b1a9ee7df9f3ad1c85b3a7d90dbd"
+    },
+    {
+      "path": "docs/PUBLISH.md",
+      "bytes": 1987,
+      "sha256": "3168c730094ceba36b7fe820435e7d9a68b61d8fb8d0164a99314466af9ee591"
+    },
+    {
+      "path": "docs/RELEASE_VALIDATION.json",
+      "bytes": 1555,
+      "sha256": "f270ad34d1f9cafece1aa98c7e6d16f57a9ca0eab3b6423f050ac1a565584ace"
+    },
+    {
+      "path": "docs/upstream.gitmodules.txt",
+      "bytes": 423,
+      "sha256": "603953e8b906bbc3801350b09489164368e98c1a4c4fee1454150c32e78a4ef5"
+    },
+    {
+      "path": "ml/analyze_runs.py",
+      "bytes": 2486,
+      "sha256": "6f9fe590f751a93bec617246dd031ba7389e9639c0de12a0c3827cf905e94baa"
+    },
+    {
+      "path": "ml/calibrate_controls.py",
+      "bytes": 17860,
+      "sha256": "0b9ab06c537ffd5fbc3d760a1573387df2eae706027469f721da8b74369b9ee5"
+    },
+    {
+      "path": "ml/curve.py",
+      "bytes": 150,
+      "sha256": "d484711f28d3caf72188bc63709f1aa2528710c0542c55008cf60d4443a1fc04"
+    },
+    {
+      "path": "ml/curve_v6.py",
+      "bytes": 150,
+      "sha256": "d484711f28d3caf72188bc63709f1aa2528710c0542c55008cf60d4443a1fc04"
+    },
+    {
+      "path": "ml/curve_v7.py",
+      "bytes": 150,
+      "sha256": "d484711f28d3caf72188bc63709f1aa2528710c0542c55008cf60d4443a1fc04"
+    },
+    {
+      "path": "ml/ml_client.py",
+      "bytes": 37722,
+      "sha256": "3fe279d0bc39f3ebd6e03546728f54462ab977198c66c631543549da8259a91c"
+    },
+    {
+      "path": "ml/navigation.py",
+      "bytes": 21499,
+      "sha256": "d336d7afab629870e82f58bc76aac06636dfb625fc038080da4e2626477d4d79"
+    },
+    {
+      "path": "ml/plot_navigation.py",
+      "bytes": 12238,
+      "sha256": "069329fa3935c8a21e5954c685eb69aa9fe5fbf7acce5623dc885b4fac82354f"
+    },
+    {
+      "path": "ml/probe_navigation.py",
+      "bytes": 18334,
+      "sha256": "a6321507ad7e9c2d0c7814959c03eb0727f591462c47aff9d8568eeadaa2f1cb"
+    },
+    {
+      "path": "ml/README.md",
+      "bytes": 12106,
+      "sha256": "d06fe43698efbb27d90ca970ce4d7c7cbf6ef7f4baca585e07dc6fb6afc247f3"
+    },
+    {
+      "path": "ml/rl_sac.py",
+      "bytes": 37762,
+      "sha256": "d1efe57d9a89270720b3378fac0fd64cc64555de8ea83407b02a1c61a6dec40b"
+    },
+    {
+      "path": "ml/rl_train.py",
+      "bytes": 37550,
+      "sha256": "749076e3f27b615afd405de1adec756e1e4495f9c2eb82f20381fb0454c02ce1"
+    },
+    {
+      "path": "ml/run_policy_eval.py",
+      "bytes": 5467,
+      "sha256": "455037f135d1d9a0cd0120b0e7d95e582b1a6abe743fb82be893c49e9b0ec47e"
+    },
+    {
+      "path": "ml/run_stall_screen.py",
+      "bytes": 3087,
+      "sha256": "04c5047306079be335acbba26c2e87ecd3b05f69a3bd19129bd2c1d5c1ef5487"
+    },
+    {
+      "path": "ml/sac_stats.py",
+      "bytes": 3739,
+      "sha256": "9365830f7367c79127f3681d8c272dd08fa0f0f61246bd45c984e7eb63a46be6"
+    },
+    {
+      "path": "ml/smoke_contract.py",
+      "bytes": 4350,
+      "sha256": "919b1520b450a06e2e8763e7675c55ada4c07646e588fc1f58436d378883af30"
+    },
+    {
+      "path": "ml/smoke_training.py",
+      "bytes": 4369,
+      "sha256": "c17c4b3d751bcdd9cecfb18c6603eebeb929dcd2f767e310d5ab774edb0524b0"
+    },
+    {
+      "path": "ml/summarize_policy_eval.py",
+      "bytes": 39945,
+      "sha256": "7f11a57a1632e6282439a6a607b843f98a36255ad49d68b6d3dea3f051d34b1c"
+    },
+    {
+      "path": "ml/tests/test_analysis.py",
+      "bytes": 1130,
+      "sha256": "90fbcb12364057f61a9fecbbe18988c6409633ce0371547f998bb52673906b3c"
+    },
+    {
+      "path": "ml/tests/test_bridge.py",
+      "bytes": 25630,
+      "sha256": "6c8539220071a8556ef6cb40cc29666034ba48067fbbcf838a24d49a0ad78af0"
+    },
+    {
+      "path": "ml/tests/test_cleanup.py",
+      "bytes": 12932,
+      "sha256": "436583e67ac6a419c87c19a0464ab5fa3d4480b44fe02a41dfa896483099ea28"
+    },
+    {
+      "path": "ml/tests/test_env.py",
+      "bytes": 29154,
+      "sha256": "945d4ef0b87c02c27d93a837b48f96d11bf77925ea20e9491a944c692624b75f"
+    },
+    {
+      "path": "ml/tests/test_navigation.py",
+      "bytes": 14302,
+      "sha256": "5c54521ce6d50b84dfd591dbf643a6ddbfc262c6bc9949504192f694026c4b70"
+    },
+    {
+      "path": "ml/tests/test_sac.py",
+      "bytes": 24203,
+      "sha256": "388c525138b4ad7805de80d542b76893228ade3f4bd8d65ddfebb445a4e687ed"
+    },
+    {
+      "path": "ml/tests/test_task.py",
+      "bytes": 2088,
+      "sha256": "78ce7a7d495cbef34f569777b1d752d130a3d1f3560aac0a4995ae7307388a53"
+    },
+    {
+      "path": "ml/vc_task.py",
+      "bytes": 21587,
+      "sha256": "308030c8c0394306cc39494480a469eaff43ca2f5d4f2da141e4e4ad60e998de"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 3001,
+      "sha256": "1c63771612b2e3c65ee6dc20443c691ee79bb676d9b948ff2c9a468c45d060db"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3754,
+      "sha256": "90e882ee038f8e316ffc2eac15ef6af08a677c3ac4d17a39be70f511b9864646"
+    },
+    {
+      "path": "requirements-plot.txt",
+      "bytes": 31,
+      "sha256": "964d8c7e395f031834f428c1780ba95461be6b41a62bf22d058c745f3e1b3726"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 87,
+      "sha256": "1bdc1145c5c560cadcd3730297afb7202ff99aa1ebbada7284788d94ee1c0742"
+    },
+    {
+      "path": "reVC-src/.clang-format",
+      "bytes": 754,
+      "sha256": "53be3174455f171d931d26efe12c3e65a3f2fe5c416d6a3ad3073638225614c4"
+    },
+    {
+      "path": "reVC-src/.gitattributes",
+      "bytes": 50,
+      "sha256": "5a25997c1ca72a3e5accf652859c328ffb8302f189856124fce3c289a3cec964"
+    },
+    {
+      "path": "reVC-src/.gitignore",
+      "bytes": 6393,
+      "sha256": "cf1ec13420bb6430951a295b7448df3b03e90e17916f6a1a326bbfa4dce66888"
+    },
+    {
+      "path": "reVC-src/cmake/FindMilesSDK.cmake",
+      "bytes": 1014,
+      "sha256": "def2203d20309619b590ae78b30107ad3eae24380fa825a573cad0bed48dafa6"
+    },
+    {
+      "path": "reVC-src/cmake/Findmpg123.cmake",
+      "bytes": 1251,
+      "sha256": "636fe2b646b640383c3881e07b3f94be254c273c4e0b70a470e4f6fae63b7acd"
+    },
+    {
+      "path": "reVC-src/cmake/Findopusfile.cmake",
+      "bytes": 1814,
+      "sha256": "93fff65d46804a5c7be164434cfabca15c3e20ab7629b0b92d9f5cf2e981d7e6"
+    },
+    {
+      "path": "reVC-src/cmake/FindSndFile.cmake",
+      "bytes": 1809,
+      "sha256": "191b062cbb233d59407143edf62570a4cd8c9a3ffdc102573e279ef802cce70a"
+    },
+    {
+      "path": "reVC-src/cmake/GetGitRevisionDescription.cmake",
+      "bytes": 9517,
+      "sha256": "2034e75a40d41a2ed672f01be68353784d2eb9418b4dee621a6daca47c5c8258"
+    },
+    {
+      "path": "reVC-src/cmake/GetGitRevisionDescription.cmake.in",
+      "bytes": 1354,
+      "sha256": "97e780fcf33526304d1e511328fa9118e5959d3a7ef16ebef381af7019cbafe7"
+    },
+    {
+      "path": "reVC-src/CMakeLists.txt",
+      "bytes": 2884,
+      "sha256": "c4f99aa521312d09f3343d44a3c022b585e99c808a8875404cbbd25a33cf5efa"
+    },
+    {
+      "path": "reVC-src/CODING_STYLE.md",
+      "bytes": 2458,
+      "sha256": "3ba8ebb465c5308d10f9b897dabc943f2a7753ead5f32de4010fc323bce613b9"
+    },
+    {
+      "path": "reVC-src/conanfile.py",
+      "bytes": 5390,
+      "sha256": "a52a59519187c739ae1da37a819090de173fd393dc9c79f959cccc4c24632d5e"
+    },
+    {
+      "path": "reVC-src/premake-vs2015.cmd",
+      "bytes": 29,
+      "sha256": "d58846c5a4722e1ba20f7312a409a94e6e9889e93d1081cf66f5cc0b60c1cd87"
+    },
+    {
+      "path": "reVC-src/premake-vs2017.cmd",
+      "bytes": 29,
+      "sha256": "30725e0ac311368b7742dd676c35fe3f7d5b20d7f95a3624636099b0000506cf"
+    },
+    {
+      "path": "reVC-src/premake-vs2019.cmd",
+      "bytes": 29,
+      "sha256": "da0b2dd598d685f98b7f02688f424cbea66f9dff938fd8b7c88243c625eac2da"
+    },
+    {
+      "path": "reVC-src/premake5.lua",
+      "bytes": 11368,
+      "sha256": "66ebd293a31089e5b0a22e07e789ffb2ed354dc1a1c2f09a7392d3f84b55090a"
+    },
+    {
+      "path": "reVC-src/printHash.bat",
+      "bytes": 507,
+      "sha256": "7b1a7b405e4266ced68e2d8eb51005853d1ea67c47e9ee9180ffe8b2521e94f4"
+    },
+    {
+      "path": "reVC-src/printHash.sh",
+      "bytes": 214,
+      "sha256": "bff5ceb72e9c0ce5d4a2deb045069985c462f07dabb01a693b181ff3a81f81cf"
+    },
+    {
+      "path": "reVC-src/README.md",
+      "bytes": 1993,
+      "sha256": "c2596377786bfff1b3224ee9289c933f36dd617a7c62ef0f51fd61fdc1b066ce"
+    },
+    {
+      "path": "reVC-src/README.upstream.md",
+      "bytes": 9785,
+      "sha256": "0866fae32744ab70b67485be604bba3275af4137e6d9d96947cef0b0ed156f14"
+    },
+    {
+      "path": "reVC-src/src/animation/AnimationId.h",
+      "bytes": 6122,
+      "sha256": "b22771b211904cf97919fdf50d47bf460f38e1036dc96fdc1947f815f3ff631d"
+    },
+    {
+      "path": "reVC-src/src/animation/AnimBlendAssocGroup.cpp",
+      "bytes": 4335,
+      "sha256": "b4eb5f0825463c7e06b71b584cd65e382dcc12ba0eccdc3b9f807951361a8165"
+    },
+    {
+      "path": "reVC-src/src/animation/AnimBlendAssocGroup.h",
+      "bytes": 712,
+      "sha256": "c399f894c02ced3da85b7d857e2b5f0ebdc18795ac2051aeb3879acf6fa4d8eb"
+    },
+    {
+      "path": "reVC-src/src/animation/AnimBlendAssociation.cpp",
+      "bytes": 4941,
+      "sha256": "c1eaecbf5c5c3e69581fb1bfc653b5ce8c0c6c0b96421ef72d46577fe83eb3de"
+    },
+    {
+      "path": "reVC-src/src/animation/AnimBlendAssociation.h",
+      "bytes": 3205,
+      "sha256": "0f40d89a16da9de9c3b345a48d9da8e6a749dd7997aa960dac309d2222644645"
+    },
+    {
+      "path": "reVC-src/src/animation/AnimBlendClumpData.cpp",
+      "bytes": 651,
+      "sha256": "44599f5ead83a2ddd987130f7ae25e5a8a2fc0e9d4115fd056992716f5a1b758"
+    },
+    {
+      "path": "reVC-src/src/animation/AnimBlendClumpData.h",
+      "bytes": 835,
+      "sha256": "699a2615e55b6b1e05e19fbadf94fa2a89c87321c8a315a6ca9628864b8eaf2c"
+    },
+    {
+      "path": "reVC-src/src/animation/AnimBlendHierarchy.cpp",
+      "bytes": 2444,
+      "sha256": "86f257536a5e8f5a13326e7939b3e70413fe88647b1943979b52acaabb8d0b91"
+    },
+    {
+      "path": "reVC-src/src/animation/AnimBlendHierarchy.h",
+      "bytes": 760,
+      "sha256": "33c56bad2414da1dd6588b01b0486eb6ba02d0a26ca075bca1eb6425b8386c31"
+    },
+    {
+      "path": "reVC-src/src/animation/AnimBlendList.h",
+      "bytes": 396,
+      "sha256": "df0bc0b8f186d530bcc018cbd33843f1425ce1fea81d7395a0eccd74b0ba5f56"
+    },
+    {
+      "path": "reVC-src/src/animation/AnimBlendNode.cpp",
+      "bytes": 7511,
+      "sha256": "1d9d495d9502f1c3315e6305de238c25042b05236dee51186be905b05448cea7"
+    },
+    {
+      "path": "reVC-src/src/animation/AnimBlendNode.h",
+      "bytes": 1123,
+      "sha256": "8b6fa2e684b650d58900b2329b0b5ac3d70d7b3653aef837efa10edea74f1519"
+    },
+    {
+      "path": "reVC-src/src/animation/AnimBlendSequence.cpp",
+      "bytes": 4712,
+      "sha256": "adda872a88c352475c83d119e56b758fc1ff2c60c5083f1bd83fa3bd56b66895"
+    },
+    {
+      "path": "reVC-src/src/animation/AnimBlendSequence.h",
+      "bytes": 2200,
+      "sha256": "6534f4207eda8cd9d9d63cbde09f5722a21376d1e18e5db9c90f88d8e9a31f83"
+    },
+    {
+      "path": "reVC-src/src/animation/AnimManager.cpp",
+      "bytes": 47588,
+      "sha256": "8a5d7b682d56a8a0a73dcaa7dd498d5ce1fb69ee6d343b4c7ff5c44e609c8bb7"
+    },
+    {
+      "path": "reVC-src/src/animation/AnimManager.h",
+      "bytes": 4148,
+      "sha256": "2cf697bbcdda0756de945449eed572867578186931ff39890ac4df41672da8cd"
+    },
+    {
+      "path": "reVC-src/src/animation/Bones.cpp",
+      "bytes": 1787,
+      "sha256": "deb647e7d587eb2f8d9b8d789c956cd98fdfdb713df0a44f09e3a139f316ef2f"
+    },
+    {
+      "path": "reVC-src/src/animation/Bones.h",
+      "bytes": 550,
+      "sha256": "fe409ebf5a4386c76b2ff315a9e3149d55f4a698786845d4d21a61ef0f83c829"
+    },
+    {
+      "path": "reVC-src/src/animation/CutsceneMgr.cpp",
+      "bytes": 24587,
+      "sha256": "850ef43245f40fd31374e4caa7deef5359345f9d8d9e34d495cadd3ec0ac278f"
+    },
+    {
+      "path": "reVC-src/src/animation/CutsceneMgr.h",
+      "bytes": 2735,
+      "sha256": "f554af97f95036fd9ff4cb8eea10e27ac1b616bfd7f95122a59bf1950aa70231"
+    },
+    {
+      "path": "reVC-src/src/animation/FrameUpdate.cpp",
+      "bytes": 19554,
+      "sha256": "ce2372b0509e40e58e54235b0d032db2db8631a69bc878b80637cf586e270e3a"
+    },
+    {
+      "path": "reVC-src/src/animation/RpAnimBlend.cpp",
+      "bytes": 13946,
+      "sha256": "86bb9703077522be367a8ddc15751f874899f9ea348f1e7b3f112e4ab801ed3f"
+    },
+    {
+      "path": "reVC-src/src/animation/RpAnimBlend.h",
+      "bytes": 2511,
+      "sha256": "453db939b89c91861c13b99cb3889fd13e5c8c07a07b00e2d1db9241c1ebf71e"
+    },
+    {
+      "path": "reVC-src/src/audio/audio_enums.h",
+      "bytes": 41023,
+      "sha256": "1ebe9125fac8c88b715f4cf9c08396a8beb1bcda38e47d5728ba413c4480b3e9"
+    },
+    {
+      "path": "reVC-src/src/audio/AudioCollision.cpp",
+      "bytes": 16451,
+      "sha256": "7cab8477ef0e4b1ae858313215c3929f671394dff84e7ef72212b770e1ce2b27"
+    },
+    {
+      "path": "reVC-src/src/audio/AudioCollision.h",
+      "bytes": 707,
+      "sha256": "64f5d7bfe1762174def801ac83f56c2967962e597d6f66c2894d0f2e6a4695f3"
+    },
+    {
+      "path": "reVC-src/src/audio/AudioLogic.cpp",
+      "bytes": 430117,
+      "sha256": "0a2c5687cc88cb6f9333ae0a63faac1febdf732e54a787106e7dd26080d42bf4"
+    },
+    {
+      "path": "reVC-src/src/audio/AudioManager.cpp",
+      "bytes": 33522,
+      "sha256": "d4f053d37466fc697309110f44149f1b228bec42f4072d93c7ca33f4b0b7bc7a"
+    },
+    {
+      "path": "reVC-src/src/audio/AudioManager.h",
+      "bytes": 26136,
+      "sha256": "8a749e528a0f23a5730055812f05631d883cd2810443d70f89dd001a8350e75e"
+    },
+    {
+      "path": "reVC-src/src/audio/AudioSamples.h",
+      "bytes": 22412,
+      "sha256": "79112150cbcdad72c17ce79d00db91c9e1ae28e2c7a3c92988857d13253c3b4d"
+    },
+    {
+      "path": "reVC-src/src/audio/AudioScriptObject.cpp",
+      "bytes": 2318,
+      "sha256": "fa640921bf29afcc2ccd3cf04a4dba2137541ee07553c8f46989dc09e77e097a"
+    },
+    {
+      "path": "reVC-src/src/audio/AudioScriptObject.h",
+      "bytes": 578,
+      "sha256": "6500858316b734bf000266309a77e68b843769baecc8eb93db6876d296a31dac"
+    },
+    {
+      "path": "reVC-src/src/audio/DMAudio.cpp",
+      "bytes": 6859,
+      "sha256": "7f69ed26891b955ddfad38ee9eac38af429d92414207cc82b46648a5e4ea336a"
+    },
+    {
+      "path": "reVC-src/src/audio/DMAudio.h",
+      "bytes": 2981,
+      "sha256": "4640e3317e8ee8930dd11d6254f29b8b577bf8b152fdb61bb60c7ea237b10464"
+    },
+    {
+      "path": "reVC-src/src/audio/eax/eax-util.cpp",
+      "bytes": 23483,
+      "sha256": "023d35f9714f02ff3bdbe211c842a986f2fb62c86cca7756bbcdceb2621e3f0f"
+    },
+    {
+      "path": "reVC-src/src/audio/eax/eax-util.h",
+      "bytes": 44797,
+      "sha256": "bcb308d071c3bb0204025ebab2c0588e2987883920f74b1fcf5a66ae70b7bb45"
+    },
+    {
+      "path": "reVC-src/src/audio/eax/eax.h",
+      "bytes": 21400,
+      "sha256": "bdb2f3688bbf520cf28c559ede2d2c05f8c603167b40f8bf8c3ef4c63c89025e"
+    },
+    {
+      "path": "reVC-src/src/audio/MusicManager.cpp",
+      "bytes": 41550,
+      "sha256": "67b5f2a76ee4a991770ef6fa8b2642bd11c5235c902d2599052179bf3551f921"
+    },
+    {
+      "path": "reVC-src/src/audio/MusicManager.h",
+      "bytes": 2791,
+      "sha256": "3c75a704ac66638a1756141a1459f459f93ab0591add79a421db350e1953fd11"
+    },
+    {
+      "path": "reVC-src/src/audio/oal/aldlist.cpp",
+      "bytes": 8680,
+      "sha256": "2814d1c3eff4456353dda7546e08486022eaad4cd47693ae4301b283fde60dde"
+    },
+    {
+      "path": "reVC-src/src/audio/oal/aldlist.h",
+      "bytes": 1643,
+      "sha256": "26ec44206c4c2dae19399adf526328de4702dddcccbaeb6d95530bff84f564f1"
+    },
+    {
+      "path": "reVC-src/src/audio/oal/channel.cpp",
+      "bytes": 5913,
+      "sha256": "b393b709dd6138bdbaa48b78f5aa0dfe018e47f47aea591f1bdbab686548dd1f"
+    },
+    {
+      "path": "reVC-src/src/audio/oal/channel.h",
+      "bytes": 1126,
+      "sha256": "f6d422d54a0adb09e42775297cee0a6ffb2c96e495b0edc0ee81b9a0673b94a4"
+    },
+    {
+      "path": "reVC-src/src/audio/oal/oal_utils.cpp",
+      "bytes": 8318,
+      "sha256": "c6b9dc4669847083940915eb5e87556c6a7c5a404439c2312d2adb457c34e128"
+    },
+    {
+      "path": "reVC-src/src/audio/oal/oal_utils.h",
+      "bytes": 1816,
+      "sha256": "5525e9adc4a3c7e4e1e0dfe515783d905714d543002ff9b75efb8006d1a4cca2"
+    },
+    {
+      "path": "reVC-src/src/audio/oal/stream.cpp",
+      "bytes": 32169,
+      "sha256": "a3eb3752632c34f4e549236f705c69e05fec90b59af9eb947a8c2a74fc3b470f"
+    },
+    {
+      "path": "reVC-src/src/audio/oal/stream.h",
+      "bytes": 2227,
+      "sha256": "d5d8340201ad89b1884477ff5ff51e835a07594ce149790b96a8918c7ffd9cfe"
+    },
+    {
+      "path": "reVC-src/src/audio/PoliceRadio.cpp",
+      "bytes": 24373,
+      "sha256": "8c5ca2bbcd87065c71e368a9bdfcd139d38741ad740036df955291702b451fec"
+    },
+    {
+      "path": "reVC-src/src/audio/PoliceRadio.h",
+      "bytes": 790,
+      "sha256": "a1f80995b7070a87672559cfdaa56d02338ca326a882186647440917295b48ae"
+    },
+    {
+      "path": "reVC-src/src/audio/sampman.h",
+      "bytes": 42721,
+      "sha256": "1817607d63ec63f1ccf7a2ee68809bb6cdb726238a3bda0649183c1c6b08e13c"
+    },
+    {
+      "path": "reVC-src/src/audio/sampman_miles.cpp",
+      "bytes": 48423,
+      "sha256": "253611f01019d3da8b5df092ddc5744f60196a777c0e4289cdb7bb52fb4b04da"
+    },
+    {
+      "path": "reVC-src/src/audio/sampman_null.cpp",
+      "bytes": 6109,
+      "sha256": "9226adeab29318556428e063ef68cdb0fe5ee32f0fbb06ab1237e29e50c03f59"
+    },
+    {
+      "path": "reVC-src/src/audio/sampman_oal.cpp",
+      "bytes": 44831,
+      "sha256": "82815a8635c600381db7dbd402969e2b8822010df7a0ca667102d32c757d38c1"
+    },
+    {
+      "path": "reVC-src/src/audio/soundlist.h",
+      "bytes": 7365,
+      "sha256": "4f44e2368526de19faa13bbecec69272805728080e8e9fe633584188d7f81ac6"
+    },
+    {
+      "path": "reVC-src/src/buildings/Building.cpp",
+      "bytes": 1264,
+      "sha256": "ef06ec73eab85a4389b33e2877ca9735b0e704a3cb0b44391b77e9b7989b05b6"
+    },
+    {
+      "path": "reVC-src/src/buildings/Building.h",
+      "bytes": 377,
+      "sha256": "cc365c147cfc02b9339c627b8f40f5f5490d1d344ec1a7b1cf3d1faf59f4a01c"
+    },
+    {
+      "path": "reVC-src/src/buildings/Solid.h",
+      "bytes": 154,
+      "sha256": "34bf5cfaf3f36259c7aac5853fab23466c617c2757d77ec4dfa4fb95a52b4c3a"
+    },
+    {
+      "path": "reVC-src/src/buildings/Treadable.cpp",
+      "bytes": 283,
+      "sha256": "928cc25f745c361c0f9df050bda4b74449e04b28da43886913aef9a9b15d17db"
+    },
+    {
+      "path": "reVC-src/src/buildings/Treadable.h",
+      "bytes": 213,
+      "sha256": "4b8c00f795989051737509c15a599733f402d3a0becc4e85b33dd4b96ed35e42"
+    },
+    {
+      "path": "reVC-src/src/CMakeLists.txt",
+      "bytes": 4489,
+      "sha256": "ce487ec844a56e79967a5b2595a3ffcbeb99a0707875a43d05191ca43cc51cd4"
+    },
+    {
+      "path": "reVC-src/src/collision/ColBox.cpp",
+      "bytes": 362,
+      "sha256": "106f77dcdaa1d178d975e3f9da9a15c8a557488fc47e4acab4b9b31360a5941c"
+    },
+    {
+      "path": "reVC-src/src/collision/ColBox.h",
+      "bytes": 423,
+      "sha256": "18e377b4c0bf3d38a8526b677c272599bb0a74740331d8f3501c2934976535cb"
+    },
+    {
+      "path": "reVC-src/src/collision/ColLine.cpp",
+      "bytes": 134,
+      "sha256": "537c0af4b8f8d73454ffe7d5e5b3298c53e2d7fb4f57149caf89e28db2dcafca"
+    },
+    {
+      "path": "reVC-src/src/collision/ColLine.h",
+      "bytes": 290,
+      "sha256": "b9f2b44efe773fb022939725c6947c008c4afb98273ab33833b41a11f20a60b1"
+    },
+    {
+      "path": "reVC-src/src/collision/Collision.cpp",
+      "bytes": 76234,
+      "sha256": "c79a8a56ffd9c4720d48df75a8113e0e6d61d369ad49cf58d4c1bf352d53421c"
+    },
+    {
+      "path": "reVC-src/src/collision/Collision.h",
+      "bytes": 3837,
+      "sha256": "af8e60f9eb04d58bc9cba6598ed3f728ba134907387bcc04e64e1b080b601cf5"
+    },
+    {
+      "path": "reVC-src/src/collision/ColModel.cpp",
+      "bytes": 4130,
+      "sha256": "bcd4f94087bc477a521d89301712bc4e8ed16f19c08530ad4be0ba7ca8e1c1d4"
+    },
+    {
+      "path": "reVC-src/src/collision/ColModel.h",
+      "bytes": 912,
+      "sha256": "9c1fc6f9a572a6dca382be70e14177e23415fadc04fc45d1f7ae36d38b246b1a"
+    },
+    {
+      "path": "reVC-src/src/collision/ColPoint.cpp",
+      "bytes": 283,
+      "sha256": "0d450e4dbe684a26d6c2acd9acf6e08ef3226aa576e381ab462ba7878f5c3512"
+    },
+    {
+      "path": "reVC-src/src/collision/ColPoint.h",
+      "bytes": 727,
+      "sha256": "c6064081c5c51002dfd5b7915f92b3389d9c6999778c9232c23673af879febb9"
+    },
+    {
+      "path": "reVC-src/src/collision/ColSphere.cpp",
+      "bytes": 671,
+      "sha256": "3483bdc524d1f108feea0af4939d96d313a26b802426426a4a1a0341cc558743"
+    },
+    {
+      "path": "reVC-src/src/collision/ColSphere.h",
+      "bytes": 498,
+      "sha256": "9d7b3e24765448c8d6e88080abb40cbeab0cc5b63c5aef39fd8e79860cf0b3f7"
+    },
+    {
+      "path": "reVC-src/src/collision/ColStore.cpp",
+      "bytes": 5466,
+      "sha256": "df8e6ac066423421e930cdc4e6a46f29614614534b6a6dc615fac9ef422ce25d"
+    },
+    {
+      "path": "reVC-src/src/collision/ColStore.h",
+      "bytes": 1193,
+      "sha256": "6a960d485e0b05930ac2b6a45c5585e436a64203c3fb94027086bd199272a664"
+    },
+    {
+      "path": "reVC-src/src/collision/ColTriangle.cpp",
+      "bytes": 859,
+      "sha256": "0ae6886a058d2281e191645bb8efaedf7a1283a731d0ea2b0ae3c8675651af88"
+    },
+    {
+      "path": "reVC-src/src/collision/ColTriangle.h",
+      "bytes": 1821,
+      "sha256": "92705a7c2205475771f983a7779d4bc3018d6e74fa338976cbc2b21c0900eabe"
+    },
+    {
+      "path": "reVC-src/src/collision/CompressedVector.h",
+      "bytes": 832,
+      "sha256": "e9203f3b922f299292101d47c3f1d45638d3c4d3ec2e7418737f9c2795d9f85c"
+    },
+    {
+      "path": "reVC-src/src/collision/TempColModels.cpp",
+      "bytes": 10080,
+      "sha256": "e833c7d739a57026d6f766ebbdbeae544cf51568d663a311844501b319b90461"
+    },
+    {
+      "path": "reVC-src/src/collision/TempColModels.h",
+      "bytes": 631,
+      "sha256": "e7162c55dcac0cacd0aa2d05ec79bfe43e8d5613b9729873b03df876e24cb514"
+    },
+    {
+      "path": "reVC-src/src/collision/vu0Collision.dsm",
+      "bytes": 265,
+      "sha256": "e3e8c4810d6de6ca53deb093442db9f453a9718a8c89dec0f69e2af719c8cd8e"
+    },
+    {
+      "path": "reVC-src/src/collision/vu0Collision_1.s",
+      "bytes": 31969,
+      "sha256": "da8d2d0774a79c21600463289650c180781c828accd82b14f84c2e3965fce4ce"
+    },
+    {
+      "path": "reVC-src/src/collision/vu0Collision_2.s",
+      "bytes": 8733,
+      "sha256": "60644cd0a5ff74bffedae5892eb464aad35b59094268f9bde37133f104e93baf"
+    },
+    {
+      "path": "reVC-src/src/collision/VuCollision.cpp",
+      "bytes": 6968,
+      "sha256": "d79daddb5da99ac5fc1c383dcad08c8b7d5d43a44e420cdc9e89de7b85a32ded"
+    },
+    {
+      "path": "reVC-src/src/collision/VuCollision.h",
+      "bytes": 822,
+      "sha256": "8222b3318d8da2d18e8d932cfcfee4d8c82b1979892744e1d08907ec6c52eca1"
+    },
+    {
+      "path": "reVC-src/src/control/AutoPilot.cpp",
+      "bytes": 5685,
+      "sha256": "2c117f238000c028d62419f78efbf76ea2965a4926c80ba206fa12a36826d705"
+    },
+    {
+      "path": "reVC-src/src/control/AutoPilot.h",
+      "bytes": 3490,
+      "sha256": "f7e0046067f759cf262224c32bea5dc1e0d8327ce93eb91558c381031cba3122"
+    },
+    {
+      "path": "reVC-src/src/control/Bridge.cpp",
+      "bytes": 3787,
+      "sha256": "7ba645aa3c0d6baf2593cb1f4aaf9fe5dbdce80da2448abf8f2154f7fdf3f8b2"
+    },
+    {
+      "path": "reVC-src/src/control/Bridge.h",
+      "bytes": 649,
+      "sha256": "85954e1ead09ee15ccff0d322ad2b6666aa28b8feb177145fb1dea5161c51fdb"
+    },
+    {
+      "path": "reVC-src/src/control/CarAI.cpp",
+      "bytes": 31992,
+      "sha256": "42afde2463f9c6d43924304a57eecc289e35e08f3e7052a8e9c5adf3f738634a"
+    },
+    {
+      "path": "reVC-src/src/control/CarAI.h",
+      "bytes": 1150,
+      "sha256": "70c047b2480e0437cca37185b1c4213b109d51686129bd5c28cc48e201a573d6"
+    },
+    {
+      "path": "reVC-src/src/control/CarCtrl.cpp",
+      "bytes": 143186,
+      "sha256": "a9443179525b31f0ea006486544ddd0d080da4598db2d88b956e402f10aa80b4"
+    },
+    {
+      "path": "reVC-src/src/control/CarCtrl.h",
+      "bytes": 6966,
+      "sha256": "eac7ae6cfaf4336cce44de7bfc9d306723b630c27fe1ee3df08d20e2850e62c3"
+    },
+    {
+      "path": "reVC-src/src/control/Curves.cpp",
+      "bytes": 1751,
+      "sha256": "90c42df78d4699baf5e362fa22ea88a1c4d42cc59e5de10e688b2726bdcf0237"
+    },
+    {
+      "path": "reVC-src/src/control/Curves.h",
+      "bytes": 243,
+      "sha256": "b3aa6cf4058385e1d2bc759cde98b9cf02c052955dd571e5e908c8cf2d9f15f8"
+    },
+    {
+      "path": "reVC-src/src/control/Darkel.cpp",
+      "bytes": 13066,
+      "sha256": "21e08582aa5e9b2e036559c5116ab2ef231eaf4084c91e6f5b8f833825fe4f2d"
+    },
+    {
+      "path": "reVC-src/src/control/Darkel.h",
+      "bytes": 1596,
+      "sha256": "e275a5fd62d51c5514cf23747a8aa801beb12a4d2f2f5bcef68a185219af9724"
+    },
+    {
+      "path": "reVC-src/src/control/GameLogic.cpp",
+      "bytes": 21174,
+      "sha256": "4c779609d5550a85654478957701285d47e68a658b8311eab66279bfcdfd9602"
+    },
+    {
+      "path": "reVC-src/src/control/GameLogic.h",
+      "bytes": 1600,
+      "sha256": "78d7f91bc21303fbf44622f38095a1e8580960ecf202769a1d905c8085db8c3f"
+    },
+    {
+      "path": "reVC-src/src/control/Garages.cpp",
+      "bytes": 79724,
+      "sha256": "b6555a517716eae941bee562c163ee26febf61729718e711cba2ab9656054d03"
+    },
+    {
+      "path": "reVC-src/src/control/Garages.h",
+      "bytes": 9103,
+      "sha256": "662f0d811b51fd50ec0c048a9696af93b830b2267c9ef592848a7017af887c70"
+    },
+    {
+      "path": "reVC-src/src/control/NameGrid.cpp",
+      "bytes": 797,
+      "sha256": "58904cb126a9059422c5b12a02c16e4fd0c84da838e622b44e0a0ac5f4bf1ae1"
+    },
+    {
+      "path": "reVC-src/src/control/NameGrid.h",
+      "bytes": 780,
+      "sha256": "1334e7c94acac7745d10333654f52b7ab5bb0a1e9f132e823651aa7734271cc5"
+    },
+    {
+      "path": "reVC-src/src/control/OnscreenTimer.cpp",
+      "bytes": 4227,
+      "sha256": "85fbd013082e5f1b6e71788ad5de591b7157216a3e75640215338d26f00cafc8"
+    },
+    {
+      "path": "reVC-src/src/control/OnscreenTimer.h",
+      "bytes": 1053,
+      "sha256": "faa15dc94bb8d6ff02ee9dccaa47d947f54eec405028c2ef64faeea1a21b1f90"
+    },
+    {
+      "path": "reVC-src/src/control/PathFind.cpp",
+      "bytes": 63275,
+      "sha256": "349245d33f9082e18aee543190134ec876e26d8d66e83502f06d5f64992a9d61"
+    },
+    {
+      "path": "reVC-src/src/control/PathFind.h",
+      "bytes": 10483,
+      "sha256": "fb96f94ba4077f5ee514ddbde4b2bb72af263ebe6916d9d56c3633f227a351e8"
+    },
+    {
+      "path": "reVC-src/src/control/Phones.cpp",
+      "bytes": 12285,
+      "sha256": "3ec92520c631e5e6934228067bbd07faaa2d77e36ccae4ffe169bd5ca9fc6e1b"
+    },
+    {
+      "path": "reVC-src/src/control/Phones.h",
+      "bytes": 1851,
+      "sha256": "0dcf5b7cf5a503f43218e509b7f9fbf49f0a339b60880873ce03e706b0f4bdf9"
+    },
+    {
+      "path": "reVC-src/src/control/Pickups.cpp",
+      "bytes": 53272,
+      "sha256": "1dec3b927192de389e7eb3fd60d8210d2035c23e07319f1a7b0f69393ca7adb3"
+    },
+    {
+      "path": "reVC-src/src/control/Pickups.h",
+      "bytes": 4853,
+      "sha256": "842b1d68445d9205adb0505f180a595a9a699010e84f90b71fa5a575e016ade6"
+    },
+    {
+      "path": "reVC-src/src/control/PowerPoints.cpp",
+      "bytes": 340,
+      "sha256": "4c8538d09c20c6ac94083a918e6c60f465794a042e3eb4147ed45719eadee6e3"
+    },
+    {
+      "path": "reVC-src/src/control/PowerPoints.h",
+      "bytes": 433,
+      "sha256": "37977bf6cde77673333e26a2249d88b9f43b69e487eea189f620fd8c57516a86"
+    },
+    {
+      "path": "reVC-src/src/control/Record.cpp",
+      "bytes": 1898,
+      "sha256": "6587e73fdfc1209ffac4870255d8b792311ffb79cc05ff1519ebc10a011ab37c"
+    },
+    {
+      "path": "reVC-src/src/control/Record.h",
+      "bytes": 2495,
+      "sha256": "5894c8fe8a523d400fcecde1a7eeaab628d6a6298605203eb8a579eb12584450"
+    },
+    {
+      "path": "reVC-src/src/control/Remote.cpp",
+      "bytes": 2314,
+      "sha256": "41b2da7ea86bc3c8bbec1cc76dbab87d62855033d5b1104df27170b8e00b5572"
+    },
+    {
+      "path": "reVC-src/src/control/Remote.h",
+      "bytes": 189,
+      "sha256": "c6d01025931262abf3dacda096596ebb39601d89e379fac75dba75d55afe0dbc"
+    },
+    {
+      "path": "reVC-src/src/control/Replay.cpp",
+      "bytes": 68971,
+      "sha256": "03fb5f1dbcc6f6f3bee27d4d58dba41e9518be8bd455e140764b7c6ca8d55329"
+    },
+    {
+      "path": "reVC-src/src/control/Replay.h",
+      "bytes": 10291,
+      "sha256": "93750138279503680275b0a866410de946f9ddd6b5ff66e3bf23e8bd2cb0d4a9"
+    },
+    {
+      "path": "reVC-src/src/control/Restart.cpp",
+      "bytes": 7351,
+      "sha256": "532309206c046057685b0d3d99fddf6b8acf2c3a65d2d1bfb604f139f3ed1e45"
+    },
+    {
+      "path": "reVC-src/src/control/Restart.h",
+      "bytes": 1165,
+      "sha256": "79b6c875843fb2eec3d1a605b22260515e20bd4a3a39630a3706fd801ba65392"
+    },
+    {
+      "path": "reVC-src/src/control/RoadBlocks.cpp",
+      "bytes": 11345,
+      "sha256": "e2828b4ed7eb08f1f41425c7d149ccebb699b620c70021d61bdc30bcfba630a8"
+    },
+    {
+      "path": "reVC-src/src/control/RoadBlocks.h",
+      "bytes": 709,
+      "sha256": "bf87b867809d6c9f2e21f0020bd1386925e5ec9c75d8270ed8c54958841f8f57"
+    },
+    {
+      "path": "reVC-src/src/control/SceneEdit.cpp",
+      "bytes": 35554,
+      "sha256": "3a6f65339fc263bc8a137dcc3d62896e322d594b7225562f7cb894bf6839e922"
+    },
+    {
+      "path": "reVC-src/src/control/SceneEdit.h",
+      "bytes": 2262,
+      "sha256": "89ecf23883a265a338ec42d595e181de96daea0e52220ef6b7554fabc333dd45"
+    },
+    {
+      "path": "reVC-src/src/control/Script.cpp",
+      "bytes": 324670,
+      "sha256": "39e70eb58c2237677d8e8a0a9f2049e02a231dc7e690285b7d1526ddf12203c3"
+    },
+    {
+      "path": "reVC-src/src/control/Script.h",
+      "bytes": 15446,
+      "sha256": "155d571cdf6f011ea2cbf0dc27b49914b15e4201d139553cdf2a41914875697f"
+    },
+    {
+      "path": "reVC-src/src/control/Script2.cpp",
+      "bytes": 49526,
+      "sha256": "b9bd79a0551d0f3d2fbf30c046a0988b19dcfeca5acfb35d5dfdd015186af6c8"
+    },
+    {
+      "path": "reVC-src/src/control/Script3.cpp",
+      "bytes": 79319,
+      "sha256": "45f8d5355f634730c120a226bd57338f379ee3919e9ff2ae4c2a64298c3b4f39"
+    },
+    {
+      "path": "reVC-src/src/control/Script4.cpp",
+      "bytes": 78012,
+      "sha256": "892bb66bb3bfeffc7f171636a98487739cf51a27d5c588ae434276417efa08cc"
+    },
+    {
+      "path": "reVC-src/src/control/Script5.cpp",
+      "bytes": 82086,
+      "sha256": "0ed5cbf6ee13f4290ceec5f23740c96f2338c780683c2282cfabd8de7c79848d"
+    },
+    {
+      "path": "reVC-src/src/control/Script6.cpp",
+      "bytes": 57459,
+      "sha256": "842aa7e6881f97075dac396cfee5957b620a953d643130682e4406f5c6d04951"
+    },
+    {
+      "path": "reVC-src/src/control/Script7.cpp",
+      "bytes": 45098,
+      "sha256": "d2f54c0fa889b1561ffe42e51dfef66f3cda1d91c7adc1b46cf6e668d5b911dc"
+    },
+    {
+      "path": "reVC-src/src/control/Script8.cpp",
+      "bytes": 20067,
+      "sha256": "a249166610653ec16ab8414dc83c3eaa7d9943dfbf067b576a83976be0d9f783"
+    },
+    {
+      "path": "reVC-src/src/control/ScriptCommands.h",
+      "bytes": 50257,
+      "sha256": "650ea4f6aa3a994cc5373df021a6f19e3b32e7dec23daafcd102ee5ce84a3c8c"
+    },
+    {
+      "path": "reVC-src/src/control/SetPieces.cpp",
+      "bytes": 12724,
+      "sha256": "f021a7eb920ca6fa83957b148f0838d69efdbef37ae318d2ebb401982894b73c"
+    },
+    {
+      "path": "reVC-src/src/control/SetPieces.h",
+      "bytes": 1038,
+      "sha256": "49febeaf535fe21ce995bb3fb2b066eb12ff79f001e8872faa4f99a208b58e83"
+    },
+    {
+      "path": "reVC-src/src/control/TrafficLights.cpp",
+      "bytes": 17722,
+      "sha256": "2bd0d8a2c02ea12f2e74fae4f285713ddfb71a363fc1e54cf5404ac10f0e5e23"
+    },
+    {
+      "path": "reVC-src/src/control/TrafficLights.h",
+      "bytes": 692,
+      "sha256": "5157750885c970cd031177ece48cf2fe4f2ee2e1acacff774112a9f91dcc02c3"
+    },
+    {
+      "path": "reVC-src/src/core/Accident.cpp",
+      "bytes": 3034,
+      "sha256": "219dd84e468453b6a9df02f3880f007a8545abe16d9fbf75a4ad33933022bbff"
+    },
+    {
+      "path": "reVC-src/src/core/Accident.h",
+      "bytes": 643,
+      "sha256": "636421756da71e75ef19092379a4a73a5013a191d6b2a85b74220f92a7ab984a"
+    },
+    {
+      "path": "reVC-src/src/core/AnimViewer.cpp",
+      "bytes": 12440,
+      "sha256": "e655dcaacaa8992d4946339865efd0b0e2f39588f02a1dc940495c66f9ec7178"
+    },
+    {
+      "path": "reVC-src/src/core/AnimViewer.h",
+      "bytes": 195,
+      "sha256": "f5ef1b6d3d8ba8c08bf643cca8a51023a6fd53ecffb49cb958c28d5fea4ee660"
+    },
+    {
+      "path": "reVC-src/src/core/Cam.cpp",
+      "bytes": 187069,
+      "sha256": "f2c275ba7807188b078199bb25017608ac29a64f154b2a28914831610bc4538a"
+    },
+    {
+      "path": "reVC-src/src/core/Camera.cpp",
+      "bytes": 140889,
+      "sha256": "e9d30ee7df392168cf4d2b5acb95191e701551950e9e603394fdcd13f3a91aa8"
+    },
+    {
+      "path": "reVC-src/src/core/Camera.h",
+      "bytes": 19716,
+      "sha256": "c82ffa7dc80184d55bb35d2a53500750e9d5639fd057d4fcfbb28f67719874bb"
+    },
+    {
+      "path": "reVC-src/src/core/CdStream.cpp",
+      "bytes": 11352,
+      "sha256": "7b53ecc1363880c7a8216de9e6275ef012a46628f1188ea801d76cff01f8b7a8"
+    },
+    {
+      "path": "reVC-src/src/core/CdStream.h",
+      "bytes": 1237,
+      "sha256": "fa635e737256b9c77561a8b6b1b77ba5eed3dae5ed00567738e8f223765cb8c6"
+    },
+    {
+      "path": "reVC-src/src/core/CdStreamPosix.cpp",
+      "bytes": 12745,
+      "sha256": "23bfc9a80b78d2b481ffbd2deae476389c5db2d69ace9beb15f6c0ee9adb81b4"
+    },
+    {
+      "path": "reVC-src/src/core/Clock.cpp",
+      "bytes": 3095,
+      "sha256": "8dfbb42d94c0dcc2809eb7765a3878dbea153b6d8d83ed6b0208ed4fa80cb8b7"
+    },
+    {
+      "path": "reVC-src/src/core/Clock.h",
+      "bytes": 1006,
+      "sha256": "159e1ca0f3940db333c4c9be706125262543d93639fdd0f964e33e489012bf88"
+    },
+    {
+      "path": "reVC-src/src/core/common.h",
+      "bytes": 18943,
+      "sha256": "c4959f8f227dfdb2828df04baffe4d3e9c647409872b1683ed2b2206bd3a8186"
+    },
+    {
+      "path": "reVC-src/src/core/config.h",
+      "bytes": 14607,
+      "sha256": "0e98348f1391c1f95c074f9c858e72f1af27ab7fafa014242dd30a61f37de75d"
+    },
+    {
+      "path": "reVC-src/src/core/ControllerConfig.cpp",
+      "bytes": 102964,
+      "sha256": "f716ec18c45a6870de53f1cbafa467a8a55d7c6a410ee6a28dc1ade810345cb2"
+    },
+    {
+      "path": "reVC-src/src/core/ControllerConfig.h",
+      "bytes": 7049,
+      "sha256": "a5297331013dfd72bc23a28551a194cbace8f32c26fa97fb4750d047fee2a253"
+    },
+    {
+      "path": "reVC-src/src/core/Crime.h",
+      "bytes": 655,
+      "sha256": "1584c4a9276228efd120d5dd8e45a80ba107504943a96810146913d73bee1bdb"
+    },
+    {
+      "path": "reVC-src/src/core/Debug.cpp",
+      "bytes": 3871,
+      "sha256": "b0247ec08e9349487d692505fba16a7f8eb521d386e8ea75087f022f26390683"
+    },
+    {
+      "path": "reVC-src/src/core/Debug.h",
+      "bytes": 851,
+      "sha256": "ddaabf4e55491d1155c32142e3891da210f5ce954d87917058951de728be1dd4"
+    },
+    {
+      "path": "reVC-src/src/core/Directory.cpp",
+      "bytes": 1445,
+      "sha256": "8294c297bb1ffb745945d824af205892968d8678d11beb990d6077da18f4ab9e"
+    },
+    {
+      "path": "reVC-src/src/core/Directory.h",
+      "bytes": 487,
+      "sha256": "136651708e0387e141d8cfb473d364823182852a11f6d2fe0a52942cdf3a45be"
+    },
+    {
+      "path": "reVC-src/src/core/EventList.cpp",
+      "bytes": 6726,
+      "sha256": "47950e82bd54e3c1944e9e65b76d3c8f6a77f1c1e7e4e728139614542b79e30d"
+    },
+    {
+      "path": "reVC-src/src/core/EventList.h",
+      "bytes": 1406,
+      "sha256": "1d1e966d814668b0abacd6f97c059a3a80626c65858f7247c9248e5eb0dbba75"
+    },
+    {
+      "path": "reVC-src/src/core/FileLoader.cpp",
+      "bytes": 37370,
+      "sha256": "18439396405fb7fb31bd66177c7bb223bcfac97a9f7b21310fd97c098c543b8f"
+    },
+    {
+      "path": "reVC-src/src/core/FileLoader.h",
+      "bytes": 2232,
+      "sha256": "210a8c8cc4515b92af2b823c54c0e59566019b54660e6d94b094cd854885d4dd"
+    },
+    {
+      "path": "reVC-src/src/core/FileMgr.cpp",
+      "bytes": 5265,
+      "sha256": "e209cd003cbb115f942ffc2434486ba921eae4115ae21813ca25dcb1623252ce"
+    },
+    {
+      "path": "reVC-src/src/core/FileMgr.h",
+      "bytes": 869,
+      "sha256": "84e1df7cedfd9b0757ae727a9502a974df68c19b6d4d5f5c39c07f57c883e2aa"
+    },
+    {
+      "path": "reVC-src/src/core/Fire.cpp",
+      "bytes": 13533,
+      "sha256": "20b9e1304d29a0576085594b468d1273a09e76dd40c80b9be2b703a98f376d09"
+    },
+    {
+      "path": "reVC-src/src/core/Fire.h",
+      "bytes": 1399,
+      "sha256": "1db66f5e457a973aef9a06c51832ca4abd389da8675adbef925ba8e28eaa4055"
+    },
+    {
+      "path": "reVC-src/src/core/Frontend.cpp",
+      "bytes": 248215,
+      "sha256": "2fb6c704a26227bc5d8484bd0a7280e999cfa1fc164e4a33341326ca74d636da"
+    },
+    {
+      "path": "reVC-src/src/core/Frontend.h",
+      "bytes": 20942,
+      "sha256": "429c6cf906226b78670dc500b721b9209013dd15b4087307b927592ab61dc918"
+    },
+    {
+      "path": "reVC-src/src/core/Frontend_PS2.cpp",
+      "bytes": 94318,
+      "sha256": "804cbf9f1f05fd348a58f7bcd11f76c4f36fe3b86264f2c5ffc6251d022627b6"
+    },
+    {
+      "path": "reVC-src/src/core/Frontend_PS2.h",
+      "bytes": 4666,
+      "sha256": "59ae7068b6ff5188ab8ba3cc6892bafea4c6ac0430b2f4730a3653e6e19a34d8"
+    },
+    {
+      "path": "reVC-src/src/core/FrontEndControls.cpp",
+      "bytes": 46439,
+      "sha256": "6fb0d3ec3e87b6d922f01a846378f3d6f6fe3babaed65670817b7f42757ea450"
+    },
+    {
+      "path": "reVC-src/src/core/FrontEndControls.h",
+      "bytes": 28281,
+      "sha256": "e1a0e8a2bfc66385b2153f92fd9d2e550ddae72df4a0a0a2451d43758435495c"
+    },
+    {
+      "path": "reVC-src/src/core/FrontendTriggers.h",
+      "bytes": 49898,
+      "sha256": "a3e0a233a3a6b919495364a13206b2be46879334a3bf67a075073818c8f30ead"
+    },
+    {
+      "path": "reVC-src/src/core/Game.cpp",
+      "bytes": 42018,
+      "sha256": "9971f2bf4c910dd9bd9daae19b647676cd0e79c1a5d5c9a3f0de0fa9d2ed4056"
+    },
+    {
+      "path": "reVC-src/src/core/Game.h",
+      "bytes": 1857,
+      "sha256": "04b2084814e289dd4f0898bddad419ea908d5c9220395e13659c707cc7a38c24"
+    },
+    {
+      "path": "reVC-src/src/core/General.h",
+      "bytes": 3824,
+      "sha256": "b764528bdbe4b76b7de873fb462ef3f4600bb3e203a75665d761bcd5db5ca2a2"
+    },
+    {
+      "path": "reVC-src/src/core/IniFile.cpp",
+      "bytes": 865,
+      "sha256": "72a4c51c303560fd2e82d6c8efcbf8b3c41fec683d24ff8a64f2f60aae29483c"
+    },
+    {
+      "path": "reVC-src/src/core/IniFile.h",
+      "bytes": 141,
+      "sha256": "e08d4813418b9fced662327eb9cc13b4813738e19e36a2c3785002a27bdb6720"
+    },
+    {
+      "path": "reVC-src/src/core/Lists.cpp",
+      "bytes": 537,
+      "sha256": "e38da802bcae0de9b8ac4db0785ad9fbaa416a8a986b29a2a4fe4fd8f687e579"
+    },
+    {
+      "path": "reVC-src/src/core/Lists.h",
+      "bytes": 2512,
+      "sha256": "1163a567f913a678af840d208f7f11d9074018f86e25dd0e3c3cb633a22f8117"
+    },
+    {
+      "path": "reVC-src/src/core/main.cpp",
+      "bytes": 63183,
+      "sha256": "c17dd8588debdcee77f4ae2b1c0b6cceb586e95e6ac32db1a0a47bc407b359a3"
+    },
+    {
+      "path": "reVC-src/src/core/main.h",
+      "bytes": 1884,
+      "sha256": "7bd64dd0a1eefe7378f5fb47d8c50507b70a9e6bb70c9d2a8482efdebe540cb0"
+    },
+    {
+      "path": "reVC-src/src/core/MenuScreens.cpp",
+      "bytes": 16382,
+      "sha256": "5b7991400c67c44d08d61d9fa47f4d06f7e0a417167192ca6e5745df0b70989c"
+    },
+    {
+      "path": "reVC-src/src/core/MenuScreensCustom.cpp",
+      "bytes": 33720,
+      "sha256": "8991c87a9c060325ed0d7d293ba8a90efb68197dff4723ac43db0b9bd710ce07"
+    },
+    {
+      "path": "reVC-src/src/core/obrstr.cpp",
+      "bytes": 2291,
+      "sha256": "12b0e9f13755580c6bbb67a9a28fa1f8dd13997a4a3f45860cf934560921726d"
+    },
+    {
+      "path": "reVC-src/src/core/obrstr.h",
+      "bytes": 348,
+      "sha256": "5b153251f50e8fbc71d5ca64c8948794a33ff50570eded8c9783dd84c43b12a9"
+    },
+    {
+      "path": "reVC-src/src/core/Pad.cpp",
+      "bytes": 80453,
+      "sha256": "bd49fd56bfb44ebc93f9426eb6e35c7fe437cfb31e4c0b6d44f25447a96226fb"
+    },
+    {
+      "path": "reVC-src/src/core/Pad.h",
+      "bytes": 20541,
+      "sha256": "e971f07c8fcb08a3da01946819cb2b7c9c062a304641dbdedc6b9ab0f50ec1bd"
+    },
+    {
+      "path": "reVC-src/src/core/Placeable.cpp",
+      "bytes": 994,
+      "sha256": "d2f4234b1cb61beb54c643e23bbcf53d1c26001a480b48a092d51e2673b1f784"
+    },
+    {
+      "path": "reVC-src/src/core/Placeable.h",
+      "bytes": 1067,
+      "sha256": "2ff9cecae89794bd6852815c9aeacd5515dd74746c83a63abf9aec3221ccae5b"
+    },
+    {
+      "path": "reVC-src/src/core/PlayerInfo.cpp",
+      "bytes": 30761,
+      "sha256": "2da9e55c2349e830c051fef6238ad9cc9d1f53237c6fc935ea7206df9b5a0edd"
+    },
+    {
+      "path": "reVC-src/src/core/PlayerInfo.h",
+      "bytes": 3228,
+      "sha256": "06d23ae00e6b54d4a8f17a92b3ed6299bfe554eb09f9d622e0b46be4ce0b4c6b"
+    },
+    {
+      "path": "reVC-src/src/core/Pools.cpp",
+      "bytes": 23651,
+      "sha256": "67a5c8ac84b6bd8c223a92ede9430f5a03a7a80f8aa38775fb7b842c80ef5707"
+    },
+    {
+      "path": "reVC-src/src/core/Pools.h",
+      "bytes": 2605,
+      "sha256": "80dbd62d3dcce323fd9786e019ef5b24036f2880d392518e4f02c2f7807a3b0c"
+    },
+    {
+      "path": "reVC-src/src/core/Profile.cpp",
+      "bytes": 3774,
+      "sha256": "52e3e2c9d30f7c4cd5ebafc00725fbb4569f1b565663fca7745682b9553426e8"
+    },
+    {
+      "path": "reVC-src/src/core/Profile.h",
+      "bytes": 652,
+      "sha256": "80979dce41ad0e268c47b80304efb4d2e347901b9f36981dcf27af5486ffef6d"
+    },
+    {
+      "path": "reVC-src/src/core/Radar.cpp",
+      "bytes": 54053,
+      "sha256": "bb6a67c25218569b4865ce86dc969be9ffd99503dc615dd890925e8ac3e4930b"
+    },
+    {
+      "path": "reVC-src/src/core/Radar.h",
+      "bytes": 8706,
+      "sha256": "96b97a4b65f6fa9a9a392b24c31a206b6bae2edca581ffd5bcf45f1ffb394b07"
+    },
+    {
+      "path": "reVC-src/src/core/Range2D.cpp",
+      "bytes": 572,
+      "sha256": "9c12702f2576ba838e20760796e0d8af6e350dc5bc1e9012f65a2120e3549016"
+    },
+    {
+      "path": "reVC-src/src/core/Range2D.h",
+      "bytes": 207,
+      "sha256": "f0361c0cf5c69eb114cf39a18aac972924461645fa837a987e7b7066cf5b3ec4"
+    },
+    {
+      "path": "reVC-src/src/core/Range3D.cpp",
+      "bytes": 694,
+      "sha256": "dd9ce559e1dd66f4342446bd21a6c9f304383cdb7b6ed5d6932c1a98f0eb3657"
+    },
+    {
+      "path": "reVC-src/src/core/Range3D.h",
+      "bytes": 197,
+      "sha256": "80c26201b361e3d29e2ed319e785fc739874573cddf067cf1db0cdf1b1b006e8"
+    },
+    {
+      "path": "reVC-src/src/core/re3.cpp",
+      "bytes": 48700,
+      "sha256": "9b1ac8d3053ebd643048cbf8fc9d80c1949db7a9a3ac226e31992577e3a274c6"
+    },
+    {
+      "path": "reVC-src/src/core/References.cpp",
+      "bytes": 3083,
+      "sha256": "e9bacdd47df77003b09d7fa32c58477aa4df41f74e4fd0afa860e9e8fc533237"
+    },
+    {
+      "path": "reVC-src/src/core/References.h",
+      "bytes": 314,
+      "sha256": "3e7632ccf4ca21353b1bc1dc8c44af2cadf9f7cc4cc059ca508d155cf9f6511b"
+    },
+    {
+      "path": "reVC-src/src/core/Ropes.cpp",
+      "bytes": 4631,
+      "sha256": "720eb4a5e211854bb39f7b76d2590f7701ff6e80586517d05478ae5531f56cc2"
+    },
+    {
+      "path": "reVC-src/src/core/Ropes.h",
+      "bytes": 605,
+      "sha256": "acc1afd712c40b53afe2885b118e05f873855ba857533907c2cae2c60cf55543"
+    },
+    {
+      "path": "reVC-src/src/core/Stats.cpp",
+      "bytes": 44346,
+      "sha256": "da515317331050bd286c0391fa078dd6bd6eef21cfefce62aac4c55999290b7f"
+    },
+    {
+      "path": "reVC-src/src/core/Stats.h",
+      "bytes": 5208,
+      "sha256": "e80bd2dc9789612b75b7a6e2dac8260384ce64e4de8c5399585be9de826ba558"
+    },
+    {
+      "path": "reVC-src/src/core/Streaming.cpp",
+      "bytes": 91799,
+      "sha256": "156f3e4f8c30b050145c55c0c264e8dda86296fc33384a190fa6f4305ee56280"
+    },
+    {
+      "path": "reVC-src/src/core/Streaming.h",
+      "bytes": 8664,
+      "sha256": "0200d91778f91f4be91db95bda82427888393dbb6d96b5f64a586777446ef720"
+    },
+    {
+      "path": "reVC-src/src/core/SurfaceTable.cpp",
+      "bytes": 4535,
+      "sha256": "04bcd712346f0fb91e718c6d231758b321b49db5def2fd369f93a6d647ec28ec"
+    },
+    {
+      "path": "reVC-src/src/core/SurfaceTable.h",
+      "bytes": 1923,
+      "sha256": "b5bcfbe02a7492663bba08b9f0f8b7c3a3433fb02a40772a69d577ab4009e1f2"
+    },
+    {
+      "path": "reVC-src/src/core/templates.h",
+      "bytes": 5811,
+      "sha256": "ae16e117b592c956708b923006f62a82e771e908c22792fc51957253c751da24"
+    },
+    {
+      "path": "reVC-src/src/core/timebars.cpp",
+      "bytes": 3294,
+      "sha256": "d0f748f5d625b91024540892c1964efc0a579fbeb37149c947c199067335d128"
+    },
+    {
+      "path": "reVC-src/src/core/timebars.h",
+      "bytes": 231,
+      "sha256": "e442bcae9e577a7e95316e68b8fa1c4ae0c8ffe96faa43a6cd2ecf89f1df55c4"
+    },
+    {
+      "path": "reVC-src/src/core/Timer.cpp",
+      "bytes": 7881,
+      "sha256": "f35f1688c4803628379b2a684bfe5639b1aa6c9641eeeb5fd0dd46f888531148"
+    },
+    {
+      "path": "reVC-src/src/core/Timer.h",
+      "bytes": 3313,
+      "sha256": "70f60c60729f44d0c04ae7878661b9274b52dafd6477569147ba5a3182d971ce"
+    },
+    {
+      "path": "reVC-src/src/core/TimeStep.cpp",
+      "bytes": 145,
+      "sha256": "b975d79f1139399e4b5631b9d3236116a87de05260dc0a11b8436644a03d09b5"
+    },
+    {
+      "path": "reVC-src/src/core/TimeStep.h",
+      "bytes": 185,
+      "sha256": "836669b74e725337ca7a869f596ac2fd0c29890446dc005d75d8cf720cfbd569"
+    },
+    {
+      "path": "reVC-src/src/core/User.cpp",
+      "bytes": 2555,
+      "sha256": "a3203e6b9d13dc114fca5c011b9d7ef11d15b9ac7d3fc5392961207a8c2c05e4"
+    },
+    {
+      "path": "reVC-src/src/core/User.h",
+      "bytes": 624,
+      "sha256": "bebd0ab5d086fdfca9b91000bdb5736b2a0829939b91c70fbb132a3b9031e4e8"
+    },
+    {
+      "path": "reVC-src/src/core/Wanted.cpp",
+      "bytes": 11032,
+      "sha256": "1aaaf137d463bdb0c23e3911f344b9e6f15a1861bb80e616c25dda3aa27c73ac"
+    },
+    {
+      "path": "reVC-src/src/core/Wanted.h",
+      "bytes": 1778,
+      "sha256": "6a3ff21bc5af8e673e7d4201e906ce5edd2f7bcaf29b6404aa357a6d9b81425f"
+    },
+    {
+      "path": "reVC-src/src/core/World.cpp",
+      "bytes": 88655,
+      "sha256": "e352086772c8c4d99348a25919400a22578fc026c982a0cb2333899320f947cf"
+    },
+    {
+      "path": "reVC-src/src/core/World.h",
+      "bytes": 11058,
+      "sha256": "5047fe72c72e49ddefba7b36505a488b60d874d67d204f89e582b5a38dab311f"
+    },
+    {
+      "path": "reVC-src/src/core/ZoneCull.cpp",
+      "bytes": 4395,
+      "sha256": "f8ad4e59d0969b3994a35d74cbbac712a29c3efc350a0a8506566c19cbe3d435"
+    },
+    {
+      "path": "reVC-src/src/core/ZoneCull.h",
+      "bytes": 2362,
+      "sha256": "d836a2692f44acab40814146d082421f2b2d46136862ea46afbd59b35f350126"
+    },
+    {
+      "path": "reVC-src/src/core/Zones.cpp",
+      "bytes": 23831,
+      "sha256": "6577f0cba125fb66fe575280302af56f0468a6a1027553f0f765a37ccee9b80d"
+    },
+    {
+      "path": "reVC-src/src/core/Zones.h",
+      "bytes": 4151,
+      "sha256": "2387e1c9f990ed8ea80a19d1c27dfa07b56c1ef014005a0850154137d007fa04"
+    },
+    {
+      "path": "reVC-src/src/entities/Dummy.cpp",
+      "bytes": 1761,
+      "sha256": "f64aa0846ff1385f9072bf9891bd7fe3a278017c1949870dcb3ee18a3f63c75f"
+    },
+    {
+      "path": "reVC-src/src/entities/Dummy.h",
+      "bytes": 339,
+      "sha256": "d9427eb7295ce17b7ba6071d0f2c10217ae794dbf8ca16db0d5b6b044e03d937"
+    },
+    {
+      "path": "reVC-src/src/entities/Entity.cpp",
+      "bytes": 24087,
+      "sha256": "5c1e7d6a95c2fa48fb8de22dc1b8c4897a09910e2d8538aaf1495d468df58976"
+    },
+    {
+      "path": "reVC-src/src/entities/Entity.h",
+      "bytes": 5957,
+      "sha256": "05e12bf23bf7828c2be788eb9fb66d80f95ed6e59d2181bfe203f389432e5e9e"
+    },
+    {
+      "path": "reVC-src/src/entities/Physical.cpp",
+      "bytes": 71910,
+      "sha256": "56fc42753e15ad66c1bda7dbaf7597a8f7f44230ba8b0cc9b5e8f7e86340f1cd"
+    },
+    {
+      "path": "reVC-src/src/entities/Physical.h",
+      "bytes": 6052,
+      "sha256": "8c42b562281d3e112d302d4351066b612c9cce02b6fa23e57e774e764159e0e5"
+    },
+    {
+      "path": "reVC-src/src/extras/arrow.inc",
+      "bytes": 8848,
+      "sha256": "6f2c5188e4a7b1a44e13075ac084d39e568f952b8fd112d9d7f3e039567815a8"
+    },
+    {
+      "path": "reVC-src/src/extras/cursor.inc",
+      "bytes": 4412,
+      "sha256": "7deb789c9d57446442865304f98471198a8a86f3e1e2e26169ab7355c9e456ec"
+    },
+    {
+      "path": "reVC-src/src/extras/custompipes.cpp",
+      "bytes": 12048,
+      "sha256": "b4903e8c5855ffb8f6f6623a56d95593351f73229d79b68de6869875855f5b6b"
+    },
+    {
+      "path": "reVC-src/src/extras/custompipes.h",
+      "bytes": 3259,
+      "sha256": "245dff1fcc11efd9312bcfe316a487b641aeadcad8aacc155eab1e6008e3eff1"
+    },
+    {
+      "path": "reVC-src/src/extras/custompipes_d3d9.cpp",
+      "bytes": 18221,
+      "sha256": "427826565a2ae05cde858acc4e11a396a9d8e6c2148d0a07054bb3300af3a8cb"
+    },
+    {
+      "path": "reVC-src/src/extras/custompipes_gl.cpp",
+      "bytes": 16845,
+      "sha256": "7f8fcaa7f091a5707549f324c43f196f4213d4a36469f3f0517e5012ba4bb8d1"
+    },
+    {
+      "path": "reVC-src/src/extras/debugmenu.cpp",
+      "bytes": 35391,
+      "sha256": "51fabd5623b699273ce091c69e00b4a23e1c5ec2044e2a803a18f5d5c9901ec8"
+    },
+    {
+      "path": "reVC-src/src/extras/debugmenu.h",
+      "bytes": 6343,
+      "sha256": "625b2ae0211aa1ccddc972fc330e0a4f63cb7caddfe5509ba7e9453d287ae906"
+    },
+    {
+      "path": "reVC-src/src/extras/frontendoption.cpp",
+      "bytes": 5153,
+      "sha256": "e9360c07b881ec8ec2d6ad2b752b49ecf9585177e0bf995777c398f1d61303de"
+    },
+    {
+      "path": "reVC-src/src/extras/frontendoption.h",
+      "bytes": 4628,
+      "sha256": "5a0bcb15dfc52f1104a8f0bd223ee102b704a765d1eaae1104abbfa93b5fe49b"
+    },
+    {
+      "path": "reVC-src/src/extras/GitSHA1.cpp.in",
+      "bytes": 65,
+      "sha256": "bd903607fcaabfd8871adbd0024833c550b67e61940238ef2afe87d7d25e1e05"
+    },
+    {
+      "path": "reVC-src/src/extras/GitSHA1.h",
+      "bytes": 30,
+      "sha256": "971828fd0f613d864ca8bb28239dd8242ad61362b806a2a316bc42e8bd00a063"
+    },
+    {
+      "path": "reVC-src/src/extras/ini_parser.hpp",
+      "bytes": 13057,
+      "sha256": "1fc2720154be1cb88f391d10652aa20533b9968dcbb01e94ff78005e927a527b"
+    },
+    {
+      "path": "reVC-src/src/extras/postfx.cpp",
+      "bytes": 15301,
+      "sha256": "7260d0bc07e9f6f01746048550a325a8fb50e24cd3767d1b104e7f658f721715"
+    },
+    {
+      "path": "reVC-src/src/extras/postfx.h",
+      "bytes": 1462,
+      "sha256": "a58c06604d1151356151a1af3970a9e8fbc075203bc96b286783edcdf5cfc258"
+    },
+    {
+      "path": "reVC-src/src/extras/re3_inttypes.h",
+      "bytes": 4352,
+      "sha256": "ac742cfe3cf4434400a1cd3f705f2d3206bdc2e780c48a8394318a3aa41180ec"
+    },
+    {
+      "path": "reVC-src/src/extras/screendroplets.cpp",
+      "bytes": 21982,
+      "sha256": "5b1d0b5d298c8c5cd6119b975a75b6bc5d0f420526b132e4382da0cc44bbcbbb"
+    },
+    {
+      "path": "reVC-src/src/extras/screendroplets.h",
+      "bytes": 1824,
+      "sha256": "c4cd27d8f444db04833cf6167c6e5a8759f0e1fb1afcc62f76fcb23401d3dea1"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/colourfilterVC.frag",
+      "bytes": 511,
+      "sha256": "0b5255f714682d10a4e47f7a8757a29c8bafe8bbf6d03ba23c251cdb526367f3"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/colourfilterVC_PS.hlsl",
+      "bytes": 498,
+      "sha256": "2dcc3146714c46e464c425dc253891fe0ea617c9ce27d486cf32501838944002"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/contrast.frag",
+      "bytes": 318,
+      "sha256": "b3a51d104a7dccc82f58c88f4e7509081c27543fb6dc396fc5b27693cca8a8c4"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/contrastPS.hlsl",
+      "bytes": 384,
+      "sha256": "af0212e2c6f2c27fabf101b71992e3d4a5cf77dbd5431728f552b60d28de4f79"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/default_UV2.vert",
+      "bytes": 518,
+      "sha256": "e186a18dd2b7e91df8a5dccd77efff71225bf10689a70d75ca7e5084be4646df"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/default_UV2_VS.hlsl",
+      "bytes": 1388,
+      "sha256": "c61b4f03a6fefd7a7ae58e4268f04b6291af24dfa845c616c80efa66f8a57270"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/im2d.vert",
+      "bytes": 344,
+      "sha256": "a2e1be962678ea43b39e0f56b9351805843d5d64c041d27c5f83dd08111a1462"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/im2d_UV2.vert",
+      "bytes": 382,
+      "sha256": "48341151203cce41f6c6365a7864d52a6f8e515d86b282fc726495cbd5c5f7c9"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/lighting.h",
+      "bytes": 1135,
+      "sha256": "3929e49a21363134499348f51b2de4cc9695f935958ba96ed33f2fd3f8e9484e"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/make_glsl.sh",
+      "bytes": 117,
+      "sha256": "b61e6b5e46ec7de8b7741243c0647190ad0207a0bac81b26ac61b16bc2a4c49e"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/make_hlsl.cmd",
+      "bytes": 236,
+      "sha256": "f74bd81c1e17a69d69f28a4073662040a3c40fb7bdbeab745dbd0d8a4e871d67"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/makeinc_glsl.sh",
+      "bytes": 134,
+      "sha256": "c1beda4ed2e0ae00e13a493379f0236250597a446d681ff1df0e9d43ae09ddf2"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/makeinc_hlsl.sh",
+      "bytes": 101,
+      "sha256": "064e517434fceb64b2bb7ee12f5cdd6ecbed46b06ba278a56e37ad5d4ffbe9e2"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/neoGloss.frag",
+      "bytes": 449,
+      "sha256": "46715df57e60ea43bdae4f4a984d8291c78056b61bf68538b0c6a5d58b8370dd"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/neoGloss.vert",
+      "bytes": 550,
+      "sha256": "86abdaef601b11bdfcf4344bdb02010d67b9ab7dd8b783cbbe4799ae8c10fbac"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/neoGloss_PS.hlsl",
+      "bytes": 501,
+      "sha256": "7c54727c63eebb3c0f8239e7d28696800c26a88a85234c4f1c8de10d8418bd25"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/neoGloss_VS.hlsl",
+      "bytes": 847,
+      "sha256": "440c5c267665dd0dd8e00d53eb8acec12a58cd06937e1e2c7467c38f9ce86e03"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/neoRim.vert",
+      "bytes": 764,
+      "sha256": "f78e6b962845de4570307cb65a6f9a1ffca026232bb9d4689b5962bc7aee4065"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/neoRim_VS.hlsl",
+      "bytes": 1647,
+      "sha256": "2453831b6844be804790506c8f93cb08099a51e5ce343b50a3fad2ca4548fd5a"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/neoRimSkin.vert",
+      "bytes": 1098,
+      "sha256": "588a488d426f6a47759029765d25955af419cffe2dbce9b2632bb4f765b1a2ec"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/neoRimSkin_VS.hlsl",
+      "bytes": 2087,
+      "sha256": "9a806cbffb56d0ee36db974dcce0890efab71887e218a8c7fae7173902e35cbb"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/neoVehicle.frag",
+      "bytes": 654,
+      "sha256": "8a89b1d3ed7a895ff22d85ac0967f4fc2044dc124c461f4791342bb4a1481f75"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/neoVehicle.vert",
+      "bytes": 1423,
+      "sha256": "1880603b43c5df0cb2a20b7bc8063ce9a8193edb47006ceaaf3ff04b48535ff8"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/neoVehicle_PS.hlsl",
+      "bytes": 827,
+      "sha256": "af036283e091911c9b68a5b58e9a77f9e5662f1077b29a39c2524df4878de451"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/neoVehicle_VS.hlsl",
+      "bytes": 1796,
+      "sha256": "7ee841d99f9ae15219b7e4b58513033b70c83aea9ce134f7de5e5f918939a8c8"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/neoWorldVC.frag",
+      "bytes": 481,
+      "sha256": "ae469d499de7f707b5ce8805ccd6dc85cc0b4d923e772ab0c2276a6383e4fcac"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/neoWorldVC_PS.hlsl",
+      "bytes": 479,
+      "sha256": "6959e5688010f19f59190eda422d32141e9c4a5c3a95b8ef44059abb62cd8db0"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/colourfilterVC_frag.inc",
+      "bytes": 643,
+      "sha256": "b46baa9693c4ad1eb29e3743db58f8f3d159b3c498f7ca98d438d3324a090852"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/colourfilterVC_PS.inc",
+      "bytes": 4047,
+      "sha256": "f968eea30f649c523911ea00e0ab4725f1870263838ea8251eb66811766add8a"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/contrast_frag.inc",
+      "bytes": 412,
+      "sha256": "01d7bf26643333ab01baa637119f06630c08cc533d4385371a27d4bae7572f4b"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/contrastPS.inc",
+      "bytes": 2166,
+      "sha256": "31ee9cf75ff5066d2e9c06bc7a3a88a1af521a111213117115482253068d7c97"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/default_UV2_vert.inc",
+      "bytes": 635,
+      "sha256": "0829c415d7a4560285ab0eb42357c58bdddc3af0358bab81d4ada1afd4bd2d9f"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/default_UV2_VS.inc",
+      "bytes": 3922,
+      "sha256": "c9104b0a4b3b4ca02ff704f71d5db654cc1fe910a042fc59f27ed86cf6016e84"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/im2d_UV2_vert.inc",
+      "bytes": 488,
+      "sha256": "85cd0f0ef4898a3639bbca8629208b6557f1621c6ddbd352709cf062ae4913a2"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/im2d_vert.inc",
+      "bytes": 438,
+      "sha256": "48762a085c2bf2b71ee756cdbe43aacbbae27a1d1f8cb33d03c83a23b007676a"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/neoGloss_frag.inc",
+      "bytes": 555,
+      "sha256": "d54cef0af487ff317f425a9c4cfb958c8d8bbb1a668c712c7c28f5480c17d529"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/neoGloss_PS.inc",
+      "bytes": 2783,
+      "sha256": "8686eb7aa0bba50a4f2e99499a362c64403beda2bb503cd67fcfd32bfc444784"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/neoGloss_vert.inc",
+      "bytes": 660,
+      "sha256": "4a062499a451d3356f8c5e5912bfabcd7470599b4c9c12e40a8371514fc03b40"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/neoGloss_VS.inc",
+      "bytes": 4757,
+      "sha256": "3be0491781a102b60d6e7bb4c329b4228522842417b5ef1035be9a0632d7bcd4"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/neoRim_vert.inc",
+      "bytes": 900,
+      "sha256": "d7054ae075928ef1daaa69fb4600b8784ebe5b17255e1360144e23adacead641"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/neoRim_VS.inc",
+      "bytes": 8579,
+      "sha256": "53791cd8ce338c6e9e32bdac7509a8d01e52c32f95ebedd7893113619daab6bf"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/neoRimSkin_vert.inc",
+      "bytes": 1266,
+      "sha256": "104224a728b5b47cb157a38a41bb660a55732e39eab500600200574b3f86cea4"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/neoRimSkin_VS.inc",
+      "bytes": 14873,
+      "sha256": "79f20900b53d1b0c7950805010bc10b0641a94fa8f16cee86fa5bd6306328d19"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/neoVehicle_frag.inc",
+      "bytes": 782,
+      "sha256": "d9858b815a68d891333bc5750292d0ef1d41eeaf9bf0480ae33992d36d3d01a0"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/neoVehicle_PS.inc",
+      "bytes": 2983,
+      "sha256": "0dac73cb471cb91e7e7910ce3be93be229ffc3123761de51bd6a6da3aca2f5eb"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/neoVehicle_vert.inc",
+      "bytes": 1623,
+      "sha256": "a62e40491d0cb42caa9f6fc8c4f0cbf8f2de8e2e2f3be16d7c81c9f871960521"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/neoVehicle_VS.inc",
+      "bytes": 11739,
+      "sha256": "51c783ce063b4fefd6c782f0f4661b3e929cc54f751991d94a5523bb7ccae1ea"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/neoWorldVC_frag.inc",
+      "bytes": 593,
+      "sha256": "11fedfec475fe001cc827507a45693a5c970a95e99062107afb4f9fa2fe80f9f"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/neoWorldVC_PS.inc",
+      "bytes": 3279,
+      "sha256": "5ea44b03233431341d8464e7582f5a7e1194f09989f81f4b6ec351913d445cc2"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/screenDroplet_frag.inc",
+      "bytes": 389,
+      "sha256": "e19c03c3c18ece1c308b146784c404e8a96d93830784a9563df47925f730eadc"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/screenDroplet_PS.inc",
+      "bytes": 2048,
+      "sha256": "4fdad96dc453dd260f3c07f042b3c7e8fffe9ce331e55e860ad498db3fe09960"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/obj/simple_frag.inc",
+      "bytes": 356,
+      "sha256": "9ff8694820442858378f93e069446cd6e75c75d3c272ac065cd9b86aa2a9b137"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/screenDroplet.frag",
+      "bytes": 294,
+      "sha256": "26e83e233ddd0217dac8dc7c632e2a293ddd821961bf88300874577094da1577"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/screenDroplet_PS.hlsl",
+      "bytes": 368,
+      "sha256": "cbf63af0431c09d0933afa061d1d2dde4dc7929cb85813069f78a60ddb953d56"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/simple.frag",
+      "bytes": 272,
+      "sha256": "153bf63fc1e30c5b3e6ebd9186cd1f36df9047346f7d4b1f05fbb1aa5dea6f7d"
+    },
+    {
+      "path": "reVC-src/src/extras/shaders/standardConstants.h",
+      "bytes": 773,
+      "sha256": "c15f6fb28c62e494cb1a17e543be9b4c77a4e423102752736a8cffc459f325e7"
+    },
+    {
+      "path": "reVC-src/src/fakerw/fake.cpp",
+      "bytes": 55354,
+      "sha256": "1f85593224add95faec0cb75b8bf2a778d6ac7a94743a1e277c841620dc824f3"
+    },
+    {
+      "path": "reVC-src/src/fakerw/rpanisot.h",
+      "bytes": 248,
+      "sha256": "66438a4476a4ab07d41fb840dc9aba0de0fc3564a069d2e9f3f91f326ca77702"
+    },
+    {
+      "path": "reVC-src/src/fakerw/rphanim.h",
+      "bytes": 2765,
+      "sha256": "16ac2abaad6307bd12b20c98987645250c0c23e1e04c4ac0054600a70e118b02"
+    },
+    {
+      "path": "reVC-src/src/fakerw/rpmatfx.h",
+      "bytes": 2878,
+      "sha256": "48088b353df73d5f13b3fc3c8538d00f0744b1711e0794fa21eb60cb490f8bf0"
+    },
+    {
+      "path": "reVC-src/src/fakerw/rpskin.h",
+      "bytes": 644,
+      "sha256": "66fb194f0b1ebdf5fd363d09f0efcacfe3dc7c416aeea2cf14be1a9c6a19d3a0"
+    },
+    {
+      "path": "reVC-src/src/fakerw/rpworld.h",
+      "bytes": 16732,
+      "sha256": "5cfd8d61b04097241bd0dc92bf5ec058dc25785c1b36ba6782a2236a9b2ead8e"
+    },
+    {
+      "path": "reVC-src/src/fakerw/rtbmp.h",
+      "bytes": 134,
+      "sha256": "d9c96623bcce04c0ecebd843c988b09ce40e99af27cad64d5c53266ee509ac0f"
+    },
+    {
+      "path": "reVC-src/src/fakerw/rtcharse.h",
+      "bytes": 732,
+      "sha256": "c221e7608d8164480f549e821c413157a35eb4b8ba509df4e4954690e7c7eb3c"
+    },
+    {
+      "path": "reVC-src/src/fakerw/rtpng.h",
+      "bytes": 134,
+      "sha256": "a9dce7f5fb6cffdf16e772d157108300518877defd5334097afbc34a234bdb60"
+    },
+    {
+      "path": "reVC-src/src/fakerw/rtquat.h",
+      "bytes": 637,
+      "sha256": "68ce38ffdb8b7e141acdce69c2a0f6a4309a253567c92c4d897fbd22abf5b46f"
+    },
+    {
+      "path": "reVC-src/src/fakerw/rwcore.h",
+      "bytes": 18858,
+      "sha256": "d94b2716f5dd8bc8a2acb0696ae6c8badc91b3ca7809b9d442e167e22143f781"
+    },
+    {
+      "path": "reVC-src/src/fakerw/rwplcore.h",
+      "bytes": 14970,
+      "sha256": "795d50b5d3423767999e2be07bba6fc20f7e00ac20e664e69fde883f8ea32d58"
+    },
+    {
+      "path": "reVC-src/src/math/math.cpp",
+      "bytes": 2693,
+      "sha256": "ea72867b99d73bd4f1d1f9e800e97c1a415495c56f46079e359dfefa32490c8d"
+    },
+    {
+      "path": "reVC-src/src/math/maths.h",
+      "bytes": 847,
+      "sha256": "02ce6ad3badc5427a4edfd95be26db8b4ed0791a0d32d1ad0d7dcfba41da9356"
+    },
+    {
+      "path": "reVC-src/src/math/Matrix.cpp",
+      "bytes": 9530,
+      "sha256": "4acb23a8f0891697d13c3d22ee65ba4d56f547ec448d5826683b072677c531a1"
+    },
+    {
+      "path": "reVC-src/src/math/Matrix.h",
+      "bytes": 3827,
+      "sha256": "994a0fbef188689dc5c3baea3fe619241e1bd47c2172479a904d082562ef09f4"
+    },
+    {
+      "path": "reVC-src/src/math/Quaternion.cpp",
+      "bytes": 3914,
+      "sha256": "f860b5a6b89660ff94f66edc0b0e737064a76e5ee47239f8fd9ce396cbf422d3"
+    },
+    {
+      "path": "reVC-src/src/math/Quaternion.h",
+      "bytes": 2395,
+      "sha256": "5bcf6e3c44fc8ba8cb23946c3c3009966cf11c8e9e60e5e69856529243228bbc"
+    },
+    {
+      "path": "reVC-src/src/math/Rect.cpp",
+      "bytes": 227,
+      "sha256": "491fd1488ac5f211db05f2bc8d1912ae791c61ef88e3c0943cfa7c5d709493aa"
+    },
+    {
+      "path": "reVC-src/src/math/Rect.h",
+      "bytes": 1328,
+      "sha256": "a65975fd8338c628fc463cef9d18fa634f0878874d570f1ef4c4280bdcd3e130"
+    },
+    {
+      "path": "reVC-src/src/math/Vector.cpp",
+      "bytes": 1219,
+      "sha256": "7f8ff83c3811b92ebb063226fdda1e855c31224e589db1bfe6e729cedc13b94e"
+    },
+    {
+      "path": "reVC-src/src/math/Vector.h",
+      "bytes": 2816,
+      "sha256": "6b49e5b54c136dd1fd2739cc7ddd5b24e605f0d65ac8093d6b5a9695337a2e27"
+    },
+    {
+      "path": "reVC-src/src/math/Vector2D.h",
+      "bytes": 2021,
+      "sha256": "e611ea1fa9e4357c110021b415df64d80755c237093e7b1981dd77b8aab25fab"
+    },
+    {
+      "path": "reVC-src/src/math/VuVector.h",
+      "bytes": 877,
+      "sha256": "86fa9f2d8f4d180f386331966fac432ccf9c03431492dc09d9dab11946c57273"
+    },
+    {
+      "path": "reVC-src/src/ml/MlBridge.h",
+      "bytes": 31052,
+      "sha256": "0e4079a43dfde97909afc2f3f9054b401729abf2f74001602e4f119f50a6f817"
+    },
+    {
+      "path": "reVC-src/src/modelinfo/BaseModelInfo.cpp",
+      "bytes": 1617,
+      "sha256": "f6b8d3107c51e0c9edac5e96e12a6ce4c543c79594d96094fff2f8131c5964fc"
+    },
+    {
+      "path": "reVC-src/src/modelinfo/BaseModelInfo.h",
+      "bytes": 2340,
+      "sha256": "9f1853562453475d7259b0495ee6efd956aab04056ff8faeea951d3d251e9d02"
+    },
+    {
+      "path": "reVC-src/src/modelinfo/ClumpModelInfo.cpp",
+      "bytes": 5269,
+      "sha256": "440ed11158e56906b054715d44897355ded584d4aa9563760bdabd02bbda4bcc"
+    },
+    {
+      "path": "reVC-src/src/modelinfo/ClumpModelInfo.h",
+      "bytes": 1568,
+      "sha256": "640562d149c18afbdc9f8d3b3897a9b520563e87a2f2f188dc14ca4fdfb8d849"
+    },
+    {
+      "path": "reVC-src/src/modelinfo/ModelIndices.cpp",
+      "bytes": 434,
+      "sha256": "ba2a08e10eb42530abd136dadd422ea55548dde9f3d3aa62bf70645fd214dba7"
+    },
+    {
+      "path": "reVC-src/src/modelinfo/ModelIndices.h",
+      "bytes": 12120,
+      "sha256": "d8cc2d35f7461e9d509af779c85713629768857971b6d72017df7441e9aa49b0"
+    },
+    {
+      "path": "reVC-src/src/modelinfo/ModelInfo.cpp",
+      "bytes": 7117,
+      "sha256": "14d7457494fb65ca5c8c13549a90250783399e7a3fa8e991e9c7337a75a0d6fa"
+    },
+    {
+      "path": "reVC-src/src/modelinfo/ModelInfo.h",
+      "bytes": 1670,
+      "sha256": "37e707547ca422a3c34e06a45c96af12b64f7024f2894d1e681274635bc79ade"
+    },
+    {
+      "path": "reVC-src/src/modelinfo/PedModelInfo.cpp",
+      "bytes": 5168,
+      "sha256": "696b53c3779f512b2785477bec62cae58c9fdb6f7e4207142e933715d967b643"
+    },
+    {
+      "path": "reVC-src/src/modelinfo/PedModelInfo.h",
+      "bytes": 1052,
+      "sha256": "ba3444022437fb83a3e532d7fd6c80367a5541c13f42ad9a94477afc275c9092"
+    },
+    {
+      "path": "reVC-src/src/modelinfo/SimpleModelInfo.cpp",
+      "bytes": 4171,
+      "sha256": "51efa876ea18e5ce45da2b8a3e14bbf933f7b86dd42f50ac64a72f6d5ff26968"
+    },
+    {
+      "path": "reVC-src/src/modelinfo/SimpleModelInfo.h",
+      "bytes": 1902,
+      "sha256": "85ae9d8fe4c3321881314a7aaba6f20083d360899f686c659c03d01f4c97f51a"
+    },
+    {
+      "path": "reVC-src/src/modelinfo/TimeModelInfo.cpp",
+      "bytes": 677,
+      "sha256": "6213ebeef03ee99905eb87f6c36e0acd1704807ec6961317f8fa83d75b85933f"
+    },
+    {
+      "path": "reVC-src/src/modelinfo/TimeModelInfo.h",
+      "bytes": 660,
+      "sha256": "804f952910de65bf6de6c10ba2a1666bcd00c7a4c14f2495cee64be7b84a76e4"
+    },
+    {
+      "path": "reVC-src/src/modelinfo/VehicleModelInfo.cpp",
+      "bytes": 35653,
+      "sha256": "b4159ec30b3658bc90e84eaf3268cc8afcc10e1e8fd33f0ad71de26de7c55147"
+    },
+    {
+      "path": "reVC-src/src/modelinfo/VehicleModelInfo.h",
+      "bytes": 4753,
+      "sha256": "0f23241aa5bf66d8045ffd94386e0e1b3e30e5cd9b06df1aefae8352b36a3e50"
+    },
+    {
+      "path": "reVC-src/src/modelinfo/WeaponModelInfo.cpp",
+      "bytes": 1007,
+      "sha256": "c46e185c60eccd3b108c0f55116fc7a8b0588e63bf881acdd2a961204829c83c"
+    },
+    {
+      "path": "reVC-src/src/modelinfo/WeaponModelInfo.h",
+      "bytes": 569,
+      "sha256": "3bc1f64718f2dd3832a190fd8c108bbf4b3f8fca9b0662331509df26735c2313"
+    },
+    {
+      "path": "reVC-src/src/objects/CutsceneObject.cpp",
+      "bytes": 4510,
+      "sha256": "6ba493cb09f94ddf0ab93d9007b9c073d20c2d7cd6760d35bcfc9b9936f5d2d6"
+    },
+    {
+      "path": "reVC-src/src/objects/CutsceneObject.h",
+      "bytes": 439,
+      "sha256": "a34f58bfac68f97b55b9d81a0ed97e6bb5cca94a822a28afaa36954aabee2d33"
+    },
+    {
+      "path": "reVC-src/src/objects/DummyObject.cpp",
+      "bytes": 291,
+      "sha256": "67b9c09db734156f44fea9bcc706c792e4eaba4993febc97bfa3b3c9e6bc4c54"
+    },
+    {
+      "path": "reVC-src/src/objects/DummyObject.h",
+      "bytes": 150,
+      "sha256": "480342bccd52b579a5911d183e8e4fe9597e4c38c6c20a2c05d697f6ce022afa"
+    },
+    {
+      "path": "reVC-src/src/objects/Object.cpp",
+      "bytes": 28110,
+      "sha256": "510c9ac8d241c6300bb0d82de01946ab55b6ebccacad07dbc3f6ea888572810f"
+    },
+    {
+      "path": "reVC-src/src/objects/Object.h",
+      "bytes": 2790,
+      "sha256": "6ece7f323586fb33b2f7cf48c55ba48b055a826b19916fdd9b38dd7eaff0147a"
+    },
+    {
+      "path": "reVC-src/src/objects/ObjectData.cpp",
+      "bytes": 5745,
+      "sha256": "5fba2ba6457e07fa6f73369d8efc5572497c835c36d17f62209c33f91321bbf3"
+    },
+    {
+      "path": "reVC-src/src/objects/ObjectData.h",
+      "bytes": 556,
+      "sha256": "c57cef742c138032048e31135ae029e879391ebb45f67a444de008a8d0c859e6"
+    },
+    {
+      "path": "reVC-src/src/objects/ParticleObject.cpp",
+      "bytes": 35365,
+      "sha256": "7c08be30cb8f3078606a21d4decca5300aa34201fd0d4ac7eaf3f4eb65177f56"
+    },
+    {
+      "path": "reVC-src/src/objects/ParticleObject.h",
+      "bytes": 3561,
+      "sha256": "047aeca6296a9f960ea7b1c28be0988ed65e5bf049d12b37d79459933775dd83"
+    },
+    {
+      "path": "reVC-src/src/objects/Projectile.cpp",
+      "bytes": 316,
+      "sha256": "bf68311b5e458829ff6ebfa9ec985a0a65b30554dc47f7d597d84f6051ac6bc6"
+    },
+    {
+      "path": "reVC-src/src/objects/Projectile.h",
+      "bytes": 104,
+      "sha256": "44f3b59f12e87f3f99c089f3344a1efe4dd0f3e594f605e64c6a182e7bf58d1b"
+    },
+    {
+      "path": "reVC-src/src/objects/Stinger.cpp",
+      "bytes": 6736,
+      "sha256": "7478ac8449a95b56572a89bb51fe1a33d39a6c0d3d0329aacfd298d51f1e677c"
+    },
+    {
+      "path": "reVC-src/src/objects/Stinger.h",
+      "bytes": 664,
+      "sha256": "69fb5f9d94015f3c63fa02911876d81283a3d8b09b18baf96629a537574456c8"
+    },
+    {
+      "path": "reVC-src/src/peds/CivilianPed.cpp",
+      "bytes": 21113,
+      "sha256": "daff5ac28e90036f049c243c104ad7bf5c5037692c1817b94346c914732a3162"
+    },
+    {
+      "path": "reVC-src/src/peds/CivilianPed.h",
+      "bytes": 661,
+      "sha256": "d09babb345b23b89d5f04ae7db723cea5a77bb791858a25bd0f1d13b9dc48754"
+    },
+    {
+      "path": "reVC-src/src/peds/CopPed.cpp",
+      "bytes": 26569,
+      "sha256": "16884ec78c3bd7c3334f600effc25980ddc3ff488951d2889592af7ec63efa41"
+    },
+    {
+      "path": "reVC-src/src/peds/CopPed.h",
+      "bytes": 985,
+      "sha256": "355ab7370cb2768feba0ec8bf3ecd83991b8e41e2c838c649c07ecb415175a07"
+    },
+    {
+      "path": "reVC-src/src/peds/DummyPed.h",
+      "bytes": 115,
+      "sha256": "5fe0db022648be6f5c5498de20334ec9a035c4e6cf66c86c9abb7d187652041b"
+    },
+    {
+      "path": "reVC-src/src/peds/EmergencyPed.cpp",
+      "bytes": 13240,
+      "sha256": "f50cd8cb40035ab5d79a57463e66db4fb60a4fb1c40da4e4e968d025f820206d"
+    },
+    {
+      "path": "reVC-src/src/peds/EmergencyPed.h",
+      "bytes": 989,
+      "sha256": "cd934410b651f68a95e387d8b22ee09e04c3c8650ea5240201d39ca9bd1da809"
+    },
+    {
+      "path": "reVC-src/src/peds/Gangs.cpp",
+      "bytes": 3304,
+      "sha256": "1e76a4b90047139e4337ff03bc735867960d167577a053754f98d23eba61624b"
+    },
+    {
+      "path": "reVC-src/src/peds/Gangs.h",
+      "bytes": 1397,
+      "sha256": "bd61323379ab39f6ecd388c7bdb0c37f99f39e84169bd79be2715f37f2d26b54"
+    },
+    {
+      "path": "reVC-src/src/peds/Ped.cpp",
+      "bytes": 298872,
+      "sha256": "710cd5a0662682b087c8310447f9f65817962b3f657c11ae0335c473309627a4"
+    },
+    {
+      "path": "reVC-src/src/peds/Ped.h",
+      "bytes": 34912,
+      "sha256": "aedcb5147453789f34be4f2a7052a20f22f144a2cd9503d74831215494ef66c3"
+    },
+    {
+      "path": "reVC-src/src/peds/PedAI.cpp",
+      "bytes": 222313,
+      "sha256": "f16c4044709fc829808bc3d7276860285df2d4537256b56a6f8636db1b1d3c90"
+    },
+    {
+      "path": "reVC-src/src/peds/PedAttractor.cpp",
+      "bytes": 28366,
+      "sha256": "308819b72fadddea740a60b7df68cf4c2c7618be5b2080aee582d37813c04020"
+    },
+    {
+      "path": "reVC-src/src/peds/PedAttractor.h",
+      "bytes": 8664,
+      "sha256": "5197da063922be2d300a8a43f94e29a8eece8ddc9741e5847b19fe2fa377fc00"
+    },
+    {
+      "path": "reVC-src/src/peds/PedChat.cpp",
+      "bytes": 4369,
+      "sha256": "7715e2a05953a3664ee08ab1289f8df9932b49628edda030f290add1cc1732b6"
+    },
+    {
+      "path": "reVC-src/src/peds/PedDebug.cpp",
+      "bytes": 6182,
+      "sha256": "78d37c8fde54975d66042c16dab0894ab79b50bc4f704637461195d22565af02"
+    },
+    {
+      "path": "reVC-src/src/peds/PedFight.cpp",
+      "bytes": 141397,
+      "sha256": "4190e6522f8092148e22dab9b7fd84c03ae7c99e016134c2fb6bfe387de5b7aa"
+    },
+    {
+      "path": "reVC-src/src/peds/PedIK.cpp",
+      "bytes": 12462,
+      "sha256": "cdd272b2afd1241d72ea3820d871a49e7d1eb3491b5e6f01adebd2eb8f58a803"
+    },
+    {
+      "path": "reVC-src/src/peds/PedIK.h",
+      "bytes": 1830,
+      "sha256": "54fbfbbe9eed59887a7ea5ae58b96b7d321312acfa26e42af83ecacf4ce26430"
+    },
+    {
+      "path": "reVC-src/src/peds/PedPlacement.cpp",
+      "bytes": 1335,
+      "sha256": "55d9f332dbdca88f69609c4bedccea89f1be608fb5432e6ad6d34ff0dd065610"
+    },
+    {
+      "path": "reVC-src/src/peds/PedPlacement.h",
+      "bytes": 266,
+      "sha256": "dadec0979ef8440d81478586ee3bd9dd71a57c175c75bdcb28f139a13feaa759"
+    },
+    {
+      "path": "reVC-src/src/peds/PedRoutes.cpp",
+      "bytes": 1631,
+      "sha256": "011d39bf3fe90818249e41b4984e48929bc7ae85d3fc6ccdf8902f47b5c43659"
+    },
+    {
+      "path": "reVC-src/src/peds/PedRoutes.h",
+      "bytes": 306,
+      "sha256": "ba21528ab03d9b0f423eb452ce1e0c717593b92019b040334bada698ba3c0cb6"
+    },
+    {
+      "path": "reVC-src/src/peds/PedType.cpp",
+      "bytes": 9197,
+      "sha256": "f4aa1bf3914229b4370868885efcd7d93d659519cf5486c9d321dc88b2890a96"
+    },
+    {
+      "path": "reVC-src/src/peds/PedType.h",
+      "bytes": 3862,
+      "sha256": "9eef51ecfca31ae189ae5ff5195b2bbb6278b0a71b8682b08792f34dc3737037"
+    },
+    {
+      "path": "reVC-src/src/peds/PlayerPed.cpp",
+      "bytes": 72203,
+      "sha256": "63933ad049f8af2939048e42e9d03de4688dd4ff29ed058b39194923572de994"
+    },
+    {
+      "path": "reVC-src/src/peds/PlayerPed.h",
+      "bytes": 3650,
+      "sha256": "5c3fe5ea677f23ffe7ba48785a781d903e099a497080f3f0d42419c2394788f9"
+    },
+    {
+      "path": "reVC-src/src/peds/Population.cpp",
+      "bytes": 55258,
+      "sha256": "3ee2ab28b34350d5c2e212bdd656cb224e260e8579c0e37feea459e81bbaf644"
+    },
+    {
+      "path": "reVC-src/src/peds/Population.h",
+      "bytes": 3095,
+      "sha256": "187cd1aa3447627a61000cbb53af5258e8763ff99ff7dd4a31bee3e6128fd58d"
+    },
+    {
+      "path": "reVC-src/src/render/2dEffect.h",
+      "bytes": 1748,
+      "sha256": "535a8920423aac4ff329a7769120d7f172080658f54518739882530fc90506c5"
+    },
+    {
+      "path": "reVC-src/src/render/Antennas.cpp",
+      "bytes": 2981,
+      "sha256": "36c97331079ee3a68c0af365875b6ad7d5a198d6d0ea74f410579e2ef534ea57"
+    },
+    {
+      "path": "reVC-src/src/render/Antennas.h",
+      "bytes": 455,
+      "sha256": "a18c01e8e1c6d2abc579fa2403930664104bba8d83c26aab42078eb23163059d"
+    },
+    {
+      "path": "reVC-src/src/render/Clouds.cpp",
+      "bytes": 16427,
+      "sha256": "32ff2901553665643593087d0c8bbab562e7379f856da8caa0de0ccd92661ec5"
+    },
+    {
+      "path": "reVC-src/src/render/Clouds.h",
+      "bytes": 560,
+      "sha256": "59cf6264714ad081486f5c0181d1aefa1af3f62b18ded3f49f9c9859c8950180"
+    },
+    {
+      "path": "reVC-src/src/render/Console.cpp",
+      "bytes": 2276,
+      "sha256": "324723693db2b5092ee82a82861c6e30f3f112c011ab2da79feeae4ba956cc83"
+    },
+    {
+      "path": "reVC-src/src/render/Console.h",
+      "bytes": 514,
+      "sha256": "352ed515fc6b9f7d7741a4e4887d114979f5ecdd6488646c77aff156013b621a"
+    },
+    {
+      "path": "reVC-src/src/render/Coronas.cpp",
+      "bytes": 31967,
+      "sha256": "0b55eb06595c109190f10d39bd23fc2bc51be91d4aa4b79907e14a1405415197"
+    },
+    {
+      "path": "reVC-src/src/render/Coronas.h",
+      "bytes": 2317,
+      "sha256": "45e1a1dc821510e941c46ec38507f106ec5ea7ad76f58e3ad006336d9922d8a7"
+    },
+    {
+      "path": "reVC-src/src/render/Credits.cpp",
+      "bytes": 52330,
+      "sha256": "ffd0011387f75536b3ee3cf87726dd6a5155fc3547bf4f4196ea73bdfc31ddf2"
+    },
+    {
+      "path": "reVC-src/src/render/Credits.h",
+      "bytes": 410,
+      "sha256": "c7820e7c701c60ca32f254e1783da3f0268269d5b0f0e50a1e536e45a3781373"
+    },
+    {
+      "path": "reVC-src/src/render/CutsceneShadow.cpp",
+      "bytes": 5147,
+      "sha256": "b9fcf1e62a9d73351730d30fbc10a1e4ddee54cc2cbf0d0ffe2e316955d3118b"
+    },
+    {
+      "path": "reVC-src/src/render/CutsceneShadow.h",
+      "bytes": 1036,
+      "sha256": "4cf7d28f3ae1d572c412c226b33e44ea2fa48f71a8fbb3cd239b1745d05dcc82"
+    },
+    {
+      "path": "reVC-src/src/render/Draw.cpp",
+      "bytes": 2464,
+      "sha256": "4b78a6bb5691d0364ade5fa5cef475cec98c38252dc12a51b269dedf259a1929"
+    },
+    {
+      "path": "reVC-src/src/render/Draw.h",
+      "bytes": 1653,
+      "sha256": "e70992d6e3368d76a01ffcc39b023c8164148c3044206d5abf86c6bde2f57573"
+    },
+    {
+      "path": "reVC-src/src/render/Fluff.cpp",
+      "bytes": 41240,
+      "sha256": "870dee9b53ecc21a2e346cff8231dd354ceb84141df1b5a1d15a625b1f02e35f"
+    },
+    {
+      "path": "reVC-src/src/render/Fluff.h",
+      "bytes": 4260,
+      "sha256": "0b3361238e5aa86907f96d09062549c2577f4aee16887fc23adbda0a14cea06f"
+    },
+    {
+      "path": "reVC-src/src/render/Font.cpp",
+      "bytes": 51621,
+      "sha256": "b40d5146aa1721a81374c84df6d668c7ad82b158b4a9f087373464348c42ca6f"
+    },
+    {
+      "path": "reVC-src/src/render/Font.h",
+      "bytes": 5307,
+      "sha256": "360f2a4e614d81cf5d7e2020e387ef35878aae71ef5cca596bd2a5e10425c1ab"
+    },
+    {
+      "path": "reVC-src/src/render/Glass.cpp",
+      "bytes": 36630,
+      "sha256": "3e7346d82e8d2ddbd5d02596d31363df6f17cef76c2f57155b40cd13080b332e"
+    },
+    {
+      "path": "reVC-src/src/render/Glass.h",
+      "bytes": 1883,
+      "sha256": "65c89da04b9c4c5d3e39e8513a73f4809100afe0f5393dea9a0cd06a0d7b1dba"
+    },
+    {
+      "path": "reVC-src/src/render/Hud.cpp",
+      "bytes": 64801,
+      "sha256": "0face03aec3ceccc7e45606a37a1ba728c83a737a57002896ef405a5b14371d1"
+    },
+    {
+      "path": "reVC-src/src/render/Hud.h",
+      "bytes": 3522,
+      "sha256": "96a52872089f4942bf60dc102138a330f5506de19f589f8afe2a035800f69670"
+    },
+    {
+      "path": "reVC-src/src/render/Instance.cpp",
+      "bytes": 98,
+      "sha256": "cfc0ad3ef5929eb8dccf25651d2e58745f5bb25939f604381a71b8e246f4a80b"
+    },
+    {
+      "path": "reVC-src/src/render/Instance.h",
+      "bytes": 161,
+      "sha256": "ee811aa9121ccada10d3af2c6d75ae8189e049d19115428eb91d887ebbe34fa5"
+    },
+    {
+      "path": "reVC-src/src/render/Lines.cpp",
+      "bytes": 1952,
+      "sha256": "a725fbf5ecbaea2bae5a5ddaf0eb1dadbac2c9ce8a8e3cff8779ef1b640244e9"
+    },
+    {
+      "path": "reVC-src/src/render/Lines.h",
+      "bytes": 159,
+      "sha256": "ef1591123f61563b8c7cc864811e23b9e821cf943b84b6791f9ba0862667ac62"
+    },
+    {
+      "path": "reVC-src/src/render/MBlur.cpp",
+      "bytes": 28661,
+      "sha256": "8248c51b3480a7cd47297bea93d14e0c34987493ed7be204c8679ce8eeecb763"
+    },
+    {
+      "path": "reVC-src/src/render/MBlur.h",
+      "bytes": 1230,
+      "sha256": "271e6620aafc015300304c365515a743f718365cf9ab09e6d78ad6394e5c66b2"
+    },
+    {
+      "path": "reVC-src/src/render/Occlusion.cpp",
+      "bytes": 17942,
+      "sha256": "ada6a1cdc6cff8d97720635f7c535f2bc6f277a092ab89e489c8c31323d33f15"
+    },
+    {
+      "path": "reVC-src/src/render/Occlusion.h",
+      "bytes": 1553,
+      "sha256": "6a1bebf1bd646e63e5e4eef93cf9621eae1a06b44b56eededda792d3514e9c70"
+    },
+    {
+      "path": "reVC-src/src/render/Particle.cpp",
+      "bytes": 72784,
+      "sha256": "8466e51a1c5e1714ac37bfc5452d30d286b2d66ff4707283c55c452e3fa7c68e"
+    },
+    {
+      "path": "reVC-src/src/render/Particle.h",
+      "bytes": 3587,
+      "sha256": "5f0d389bc828719246ed495c4af3953fa180e61466a0f49e55eb1bf93beee7e9"
+    },
+    {
+      "path": "reVC-src/src/render/ParticleMgr.cpp",
+      "bytes": 5894,
+      "sha256": "9d8b2ddd9e4932150ce212a0e9db565ce2737b929e94c29ac24eaaff6fd76430"
+    },
+    {
+      "path": "reVC-src/src/render/ParticleMgr.h",
+      "bytes": 3715,
+      "sha256": "0223f4c783bb4e5ab7ec44ec516a0a85440a961525c0b9f220c2df89a64c31d7"
+    },
+    {
+      "path": "reVC-src/src/render/ParticleType.h",
+      "bytes": 2026,
+      "sha256": "ff25a2859d18ef3e5441c66bec18ae1f4949be8eb3bb846f20ad5005963f1459"
+    },
+    {
+      "path": "reVC-src/src/render/PlayerSkin.cpp",
+      "bytes": 3863,
+      "sha256": "fd70c3a2c6280e1b4e7cb1adfb19ed662620a5595af4882d11e44d8143a84fb8"
+    },
+    {
+      "path": "reVC-src/src/render/PlayerSkin.h",
+      "bytes": 324,
+      "sha256": "c741009584853d49f7536af835cde00dbeaffd7e3d54bc332857de1eb4db3421"
+    },
+    {
+      "path": "reVC-src/src/render/PointLights.cpp",
+      "bytes": 9948,
+      "sha256": "c579298843009817ba5fcad1a0c57402f19839601e7e161f7e56752e4844252f"
+    },
+    {
+      "path": "reVC-src/src/render/PointLights.h",
+      "bytes": 1250,
+      "sha256": "6db354b6f014ed1a964dbc43757d1650babfb0716befc639bf6a04d231d465b7"
+    },
+    {
+      "path": "reVC-src/src/render/RenderBuffer.cpp",
+      "bytes": 1548,
+      "sha256": "9e4e6c6ac38c0c68b83d5c15454d0d987525a359a23c101a6317b72067de84f9"
+    },
+    {
+      "path": "reVC-src/src/render/RenderBuffer.h",
+      "bytes": 747,
+      "sha256": "8521f0ced49e2a2a57e59d6d0174721b8ddffca8314e662f69026c4a16ca7a8c"
+    },
+    {
+      "path": "reVC-src/src/render/Renderer.cpp",
+      "bytes": 47801,
+      "sha256": "fc984e301235842d765d42df4f624bd129bd419f29accdf74e4e67565c7aae41"
+    },
+    {
+      "path": "reVC-src/src/render/Renderer.h",
+      "bytes": 3149,
+      "sha256": "8b9c3167a499fda0105706fa9c7b3dee247d431075e7cacc110bfc5e564127f8"
+    },
+    {
+      "path": "reVC-src/src/render/Rubbish.cpp",
+      "bytes": 14632,
+      "sha256": "31be6c020166f2cac90e32ea080e29cf22e538d9b83635dc89bfb407239f14f6"
+    },
+    {
+      "path": "reVC-src/src/render/Rubbish.h",
+      "bytes": 1164,
+      "sha256": "bac763d8b6c1af26a7463d157536af3a8822565a45155b9b5c7dbc7fba246aa4"
+    },
+    {
+      "path": "reVC-src/src/render/ShadowCamera.cpp",
+      "bytes": 15098,
+      "sha256": "ddf544097234a31cbb571335ce22df5135d70c0198202ed6805ebfc6dec352be"
+    },
+    {
+      "path": "reVC-src/src/render/ShadowCamera.h",
+      "bytes": 981,
+      "sha256": "c15b33456363c3f1ce730d39a12694c394b87e7d683016b120b40290bec08424"
+    },
+    {
+      "path": "reVC-src/src/render/Shadows.cpp",
+      "bytes": 74284,
+      "sha256": "b9ccc77129b618ba0985b5f3d4fce748b6eaffdaf542a7a783becdb59d6ad792"
+    },
+    {
+      "path": "reVC-src/src/render/Shadows.h",
+      "bytes": 8087,
+      "sha256": "4230c2e9af33fb8e4ac1a47615dc101122c159d058bf34d2825a8708b03f0714"
+    },
+    {
+      "path": "reVC-src/src/render/Skidmarks.cpp",
+      "bytes": 7639,
+      "sha256": "f2721c4e3c4acc861e42ae94e949302cc74ed89998c941f3faafe713cde4e813"
+    },
+    {
+      "path": "reVC-src/src/render/Skidmarks.h",
+      "bytes": 853,
+      "sha256": "1469f9a0b7bed745517ed8fe9644f7efe0c7a1159b40de59e0160f8aad05d721"
+    },
+    {
+      "path": "reVC-src/src/render/SpecialFX.cpp",
+      "bytes": 53305,
+      "sha256": "0e985dc60eaab2b78744e6d2c14f3a82b87f572650730b09ff1a2090bbec3acd"
+    },
+    {
+      "path": "reVC-src/src/render/SpecialFX.h",
+      "bytes": 5083,
+      "sha256": "5dc43c74da379c237e8b9094773ec2ad95bdd6123c55439025b78e9d8aa89d29"
+    },
+    {
+      "path": "reVC-src/src/render/Sprite.cpp",
+      "bytes": 19866,
+      "sha256": "c1ac655738a5dac31f39ad136562563c6feb11148818700dd5b97ff087740288"
+    },
+    {
+      "path": "reVC-src/src/render/Sprite.h",
+      "bytes": 2280,
+      "sha256": "5a12f616784864a07f628c5fa65d516751b3ed268fda94c952d0b3576936af91"
+    },
+    {
+      "path": "reVC-src/src/render/Sprite2d.cpp",
+      "bytes": 16417,
+      "sha256": "d00abc524a8f0e57af2e1a19f7456a72ff77e5729eea745e8a8c1cf214e969c9"
+    },
+    {
+      "path": "reVC-src/src/render/Sprite2d.h",
+      "bytes": 2724,
+      "sha256": "85778a86f9c9bd6301f07d95238c5881a9138eed7852afa93d8dd45d47c4a83d"
+    },
+    {
+      "path": "reVC-src/src/render/TexList.cpp",
+      "bytes": 574,
+      "sha256": "8676006014f79272797b46a21e7da867f2e697ed2f9a0c5b2c59b4632b728f02"
+    },
+    {
+      "path": "reVC-src/src/render/TexList.h",
+      "bytes": 344,
+      "sha256": "e6e03ec7eed8e722f8193725d2606a1ea38f5d53965e88dcc6dcf138a83e609f"
+    },
+    {
+      "path": "reVC-src/src/render/Timecycle.cpp",
+      "bytes": 21800,
+      "sha256": "371e2706953d6cca763aa3efba1f51b0222557cdf5a6fdd57d4c0329174246ae"
+    },
+    {
+      "path": "reVC-src/src/render/Timecycle.h",
+      "bytes": 10483,
+      "sha256": "4c68dfcadf09be1730ca26ab750b1651d930dcba261264758b14e4bdca431e06"
+    },
+    {
+      "path": "reVC-src/src/render/VarConsole.cpp",
+      "bytes": 18994,
+      "sha256": "89d6dfa4943963d6fbf2fa7e39fc9c2d5e3551c23abfa86f6f0cd591a19c1ada"
+    },
+    {
+      "path": "reVC-src/src/render/VarConsole.h",
+      "bytes": 2272,
+      "sha256": "3fd89865b3131304dcbea26de762642dee2bba623214b1fa4ffbd9103d182036"
+    },
+    {
+      "path": "reVC-src/src/render/WaterCannon.cpp",
+      "bytes": 8426,
+      "sha256": "bdf7a4312271f09ae7c3651d8bed2d83b9eb6e2a8e2bb1aefe9dafd0bc1763c5"
+    },
+    {
+      "path": "reVC-src/src/render/WaterCannon.h",
+      "bytes": 741,
+      "sha256": "f14555e0d88ba59fd456a7fdc0020c29d654f98ae644a328d17b5edb318cdd15"
+    },
+    {
+      "path": "reVC-src/src/render/WaterCreatures.cpp",
+      "bytes": 10035,
+      "sha256": "c310f7357ba178b502a2cb47ebf9f99099408537969ba5bd5c3ee939e6995f22"
+    },
+    {
+      "path": "reVC-src/src/render/WaterCreatures.h",
+      "bytes": 1297,
+      "sha256": "7b3b8bb96d29589f2f265d6ab2b3b5d3fe816df28147875ce2d0e47d2e818555"
+    },
+    {
+      "path": "reVC-src/src/render/WaterLevel.cpp",
+      "bytes": 103400,
+      "sha256": "3f0d2005966f55bc6d44bb13cf630c0d7c74c0dfe5d1b2045c996c46f53320db"
+    },
+    {
+      "path": "reVC-src/src/render/WaterLevel.h",
+      "bytes": 8341,
+      "sha256": "2f6dd20c1ac34d28e64c7839251890d2f9d553da3703aaa82006f0f689731d4c"
+    },
+    {
+      "path": "reVC-src/src/render/Weather.cpp",
+      "bytes": 25658,
+      "sha256": "87b78ab2662c6b102aa8cc3579df4fed3f2e4ba72d253603d9b75bf4a0cc3436"
+    },
+    {
+      "path": "reVC-src/src/render/Weather.h",
+      "bytes": 1476,
+      "sha256": "9dc778f21bd972f2aafc4f59b1cd2d9113c7b2d45f3c978df398c23c812552f7"
+    },
+    {
+      "path": "reVC-src/src/render/WindModifiers.cpp",
+      "bytes": 1374,
+      "sha256": "a9dce9e4415c3af54c83ae7e16a80daa0ec5b7bf0745b47a32fe5cc2388d7e30"
+    },
+    {
+      "path": "reVC-src/src/render/WindModifiers.h",
+      "bytes": 226,
+      "sha256": "8c7799caea6ae2c006695ffb16aa6db9c1f5a4d4a7a8c43e7b035cd553039c2b"
+    },
+    {
+      "path": "reVC-src/src/rw/ClumpRead.cpp",
+      "bytes": 4995,
+      "sha256": "a4fe59c9f91e9511c12a00d2459443b05b90ca937e34053f8e5e546c4ef1d6d1"
+    },
+    {
+      "path": "reVC-src/src/rw/Lights.cpp",
+      "bytes": 11758,
+      "sha256": "dc232911dbfb81d9833edb9d5b112ae65a489a182fa6047cc1b0ba0855fff5fa"
+    },
+    {
+      "path": "reVC-src/src/rw/Lights.h",
+      "bytes": 1059,
+      "sha256": "9cb346acc8778bcca2fa2579b5a64d3dbd7ed7e0c772e95ed88fce7bab1ce0c1"
+    },
+    {
+      "path": "reVC-src/src/rw/MemoryHeap.cpp",
+      "bytes": 13092,
+      "sha256": "6ed399c66214995d4925413d78d420e010da35fb9fe72c200128f7bf031bf807"
+    },
+    {
+      "path": "reVC-src/src/rw/MemoryHeap.h",
+      "bytes": 4728,
+      "sha256": "e3f83c84109339dde757c55602a2af23cc18a63e0ae95e905386d4dcb1567255"
+    },
+    {
+      "path": "reVC-src/src/rw/MemoryMgr.cpp",
+      "bytes": 2412,
+      "sha256": "bb801a852bb6fe6dd4b0cd2bd3d73c41289f8a4eb136e59931a6acceeb08d3c8"
+    },
+    {
+      "path": "reVC-src/src/rw/MemoryMgr.h",
+      "bytes": 321,
+      "sha256": "7704a1945200633eff3546cd0744ecf94254f6a4220224f6b09501a76cee0ca8"
+    },
+    {
+      "path": "reVC-src/src/rw/NodeName.cpp",
+      "bytes": 1816,
+      "sha256": "ae7bdae87f63266721aded13b0ae25cabdb509d6f480c445e272af15bbf04bfc"
+    },
+    {
+      "path": "reVC-src/src/rw/NodeName.h",
+      "bytes": 87,
+      "sha256": "7bf3231ea513cc06512d077d729178e44b8c3a76baa92b1f1aaaf300cf9cab90"
+    },
+    {
+      "path": "reVC-src/src/rw/RwHelper.cpp",
+      "bytes": 18783,
+      "sha256": "db8fd11601668fb4ca7b1cf0571bd3362a0e185f1689722835926337df84b997"
+    },
+    {
+      "path": "reVC-src/src/rw/RwHelper.h",
+      "bytes": 2354,
+      "sha256": "4726abdf32b9c44ff315bc39bdf067e58e9d9328ba78bba59fa8d09a0a1a51eb"
+    },
+    {
+      "path": "reVC-src/src/rw/RwMatFX.cpp",
+      "bytes": 10068,
+      "sha256": "75739cdef3456c21c6237aba0c1f1e0bf2552312fdf8a76531c3a8fd85bbb55b"
+    },
+    {
+      "path": "reVC-src/src/rw/RwPS2AlphaTest.cpp",
+      "bytes": 7535,
+      "sha256": "0beda6aa0c3f92f3227947c500b3ef5d043f36c73da908c3df39fa75a3aa6e87"
+    },
+    {
+      "path": "reVC-src/src/rw/TexRead.cpp",
+      "bytes": 12942,
+      "sha256": "ea84762db6b548b64a4caa701159f215e97741ab2623b8edfa1a3ae6a3703f71"
+    },
+    {
+      "path": "reVC-src/src/rw/TexturePools.cpp",
+      "bytes": 4308,
+      "sha256": "124b52dcb756be2cd654601c6822adcce9a41f195e7fd707c83c32848e6a9648"
+    },
+    {
+      "path": "reVC-src/src/rw/TexturePools.h",
+      "bytes": 740,
+      "sha256": "403699732539dcc7b9137fbcda14eb0e35f2bf1ac94e30af73fa697834b177a9"
+    },
+    {
+      "path": "reVC-src/src/rw/TxdStore.cpp",
+      "bytes": 3232,
+      "sha256": "46f1cd7f9bd9098c76271130249d69c4bdefb2bc4b68793c9f0df9682d08517c"
+    },
+    {
+      "path": "reVC-src/src/rw/TxdStore.h",
+      "bytes": 1211,
+      "sha256": "ac7091e1c8500af34a95482b141bb397f7021a525c5afc0a26b8db11b52af833"
+    },
+    {
+      "path": "reVC-src/src/rw/VisibilityPlugins.cpp",
+      "bytes": 25407,
+      "sha256": "513a46d38a1eec356c8160ef115120a7cb2ac5d8fc9a087fbb53ee92ec8434dd"
+    },
+    {
+      "path": "reVC-src/src/rw/VisibilityPlugins.h",
+      "bytes": 5539,
+      "sha256": "d5c0bfba2b34f09ee45c6f44250f81fa77296a3ab95697724f728ed43247cc39"
+    },
+    {
+      "path": "reVC-src/src/save/Date.cpp",
+      "bytes": 1728,
+      "sha256": "cd457838448c8ad3913d07125570a9aaefcb2e68429b4e519b5067158c010a10"
+    },
+    {
+      "path": "reVC-src/src/save/Date.h",
+      "bytes": 352,
+      "sha256": "eb1ea5130934c3b540ef853d15f6aa349f6d4db2ca3b019e9e5604af828f5f5c"
+    },
+    {
+      "path": "reVC-src/src/save/GenericGameStorage.cpp",
+      "bytes": 20286,
+      "sha256": "8f95ce3c589e77cd98d604e8f9538ed159c2eda0a0a7ce5b25c9552e7eac8089"
+    },
+    {
+      "path": "reVC-src/src/save/GenericGameStorage.h",
+      "bytes": 1636,
+      "sha256": "9bdf1817d42575d5021af3f96b08ed46074b413e1c6eece0a1e6fd66626a62b9"
+    },
+    {
+      "path": "reVC-src/src/save/MemoryCard.cpp",
+      "bytes": 75630,
+      "sha256": "47110ad777e2f6db2c92d31a375143abdb6e3d9cf5b5a78c90315003d5537d1d"
+    },
+    {
+      "path": "reVC-src/src/save/MemoryCard.h",
+      "bytes": 4877,
+      "sha256": "ba90352e206ca65cf206f9ffcb7e71b915861ca372f56f1631bed79b9f1cb19c"
+    },
+    {
+      "path": "reVC-src/src/save/PCSave.cpp",
+      "bytes": 3990,
+      "sha256": "26afe2b4440cb3e8d7a0ec9ba869fa32a8c47a0ee9347e4a998706a50b4285db"
+    },
+    {
+      "path": "reVC-src/src/save/PCSave.h",
+      "bytes": 741,
+      "sha256": "c2ddb4d7e23aec3daca2a332faf4ddf05469556e111c4d092687c701073baaab"
+    },
+    {
+      "path": "reVC-src/src/skel/crossplatform.cpp",
+      "bytes": 7078,
+      "sha256": "a0e09f0bc6a3fe827a5a48df0d86291a4fd12cafd4b0273c0f8bb9c73e24c374"
+    },
+    {
+      "path": "reVC-src/src/skel/crossplatform.h",
+      "bytes": 3656,
+      "sha256": "7629feecc9400f393c2d9f26ba2ddbbb9846f0c9e20b795e912322231e9b504e"
+    },
+    {
+      "path": "reVC-src/src/skel/events.cpp",
+      "bytes": 14461,
+      "sha256": "ccaf12bede8006f8cd8ef2e144b25809f343f0b3cd9417f317afb4be5952a38a"
+    },
+    {
+      "path": "reVC-src/src/skel/events.h",
+      "bytes": 100,
+      "sha256": "ce10251fb610839707e7b87416c00137f6bbb8e4de764f95149a53117230e076"
+    },
+    {
+      "path": "reVC-src/src/skel/glfw/glfw.cpp",
+      "bytes": 64119,
+      "sha256": "7703aca883f50af75fc9ab49c85b4c5e14ad0848173825f3ec20ee7bb6d57e3e"
+    },
+    {
+      "path": "reVC-src/src/skel/platform.h",
+      "bytes": 1532,
+      "sha256": "e6121471e90c16c5fcfe8a24785e89e7ac05b981de38c90f022c783340be0c0a"
+    },
+    {
+      "path": "reVC-src/src/skel/skeleton.cpp",
+      "bytes": 7456,
+      "sha256": "30a87cc1615d78cce58275867b6e91071051c85c1075d6ce4be996301fb802c7"
+    },
+    {
+      "path": "reVC-src/src/skel/skeleton.h",
+      "bytes": 5636,
+      "sha256": "4c1b210e5e7c981da3243fb1a2fa231edbb69e95bcc6a0d98dafd195b2f93a1d"
+    },
+    {
+      "path": "reVC-src/src/skel/win/gtavc.ico",
+      "bytes": 81817,
+      "sha256": "d4a6ac6cdccdf673ec5aa216edb30af861947a4f656901f6c4d24afffb28bc30"
+    },
+    {
+      "path": "reVC-src/src/skel/win/resource.h",
+      "bytes": 664,
+      "sha256": "ac19ab5e68071592554c2bade9b344cc9c36208af3c240842def5fdc25fbf458"
+    },
+    {
+      "path": "reVC-src/src/skel/win/win.cpp",
+      "bytes": 81621,
+      "sha256": "c7179acb5223c5c52ded338f1dfd68dd32274d2eda466e0baf6d26312f9a9ef0"
+    },
+    {
+      "path": "reVC-src/src/skel/win/win.h",
+      "bytes": 1879,
+      "sha256": "9f0336e5876aabb0f748ca14c427a803a0951c32740962e5974859c8915249a0"
+    },
+    {
+      "path": "reVC-src/src/skel/win/win.rc",
+      "bytes": 1423,
+      "sha256": "4580002b3a992ac19e4e167df4927d9be245443c24502fc9621b923c1b2f77fa"
+    },
+    {
+      "path": "reVC-src/src/text/Messages.cpp",
+      "bytes": 23237,
+      "sha256": "79fbf591a1f0cd587b9bad1ca08e013559987b1992a247bdb27817d49aaeb51b"
+    },
+    {
+      "path": "reVC-src/src/text/Messages.h",
+      "bytes": 2828,
+      "sha256": "7f0f5b8b38ba36aa6cc7248ba2a1e4edcb0327dfb232f66582bc2b0bd54c1077"
+    },
+    {
+      "path": "reVC-src/src/text/Pager.cpp",
+      "bytes": 4873,
+      "sha256": "393c0e8586cf885ef0e5e3ab00a2a4ec673153aa99458496aeaee5b22e02bb80"
+    },
+    {
+      "path": "reVC-src/src/text/Pager.h",
+      "bytes": 687,
+      "sha256": "f8884f0791a4f4ee7a18ea48ae2adf2e4c7732b38119e40f3e4ce9c784d24878"
+    },
+    {
+      "path": "reVC-src/src/text/Text.cpp",
+      "bytes": 12894,
+      "sha256": "58922599029f36cb95d75ba868a32ade1942b6d5a8b160367be5f9642cb31367"
+    },
+    {
+      "path": "reVC-src/src/text/Text.h",
+      "bytes": 2372,
+      "sha256": "38bae9d655bca946ea3249731a692564c959369cc5339543d95516e83dab0fda"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Automobile.cpp",
+      "bytes": 202946,
+      "sha256": "e81143a24ee5900802282667b13548e340ef215d226429541087273a700013f3"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Automobile.h",
+      "bytes": 5529,
+      "sha256": "225ed84eb265b33c2717ea4d55457016c17fb05c97cad9e59d8e3f35f055856f"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Bike.cpp",
+      "bytes": 99347,
+      "sha256": "08295ccd1e3966e3ba58f8b5d5c26c3379e62a5b0cb9a6bdf54cd81292f6182d"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Bike.h",
+      "bytes": 4389,
+      "sha256": "6666616470c12f89f1ecd870818fdce22122091c82bf143a7461c494fc9c4716"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Boat.cpp",
+      "bytes": 51161,
+      "sha256": "8ed982a1f905a96576f73bab348e9c90de1225fe5314e2089435adad890984ef"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Boat.h",
+      "bytes": 2064,
+      "sha256": "375662e003346b66afb6c100901dc69eac6e7769c41344248ff5c91541e29154"
+    },
+    {
+      "path": "reVC-src/src/vehicles/CarGen.cpp",
+      "bytes": 9759,
+      "sha256": "a28f9b80c79ec41393cfcd1c493acc2c6564d38ee1ce395d9cd4efd70325af45"
+    },
+    {
+      "path": "reVC-src/src/vehicles/CarGen.h",
+      "bytes": 1401,
+      "sha256": "27bcca20569abf6ba28ee111a44134dc56d516b1638f8b4a1335119453c8e340"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Cranes.cpp",
+      "bytes": 23857,
+      "sha256": "1a40693671bcf5ba989d40d686b811b439763e00c0a5015136553828bfc6f452"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Cranes.h",
+      "bytes": 3143,
+      "sha256": "545e00bcd3989550b7263ac25cc7c31d12eec2aa7afdead3b9f445a5b08b9e92"
+    },
+    {
+      "path": "reVC-src/src/vehicles/DamageManager.cpp",
+      "bytes": 4933,
+      "sha256": "56e59eb9d902efa8a327470071fdfba62e3a05aa19d62969993ff8e181af72b7"
+    },
+    {
+      "path": "reVC-src/src/vehicles/DamageManager.h",
+      "bytes": 2440,
+      "sha256": "652478dced312765316bdecacfce894d491982cd846be062cdd1e87ff22a3d8d"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Door.cpp",
+      "bytes": 2969,
+      "sha256": "d4210e9f0183c8d2e63d55655aaa69c0d611c51f879420351820c92e21d9e3e0"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Door.h",
+      "bytes": 1360,
+      "sha256": "ceca8cf0a2c8e1828e72dc87cb29ed53a0ded1b4a79b04979150bc6b797ac5be"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Floater.cpp",
+      "bytes": 8645,
+      "sha256": "7e6173b141e957920269b1c278abaef475d7c0481e315e26631496276cf696d4"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Floater.h",
+      "bytes": 1270,
+      "sha256": "f7114dd23d41629e8538ddf32c6c22a214c7e4ed61baacbd3f1b416f18c5c44d"
+    },
+    {
+      "path": "reVC-src/src/vehicles/HandlingMgr.cpp",
+      "bytes": 13447,
+      "sha256": "055823b490349cdab70e8c95ad6f9f59a69d51cf0d92b24366a44f09df8275c8"
+    },
+    {
+      "path": "reVC-src/src/vehicles/HandlingMgr.h",
+      "bytes": 6238,
+      "sha256": "431807df13c835a09d8b19ad2a1a5738764ac21a72534369fd78e9b5fdbff5f9"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Heli.cpp",
+      "bytes": 31883,
+      "sha256": "8f29fc47437f2e9ce4f093230045e6a1c0ab1a496bb616b2e82d27fdc561e696"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Heli.h",
+      "bytes": 2314,
+      "sha256": "feb63a6481dd439e8897e2bd423eeb4059d6dbeec4c139576a1e9bf59b2710a4"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Plane.cpp",
+      "bytes": 34076,
+      "sha256": "3835cfafa24c0e5cb2b9cc940398ed7c019ea1c5f680df5956b3f833efb88b9b"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Plane.h",
+      "bytes": 1857,
+      "sha256": "e08e543614fd954e0889aae0dad267ec558ffdb75bfa6afd4e4fa55f86b8dede"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Train.cpp",
+      "bytes": 22082,
+      "sha256": "4e7a7a4d483baf2517e5a10c4e5f17f5eab731eadcfd288ee6edff1d44428b3a"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Train.h",
+      "bytes": 1666,
+      "sha256": "a916fbeffe3c0724d7400b8ba03f2fd5b97cdbd5f95bf75ba513a584e9cd00f0"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Transmission.cpp",
+      "bytes": 3273,
+      "sha256": "f5b832b1b04a5ac7ef48762d0e7a08c4e22341e6726da396177be7fec21fd360"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Transmission.h",
+      "bytes": 600,
+      "sha256": "c8eca8384beb846c5860955acfe9e607e96c9659cb734c878034e73f80b83c8f"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Vehicle.cpp",
+      "bytes": 74222,
+      "sha256": "b8f0543b694e2a26c225555c9949e95dadb2069496836240e9b04b6df322b5b6"
+    },
+    {
+      "path": "reVC-src/src/vehicles/Vehicle.h",
+      "bytes": 14539,
+      "sha256": "a40c773a2da5fd750ffbce94e6de66a43c4c36aafb68f5bfbd3e562e770c2419"
+    },
+    {
+      "path": "reVC-src/src/weapons/BulletInfo.cpp",
+      "bytes": 11557,
+      "sha256": "04da3719fd1fceab5e8de11caee3ad0e9a2487d4dbe990770809d4ba2cf66581"
+    },
+    {
+      "path": "reVC-src/src/weapons/BulletInfo.h",
+      "bytes": 557,
+      "sha256": "b39eed223b646b4ab4b293836aabed05f855a8c3c9a7a284e3426f204800f404"
+    },
+    {
+      "path": "reVC-src/src/weapons/Explosion.cpp",
+      "bytes": 19225,
+      "sha256": "444dce21e17e31bcc1ef1ab74f40d5cc74b6c437d6e02e4c7b12d9be27a91303"
+    },
+    {
+      "path": "reVC-src/src/weapons/Explosion.h",
+      "bytes": 1599,
+      "sha256": "0b99a285b54d6a5d0b47c42f924442c4accc0866c42a8cf7c69bd869bc17f7e6"
+    },
+    {
+      "path": "reVC-src/src/weapons/ProjectileInfo.cpp",
+      "bytes": 13840,
+      "sha256": "a6dbec211a770d61c731bf2cdd65213659d07536a4b54187ecd0a13432fc23ae"
+    },
+    {
+      "path": "reVC-src/src/weapons/ProjectileInfo.h",
+      "bytes": 979,
+      "sha256": "da016992aeede863918dc7b1f0922edd6c343f1cb93c2460abc4477e87b95c7f"
+    },
+    {
+      "path": "reVC-src/src/weapons/ShotInfo.cpp",
+      "bytes": 4539,
+      "sha256": "3b11e4a4206055b7dbaabcdd126a8342b4171ebd718e83ad1dbd5b9c638f4b1e"
+    },
+    {
+      "path": "reVC-src/src/weapons/ShotInfo.h",
+      "bytes": 415,
+      "sha256": "236d24172b9ddcf338757fe0bacb7706b3f43da25ed8f43da5ba67546b8f863a"
+    },
+    {
+      "path": "reVC-src/src/weapons/Weapon.cpp",
+      "bytes": 102654,
+      "sha256": "05c53a74e0b2290f8166c026031aba004371baf0b5e1fa23dbe7c4f309f55d82"
+    },
+    {
+      "path": "reVC-src/src/weapons/Weapon.h",
+      "bytes": 3301,
+      "sha256": "98580dbc0c9d90217a7356d6da1ea0b25c16b1f38f8cf23fe5a8c6c4fdd45616"
+    },
+    {
+      "path": "reVC-src/src/weapons/WeaponEffects.cpp",
+      "bytes": 3116,
+      "sha256": "d8123fb2df2dc2b4cfeda2a6db3de09ea57055d588d9249073629423fd3aa193"
+    },
+    {
+      "path": "reVC-src/src/weapons/WeaponEffects.h",
+      "bytes": 486,
+      "sha256": "d7c746e8511f81553ac8c52a8492f5f31c23f40443581f979c47335109fd8f25"
+    },
+    {
+      "path": "reVC-src/src/weapons/WeaponInfo.cpp",
+      "bytes": 7678,
+      "sha256": "8205eeb1383f6e237035519b8825beff25c1af71707ba202c8d8fc4aac37a6ee"
+    },
+    {
+      "path": "reVC-src/src/weapons/WeaponInfo.h",
+      "bytes": 2065,
+      "sha256": "3405d3dfb06708ae770f568c4eb9041942b0a1ad4d38cf0a03e247ca428c3815"
+    },
+    {
+      "path": "reVC-src/src/weapons/WeaponType.h",
+      "bytes": 1715,
+      "sha256": "9fd32491997e8f97519fffeef3eeeb7a09585cf1d7b70d11dca73dfd61db49be"
+    },
+    {
+      "path": "reVC-src/vendor/librw/.gitignore",
+      "bytes": 92,
+      "sha256": "7b8a818f9e31612f648e419aeacde1def18cccb0dada33349f514d8842947190"
+    },
+    {
+      "path": "reVC-src/vendor/librw/ARCHITECTURE.MD",
+      "bytes": 6112,
+      "sha256": "63901b8ed224e4ffa8bb19c577dc1aa05cbcea8c61d9cef35ee5c6094ab3aea6"
+    },
+    {
+      "path": "reVC-src/vendor/librw/args.h",
+      "bytes": 760,
+      "sha256": "fe8dfa4c73425d1785cd6fa61362b1260c24e9d6010f14d89710889bfb2d2e11"
+    },
+    {
+      "path": "reVC-src/vendor/librw/cmake/FindSDL2.cmake",
+      "bytes": 1202,
+      "sha256": "a3bb3586415670980bc35ed20082de0e3ecff7d7b45ed856c0d78b3836465654"
+    },
+    {
+      "path": "reVC-src/vendor/librw/cmake/librw-config.cmake.in",
+      "bytes": 548,
+      "sha256": "1b11a23b95f72d06344e9789d99d9da44864ca3156e2e3bc907ca9212d878d46"
+    },
+    {
+      "path": "reVC-src/vendor/librw/cmake/ps2toolchain/CMakeDetermineDSMCompiler.cmake",
+      "bytes": 2768,
+      "sha256": "06c6dfc33a38913fdea1a3766fc689b8cc4f897e3d1b9fbbb84058b572e65c4b"
+    },
+    {
+      "path": "reVC-src/vendor/librw/cmake/ps2toolchain/CMakeDSMCompiler.cmake.in",
+      "bytes": 682,
+      "sha256": "4622599e6730426bbc2423dc7054e2811bba8089696487cfc3e7b03e1702446c"
+    },
+    {
+      "path": "reVC-src/vendor/librw/cmake/ps2toolchain/CMakeDSMInformation.cmake",
+      "bytes": 2952,
+      "sha256": "81c0e53efdb032ecf8a49a93581f64d15f7f34dbce08a95037058403b8c91037"
+    },
+    {
+      "path": "reVC-src/vendor/librw/cmake/ps2toolchain/CMakeTestDSMCompiler.cmake",
+      "bytes": 158,
+      "sha256": "5b744f43b57edfa0caeb95d107221235367693afdd6dcd694367e10174036df1"
+    },
+    {
+      "path": "reVC-src/vendor/librw/cmake/ps2toolchain/cmaketoolchain.cmake",
+      "bytes": 2462,
+      "sha256": "6a6d521247bf312f352f365d5d4d7a05c5fe7336f7fac9500b12ba75d91336c3"
+    },
+    {
+      "path": "reVC-src/vendor/librw/cmake/ps2toolchain/conanfile.py",
+      "bytes": 789,
+      "sha256": "82a5350f4aa6d71d22b76b0e5c5075308c37ae9a91589848a2d8d94c85738fae"
+    },
+    {
+      "path": "reVC-src/vendor/librw/cmake/ps2toolchain/Platform/PlayStation2.cmake",
+      "bytes": 36,
+      "sha256": "1e1dcaefc0b8a8043638b53f28c722574e46cf4187c8cc3eb2759b2dc438624f"
+    },
+    {
+      "path": "reVC-src/vendor/librw/cmake/ps2toolchain/toolchain_ps2_ee.cmake",
+      "bytes": 2232,
+      "sha256": "f8da1d4d8142f334c138ba022f06398f5e611ef3a0fbc3b9ee994f632fe89aba"
+    },
+    {
+      "path": "reVC-src/vendor/librw/CMakeLists.txt",
+      "bytes": 4143,
+      "sha256": "1089a605611ee12a9ba9d33c57f1ee96cb20fb46f5b0d6d23161e7534c2208d1"
+    },
+    {
+      "path": "reVC-src/vendor/librw/conan/playstation2",
+      "bytes": 211,
+      "sha256": "fbab6d92572f349aa62853f4f0d11538cb618552da020df375698357f8df63cb"
+    },
+    {
+      "path": "reVC-src/vendor/librw/conanfile.py",
+      "bytes": 5450,
+      "sha256": "8ec6a06a3df24f4e8dde6891731254c2fc84312aa22969ab04f6eae39e8d64e3"
+    },
+    {
+      "path": "reVC-src/vendor/librw/docker_rebuild_ps2.sh",
+      "bytes": 608,
+      "sha256": "6f93f6f3d64e9888f94fe3553f21248a018074be7dff55a284e0bd8eb2f6f46d"
+    },
+    {
+      "path": "reVC-src/vendor/librw/Dockerfile",
+      "bytes": 1806,
+      "sha256": "1ea68e52db5162cdd822aa3c5b4366f56377b1824bc22d46f060b3d3e7239157"
+    },
+    {
+      "path": "reVC-src/vendor/librw/LICENSE",
+      "bytes": 1071,
+      "sha256": "3c80d2131d9256849993cf0ead32f30873eda7dfc60d7a82a05ed5e02df7b826"
+    },
+    {
+      "path": "reVC-src/vendor/librw/premake-vs2019.cmd",
+      "bytes": 15,
+      "sha256": "fa21ca87cc2a5b6ebabb1929edb0479bda3dc49e4491ee4377fe59b5bcd05db9"
+    },
+    {
+      "path": "reVC-src/vendor/librw/premake5.lua",
+      "bytes": 5941,
+      "sha256": "b6dd659df9f8b9b6c9a06f5115ac022339595f4d09dfbffce1a38d6d03796932"
+    },
+    {
+      "path": "reVC-src/vendor/librw/README.md",
+      "bytes": 800,
+      "sha256": "901eabb5f6c3cb2edad8b5a9653fc9f78ee3176e985367dd168721b8c8d20d36"
+    },
+    {
+      "path": "reVC-src/vendor/librw/rw.h",
+      "bytes": 625,
+      "sha256": "36c092422b79285e85efa97dc427d1b89bf333eea38633ce75afa737211684f7"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/CMakeLists.txt",
+      "bytes": 988,
+      "sha256": "325c9be4ff124b43d24ad8fda1d2a3e77f6998429aef32bd4e793a6888a49d87"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/glfw.cpp",
+      "bytes": 6599,
+      "sha256": "7fe2965ba3f4c3eac1c8ceccb8993a688f18c692bf4e11aad2647e9dc1b381b9"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/imgui/CMakeLists.txt",
+      "bytes": 949,
+      "sha256": "8a7f22558c2004d77d8b8b8b3ddf3b180a3dabdfa972de80c09cf2f8107e7251"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/imgui/imconfig.h",
+      "bytes": 2927,
+      "sha256": "8be01ff606428036c4e8350e5cfb21dae59d97fbd7e13a7b35cd58e56866166b"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/imgui/imgui.cpp",
+      "bytes": 533262,
+      "sha256": "a21df127bf269de5e9dc2892a872704f5ddf504712bfdb22583c7cee839e1778"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/imgui/imgui.h",
+      "bytes": 155134,
+      "sha256": "2bc0297bcfb69c7b1083360f71dbe6748c12cea0404f7a0e1cbc918798d0fa6c"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/imgui/imgui_demo.cpp",
+      "bytes": 154817,
+      "sha256": "4ec4e67645eaa724cafea58fe03326bd2a07460a7a8c0d9c05181bcb377c516e"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/imgui/imgui_draw.cpp",
+      "bytes": 136035,
+      "sha256": "f67abbdaf22f1046e5363fa64d449a195ace9123d781914cffac6e18b5c22eb6"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/imgui/imgui_impl_rw.cpp",
+      "bytes": 5821,
+      "sha256": "88b1e980e106dbeec23fa4cac2c432791fc3a17ec798f0f6b11b608ee73499a5"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/imgui/imgui_impl_rw.h",
+      "bytes": 200,
+      "sha256": "6b4098c48c2d0da0e93ac93c71d180b876a819cf2deda3850be24e2a92d220e9"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/imgui/imgui_internal.h",
+      "bytes": 62223,
+      "sha256": "02aebf8beb81925aac250457508368c8c985ba1857dd55d49110d772f596e40e"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/imgui/ImGuizmo.cpp",
+      "bytes": 71937,
+      "sha256": "ec40fefb69313dea243cd4c0692965b3f267e752ee7eec4592f014e2b5430190"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/imgui/ImGuizmo.h",
+      "bytes": 7122,
+      "sha256": "755b1efbcf16a3c4d197fe4dc3085a2b9f619a50f653b1cdc9fb78b65e424199"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/imgui/LICENSE_imgui.txt",
+      "bytes": 1106,
+      "sha256": "ca223157dc0e05092463129fc253d18509b0bd4942a6010e526299c36b6ff863"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/imgui/LICENSE_imguizmo.txt",
+      "bytes": 1083,
+      "sha256": "b957968be18bbc4fde7705cfcbda10bea1a71614e62361ace0473bb97dd0b700"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/imgui/stb_rect_pack.h",
+      "bytes": 17384,
+      "sha256": "3d1f0687ca3250fc34ce92753e8d0f68eb6a3cd5430b86cabe52f87546727182"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/imgui/stb_textedit.h",
+      "bytes": 49161,
+      "sha256": "612674f0b4809410af6d2b4390c3bb07fc21b504cd54b48495595d9a8e2cb859"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/imgui/stb_truetype.h",
+      "bytes": 152430,
+      "sha256": "6cc7a232fb206c3302d2af79bb2dda99bfc15d49d7b25b17db724294c9ccbf0e"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/sdl2.cpp",
+      "bytes": 7661,
+      "sha256": "14e92534169b40acb1bff9ee2dc0cb9bb6446fd17a35ca5c22d4c6692d7fd134"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/skeleton.cpp",
+      "bytes": 2273,
+      "sha256": "bafda7561cf891688b34c961e045cca0f900dc13e5ea448afff9f0cc8288190f"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/skeleton.h",
+      "bytes": 1695,
+      "sha256": "d6ae6c430d15817e52276c0d4967e13bf6efdbd20272236711b1da97fd394db4"
+    },
+    {
+      "path": "reVC-src/vendor/librw/skeleton/win.cpp",
+      "bytes": 7066,
+      "sha256": "725cdec0968960f2976eaa85705cdc39b266bac55b74ac4a7fb46bb84fd44921"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/anim.cpp",
+      "bytes": 7369,
+      "sha256": "e424d283f3493e65c93d4f249db321a1e9717aeee229b6a3bad46a8c751eb834"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/base.cpp",
+      "bytes": 23902,
+      "sha256": "58e8cf49d35544b0999e81d78f761ab85a04afdbcf25d2fb93f48dcca231c0ee"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/base.err",
+      "bytes": 657,
+      "sha256": "e302e5a6a2b52a96607714e3b376b54be05f745d1f6cc5ef5697bc445906f625"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/bmp.cpp",
+      "bytes": 5352,
+      "sha256": "de3c8d06cced00c913afdd7ab660c8feed53b005239d06831fb118ff4f7444b8"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/camera.cpp",
+      "bytes": 12791,
+      "sha256": "03da41ecb688f40148986f829720f61c33a43404564ec6c0c556179e10dd6dd8"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/charset.cpp",
+      "bytes": 5186,
+      "sha256": "b64e60952b29e90f9e823139007c8a91c76991985d02cae66af80c09a9fb975b"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/clump.cpp",
+      "bytes": 14654,
+      "sha256": "00832ed54561f979b616a186ed37e95283f40f140e5ceac3dcd9940f9135bed8"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/CMakeLists.txt",
+      "bytes": 5327,
+      "sha256": "0f653d1e7c68c91b092825ea70a45dee0e9e4f77bcf8b3bbac87f5fa1c26cee9"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/d3d.cpp",
+      "bytes": 25962,
+      "sha256": "25e83ce3c17f0e717ccff2e5881a0fdd24a3f0a53a1a751e8844446f911f83b9"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/d3d8.cpp",
+      "bytes": 18398,
+      "sha256": "3b9ff97c9f8125c456d7d01778b4c0fbf3bb2319ff4d58de40f455b57cf0c24f"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/d3d8matfx.cpp",
+      "bytes": 1068,
+      "sha256": "cf53c9735b89aa84ffc49c64230d1741baa7d226a1f999cf85e8ce70a452a71d"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/d3d8render.cpp",
+      "bytes": 1807,
+      "sha256": "5e6dc0bf55b06f51372250c1c1bf64517586a5e286cecb79a7f3f9e307914ed2"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/d3d8skin.cpp",
+      "bytes": 1056,
+      "sha256": "82b203a865501807d19663651db706d66ca3cd2a651e40ac5e90c7b829dd1fb9"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/d3d9.cpp",
+      "bytes": 24584,
+      "sha256": "18cc04c91c71fe176ed8c77ba302a99e9339edf10b6893297a3793bf699dc296"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/d3d9matfx.cpp",
+      "bytes": 6865,
+      "sha256": "ee68904e4ba35cd657fbe24e810104690506585abe4fef63dd8bcb3b8ea01e6f"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/d3d9render.cpp",
+      "bytes": 5914,
+      "sha256": "afa7d2fe30a9a21a539cc02a627eef7d443e078effb912c370406a655d9e2bbe"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/d3d9skin.cpp",
+      "bytes": 10212,
+      "sha256": "70e9b4eb906de591d159955ac3bd8692f486eb956c2b454b7d05f7fe2ea833f8"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/d3ddevice.cpp",
+      "bytes": 54425,
+      "sha256": "19836534204880dfe57fbd9a24e190e73405cdf4a021d86c8205934a19bfa09d"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/d3dimmed.cpp",
+      "bytes": 9595,
+      "sha256": "9f966765c03f216d7dcad139f447c48a1e1e4a9ad7c3d565f4f5f1cd90d1f1d4"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/d3drender.cpp",
+      "bytes": 10262,
+      "sha256": "43ac40be08c9f3c66a7b23f11c42463d7884a7803278910bd55f4f66b9bc0b07"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/rwd3d.h",
+      "bytes": 12504,
+      "sha256": "8d6ea88af3b88ad442b0fa1fa3c86ead42a3be91efe093dac852177818773e88"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/rwd3d8.h",
+      "bytes": 1765,
+      "sha256": "9f6a16d3134578e29072f28ec0fe9afe656d1bf81e56018d8d8d8dd7b07d6ed2"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/rwd3d9.h",
+      "bytes": 2931,
+      "sha256": "aa5f1138fa882afc4260f7e9dd659ccd502f809fa5a89d89e42df179184bb0f5"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/rwd3dimpl.h",
+      "bytes": 2191,
+      "sha256": "843d36fa68a093ed5656b37ce6ce71425ff2ebae71d2db9f626953bcd99b804c"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/rwxbox.h",
+      "bytes": 5438,
+      "sha256": "9de0dee4920e9982df42b023c322d5bed56660ead29a7644b1a008a28cd906fa"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/rwxboximpl.h",
+      "bytes": 252,
+      "sha256": "da8f2035a2d7dd8dc38d4f5284b2814f575e26d96914e12f9b384d979ee7c6d8"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/default_all_VS.h",
+      "bytes": 15396,
+      "sha256": "e8fca5001eb7cc1ab681794fbff4f4279d106ce1971eb61dc906ea4d328347bb"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/default_amb_dir_VS.h",
+      "bytes": 8223,
+      "sha256": "db2bdd64db46bd1669f00ba6aeee6f6e1234b12191da01184b9169b8b092ecb6"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/default_amb_VS.h",
+      "bytes": 4579,
+      "sha256": "a562b15056f68487a0f73ac1d35ee58b8498ff28d052c106126916d86131b0b8"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/default_PS.h",
+      "bytes": 1858,
+      "sha256": "000a2e0b683760899ad208ecf505a74a420bee6b5a4b73ea8449fd1583a53fc8"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/default_PS.hlsl",
+      "bytes": 377,
+      "sha256": "bfa5a66a660ea6354390c08bb1afa2ce80343b52652ac47a7c48cd13a8e94f39"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/default_tex_PS.h",
+      "bytes": 2454,
+      "sha256": "7af4236e2d1cdaab31c1e9dd85ac41aed29909b188eacfa19be2990b8796830f"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/default_VS.hlsl",
+      "bytes": 1286,
+      "sha256": "0e138fad112bf4caf0c7a4405948e6b30da9af4e0feeeaeace42926dcfeea938"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/im2d_PS.h",
+      "bytes": 1852,
+      "sha256": "bc2224e4a5b991946b8f17498faade88c7b75306938e18b837a0c58a441c4c90"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/im2d_PS.hlsl",
+      "bytes": 377,
+      "sha256": "bfa5a66a660ea6354390c08bb1afa2ce80343b52652ac47a7c48cd13a8e94f39"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/im2d_tex_PS.h",
+      "bytes": 2448,
+      "sha256": "86b0496e6271b62973ef807b2410e65b9280820c2b7d7abcd9cb4eb7f7159231"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/im2d_VS.h",
+      "bytes": 2971,
+      "sha256": "a4e78c675225371485f56c30da08cd331b08eaa214448f87310506dd1f4b38c2"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/im2d_VS.hlsl",
+      "bytes": 635,
+      "sha256": "1da101068b3e1e6f740c5faabf61e86a60fd8e22d39640d69df57f0a7fc14180"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/lighting.h",
+      "bytes": 1135,
+      "sha256": "3929e49a21363134499348f51b2de4cc9695f935958ba96ed33f2fd3f8e9484e"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/make_default.cmd",
+      "bytes": 815,
+      "sha256": "a4ff94d323649fba2befaecfef421d0e76f23a80963e9e9ccf5320ae1eb651f2"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/make_matfx.cmd",
+      "bytes": 569,
+      "sha256": "d6cf4b2c1472cbf17e457d5c59ca373f837993d5ea48334d85ab6f5b99edc5a1"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/make_skin.cmd",
+      "bytes": 338,
+      "sha256": "ef9fd4f5d2bcff04f1cc0bbb45865176fb46dafd8e07ee9fae7b138febf6adb5"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/matfx_env_all_VS.h",
+      "bytes": 16145,
+      "sha256": "3692bbfa9071b566983913ef716b32493786646f56dd52945f20b6ec6280308c"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/matfx_env_amb_dir_VS.h",
+      "bytes": 8970,
+      "sha256": "908a1de8abe93fa31893aed6f9cad063dee63676c901e792034bfa9ef5d9d881"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/matfx_env_amb_VS.h",
+      "bytes": 6167,
+      "sha256": "3257e0a07e5fbff33300c70e1a410a5c07c5cf3b4a35ce1dd8732a0857f13d38"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/matfx_env_PS.h",
+      "bytes": 3785,
+      "sha256": "b3179f3dd042579fe50d7b4eb460e0e506c68b64178ae9cdab5be94aca6af151"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/matfx_env_PS.hlsl",
+      "bytes": 1187,
+      "sha256": "2eb31c138e903fde085bb33999eb3f6efacf2eb872dd53829316c79bbb4d058e"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/matfx_env_tex_PS.h",
+      "bytes": 4363,
+      "sha256": "4a37ef02db2d9823852d23b2f686aeaa02bd2d16aba8490a28a5257133d5f154"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/matfx_env_VS.hlsl",
+      "bytes": 1360,
+      "sha256": "e279b58059fc3262efbe01c648d9c7e35be19182ee3c1273ec21427868aa8c19"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/skin_all_VS.h",
+      "bytes": 21112,
+      "sha256": "da987ea9f1384df771eac7929c350f6cdcff305e3e968ea9662ec73b5954df28"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/skin_amb_dir_VS.h",
+      "bytes": 15697,
+      "sha256": "b2bed03f25f5f64dd019da2d9c8c0b52a50e619fffa756621815be551f32835d"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/skin_amb_VS.h",
+      "bytes": 7773,
+      "sha256": "876d9eb110eea4f1913edd6af1256956eb7e68b37d6d2008f9d10c7395405615"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/skin_VS.hlsl",
+      "bytes": 1726,
+      "sha256": "8d5f57b88d4c6b215beb7b7db038ed4f3ef31a90d7c8a8bee291b274504cf5ae"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/shaders/standardConstants.h",
+      "bytes": 773,
+      "sha256": "c15f6fb28c62e494cb1a17e543be9b4c77a4e423102752736a8cffc459f325e7"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/xbox.cpp",
+      "bytes": 26390,
+      "sha256": "6b8890726a1153de256290f57d06075d46fda5a24d5294c678ff62abac48b7b7"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/xboxmatfx.cpp",
+      "bytes": 993,
+      "sha256": "1d1fff2bb9ec5923bf742f70ea113dc12411e364691539972dc3af8a2f6080e1"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/xboxskin.cpp",
+      "bytes": 6389,
+      "sha256": "dcaeb54ddf3d9e9fc76e254ce209c133885b37112c7a5f168341111ebcb9f785"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/d3d/xboxvfmt.cpp",
+      "bytes": 2441,
+      "sha256": "a5ac9cb470272c477616507dd2df94e68d2ec7dfc28e1aa6e16e7a3d557f59f3"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/engine.cpp",
+      "bytes": 12231,
+      "sha256": "e736378e2a15f9e9c79264b5282ae4e618ce7ef6ce17f58ea419ada3844705a5"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/error.cpp",
+      "bytes": 567,
+      "sha256": "d4c5ad5efd22065b201e14f15319d1f9ff84a004b4def056188cf764ab002c2b"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/frame.cpp",
+      "bytes": 11101,
+      "sha256": "87d2972896fb84af176dfb435e546466ad6a0f4608cc334331b1b2955a9a3ba4"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/geometry.cpp",
+      "bytes": 26007,
+      "sha256": "8925df6ab1df600b5d27bff865d4a5c930b6681035e86f90fe5f071d59fe4d7c"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/geoplg.cpp",
+      "bytes": 9219,
+      "sha256": "23236157146779d6d06dc2a0ff1156563c42304425ab80a4fc9706217545ea23"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/gl3.cpp",
+      "bytes": 1335,
+      "sha256": "221923e97331aad76bc6e957c538c6e7bf229bfd8dda8cf298c128a9d921e163"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/gl3device.cpp",
+      "bytes": 52373,
+      "sha256": "78f86b0b86f85adc7e690f1b0a20af0bfefe5f31b14199bb63f2228d049bd36f"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/gl3immed.cpp",
+      "bytes": 7291,
+      "sha256": "76287f31bf640957364753ee45f608e1aa66c56aa393c3d5545b709a50506169"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/gl3matfx.cpp",
+      "bytes": 4455,
+      "sha256": "88e9cd78ae0775af4931aef41542f10480c82a79c2a290445088f8cc01aa50d8"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/gl3pipe.cpp",
+      "bytes": 8270,
+      "sha256": "bbe307e9ba45979176a7036d7eff97e17db218a5773d648ec27ac0214387d7b6"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/gl3raster.cpp",
+      "bytes": 24336,
+      "sha256": "5d146c8175f33776253c2d364f18c49735f0131b9d48929fccf487f1cd97b086"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/gl3render.cpp",
+      "bytes": 4063,
+      "sha256": "2431af81f5820497e0da023236871b440c43fb1f3e3a21eccbc4fce662ae94a2"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/gl3shader.cpp",
+      "bytes": 6178,
+      "sha256": "7cedd1dfe4bef2788a75d9abeff376c4425fa6f2c9a0b70c088fb08285b7dd5b"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/gl3skin.cpp",
+      "bytes": 7367,
+      "sha256": "3ba81a77f47697b156d5cb5c8a924f1f4ca3d8b9917dbd1eeba3e824c4474633"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/glad/glad.c",
+      "bytes": 97111,
+      "sha256": "713dec01915dc27eb013bcd5da896e2d976e177832a0c061408d09211c7471e9"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/glad/glad.h",
+      "bytes": 148463,
+      "sha256": "92f791a9fac8b561704bef280d02c4f0cf9ed2d7ddfdb171f3eacfc946cbc07d"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/glad/khrplatform.h",
+      "bytes": 10279,
+      "sha256": "e206a6931f98ffe1c5c7ece69c4f94bbe1c9279243f40cbe7782848a0d3fa2de"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/rwgl3.h",
+      "bytes": 7101,
+      "sha256": "c00056615bce6b18c80d26661bb03eea681a90ff5f3bf6cb430f5cddf3806aaf"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/rwgl3impl.h",
+      "bytes": 1798,
+      "sha256": "a51159fd14be5dbc6f8dc16fa14fd29680ba199fefddd607060e8518d0f1d8d4"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/rwgl3plg.h",
+      "bytes": 408,
+      "sha256": "466dc3c4a0eba46246c5fc39e7d4c9e7552e4286c898ba433a0004bfb5f8ce32"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/rwgl3shader.h",
+      "bytes": 848,
+      "sha256": "c8501144d2062855a988291574dba6795123672878d8f145bc4086579d7fb329"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/rwwdgl.h",
+      "bytes": 2006,
+      "sha256": "4c8e3351c79fd3ec1d1b4915a05662597e0c24ad5578bb728016b350edf71c2c"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/shaders/default.vert",
+      "bytes": 480,
+      "sha256": "cb5c0bd9d4b005bb335d8d98516048e3859c6bde9aa1a62e18cb44cdef3478ff"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/shaders/default_vs_gl.inc",
+      "bytes": 585,
+      "sha256": "84d1ae640c07fe59466bcfc4e8f118ef89f90aedf487a55a8a3bb2386bff85cf"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/shaders/header.frag",
+      "bytes": 453,
+      "sha256": "4d46ff5fc1677fe872d7c0b052902fe1224f496ffc7890e828265e896c74913a"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/shaders/header.vert",
+      "bytes": 2946,
+      "sha256": "27a7867809d8a7bd631e22b153c0c6da96f821a7a49638fce46286bc500bf7f0"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/shaders/header_fs.inc",
+      "bytes": 581,
+      "sha256": "9a469cc3f999d63bc22b5e1ba4636dab6b8afe1978332f8cbc9196e28da7b291"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/shaders/header_vs.inc",
+      "bytes": 3434,
+      "sha256": "1e224d2e9a29c76eb47262b8d755db4f5aa8f84d6b16b3b41ac947baf4791565"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/shaders/im2d.vert",
+      "bytes": 322,
+      "sha256": "fc31d15356441f513d47074dd46ec4bc98d3279ee83269a67801c9964aa7f2fc"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/shaders/im2d_gl.inc",
+      "bytes": 412,
+      "sha256": "38bdb9ddee20ceb61fed328b46718506a4cf6497c7a70c593a68a4d6214a75b4"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/shaders/im3d.vert",
+      "bytes": 295,
+      "sha256": "7ee5fbd057a9b5ded406b06e5ed6467324abea427df5f5c0b38a19048a739dc3"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/shaders/im3d_gl.inc",
+      "bytes": 381,
+      "sha256": "546d00fa24cf31016ebcfd3e1ee69114b68dae0e1a8b956ed0cd7422a6763163"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/shaders/Makefile",
+      "bytes": 1279,
+      "sha256": "bb08084e1fc57993fdd43e089a08068e8e42fed84377b8e6dc095c81db47f873"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/shaders/matfx_env.frag",
+      "bytes": 739,
+      "sha256": "b99ff6a194f82cfbb7b1b24973f3c9a2dfd999eaae0bc67e8bc668598152967c"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/shaders/matfx_env.vert",
+      "bytes": 574,
+      "sha256": "4ba0c333bff447f6fb552b46276ca2b6c87c7e0b0851405e68891eb87fc7f34b"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/shaders/matfx_gl.inc",
+      "bytes": 1571,
+      "sha256": "716c29242d9d2ec2f9a78936fefdf16fd00698114fe1e749960fcccf04c50437"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/shaders/simple.frag",
+      "bytes": 263,
+      "sha256": "ab0f6ce1e49e2013265b9cb2c14b30f1cbc30c2947ca4361129eeff5251af20c"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/shaders/simple_fs_gl.inc",
+      "bytes": 343,
+      "sha256": "9ccfae36a12c89eae945bd96227a2ef9e0de40c2d8e38fcbb3f04c00a33ab2a3"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/shaders/skin.vert",
+      "bytes": 814,
+      "sha256": "5630a4a5b89bfa5fc158565e42a9dfd4467b74a52f819296be371aefa774c907"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/shaders/skin_gl.inc",
+      "bytes": 944,
+      "sha256": "31763c03003626bbc6efe86c95b49db9f669c139c83a307f34210ff55be4aab7"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/gl/wdgl.cpp",
+      "bytes": 19537,
+      "sha256": "2e027dd358642393711a0cd006fb6600c7ba795e5732c41cba174e079f895438"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/hanim.cpp",
+      "bytes": 10546,
+      "sha256": "52216ba57b30d99e29f43b645b311504821930be80fcd0cb7d2d31f9f814936d"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/image.cpp",
+      "bytes": 27246,
+      "sha256": "940fa3de27197b6f66c8830fe4b228467b82586f456e9ad7a17577fe718bad34"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/light.cpp",
+      "bytes": 3332,
+      "sha256": "9a9edfb4a39a78617299973876be3b1caf78d3637a2afd27af41cdec71b169ff"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/lodepng/lodepng.cpp",
+      "bytes": 260088,
+      "sha256": "c55a19ba0f80ff68c5a4ac36138194c851cc2b1a9a0fbcd0be9ece02f1097e5d"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/lodepng/lodepng.h",
+      "bytes": 93636,
+      "sha256": "e7846c83e253008484153dcc4274222398d36b81aa3b0c6d266bbe0eac62bead"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/matfx.cpp",
+      "bytes": 13584,
+      "sha256": "8cd6e8a21c7c3866fe1eafe33b54de7d56e1eb86fdcf526c341db0146cc3030c"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/pipeline.cpp",
+      "bytes": 4128,
+      "sha256": "fa68b04aeb3b2dad5794a82673b8693ac2c0ef499b29ed12678a5830a9a04c84"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/plg.cpp",
+      "bytes": 4876,
+      "sha256": "5347abe2085fd77b57875ce6966afac5880246bfaf0261e4ffb9175519f0b502"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/png.cpp",
+      "bytes": 3863,
+      "sha256": "c77eeb3ba5dcd86f61240341c32c847dcff251252504bd579bdab5dc36b2a24a"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/prim.cpp",
+      "bytes": 1338,
+      "sha256": "1621428aa772fa01e9611286f33e4747f65f40257f21f456c024e508e1d55a6f"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/ps2/pds.cpp",
+      "bytes": 5528,
+      "sha256": "07cc918770a1a6f1d4e15981e856df58cd0486fdff9ee1718509ecc26bc7774f"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/ps2/ps2.cpp",
+      "bytes": 37807,
+      "sha256": "6ccf878d8fc1005d13f669f64b67088f6365391bc5b5f3255df8d00494c74612"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/ps2/ps2device.cpp",
+      "bytes": 852,
+      "sha256": "f61b5252559f1eb4e4e8d5087ab1cadcac3a0bf78bb725d4407777ad9751e3cc"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/ps2/ps2matfx.cpp",
+      "bytes": 1514,
+      "sha256": "257896f49d9ce0676e78a9deb7b902a79943cba07946a62f1207b0cbc15b405e"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/ps2/ps2raster.cpp",
+      "bytes": 62141,
+      "sha256": "2f5f08240f42e1ad02787a9b3adc4d07f86bc80522e929de2b4be3aea9341dab"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/ps2/ps2skin.cpp",
+      "bytes": 8065,
+      "sha256": "0ed3ffcdc781d50142953ea8ab151a13b47a433d609b7e67399dda22702c6237"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/ps2/rwps2.h",
+      "bytes": 6542,
+      "sha256": "b13c1b63696103355fca6b419858ecb51aa8d8a8922d5b4ff2649c7a1ce39edb"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/ps2/rwps2impl.h",
+      "bytes": 496,
+      "sha256": "2d027d7f9b1eff55363990d43b92b5376f61065f925480e9f469411c96afb71e"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/ps2/rwps2plg.h",
+      "bytes": 701,
+      "sha256": "c577e6eac6b76895831ab7021b311b3e17c30301292b7dc9fc12da389bc9e77d"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/raster.cpp",
+      "bytes": 12512,
+      "sha256": "9b456fcc70fe8c228438a2e9d98009a3ea120a2de7647641c114b5654feddea9"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/render.cpp",
+      "bytes": 1771,
+      "sha256": "9a6e45cb3f8b9685955d9c7810c53d218006d3924f2af4821c7110263e4b1709"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/rwanim.h",
+      "bytes": 4649,
+      "sha256": "0adfb71049c92f1a85a25ee4973c51417cfdf3f5aafede506ebcbf4943dd3923"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/rwbase.h",
+      "bytes": 19028,
+      "sha256": "fc7d0638a0d39c86d234d6de7d71ab3e45cdbdb0b95b53ccb8bd7e8e24a2ae38"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/rwcharset.h",
+      "bytes": 692,
+      "sha256": "26ca186336940614d973fb7e49124534b8ec22ea4d3ba13aa2e3b70889388a1f"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/rwengine.h",
+      "bytes": 8227,
+      "sha256": "991d2b733c44b46f7b7b04b2db6072f59fdc2da97804ba69179e04d84a08faad"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/rwerror.h",
+      "bytes": 552,
+      "sha256": "221b03df8e1936c5d15f717450fea2411d1fd8db7d9f8e39904f53f51689d8f0"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/rwobjects.h",
+      "bytes": 22778,
+      "sha256": "7a2667282d92e180d38765f3688f28cf433b32437939347d1334e01dcd9db7f8"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/rwpipeline.h",
+      "bytes": 1854,
+      "sha256": "ac03dcaef61c2187adf6d7358ec6648c3966da6af41c502585fe22db8c6e5446"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/rwplg.h",
+      "bytes": 2822,
+      "sha256": "97e50a27ca72cac3f94fa1e1e959d6fec9d7cce6d162d45a2b80d537a6e1e1d1"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/rwplugins.h",
+      "bytes": 5066,
+      "sha256": "1356e4a79a98205bc1a7ee7422846e2fb95a7bc08c2c04b6aa5056b887e9bf08"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/rwrender.h",
+      "bytes": 2413,
+      "sha256": "9c2e514d7a28a2932c4114fde0dc7b09f1d1f6e6bff78b0830f054487b5775f5"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/rwuserdata.h",
+      "bytes": 3181,
+      "sha256": "5f0fe0b16be9a730748d86bd1b0dee7328a3f2655bdef0fe4374aa9a6610eb78"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/skin.cpp",
+      "bytes": 12960,
+      "sha256": "ff7b088e19c9685f6b7d65eae2fe48a2cdae1955f5ef600fb2edb4261911dbd1"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/texture.cpp",
+      "bytes": 13679,
+      "sha256": "afcd7bba83103e2b68bc10ed6a5686053397b604b56efea46d95491371db7f3e"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/tga.cpp",
+      "bytes": 4997,
+      "sha256": "4968cf0042aae4c42285df691edc259741e4a135eecadc6b8c637f0e008b5c42"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/tristrip.cpp",
+      "bytes": 15662,
+      "sha256": "b32bfc459690c2cf1a950c58e24c18ac89b5c34453a936fd8b9856d3010be036"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/userdata.cpp",
+      "bytes": 10544,
+      "sha256": "dbd54a8ad759ab3bf41e029d29586e2345eaae6e54ad9a28cc78abdee85c0339"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/uvanim.cpp",
+      "bytes": 12750,
+      "sha256": "4ec09a6e0db77c5faab37d3d08523614b8a87c542a4330dad2f413882b9bb13d"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/vgafont.inc",
+      "bytes": 196864,
+      "sha256": "a06c3f7ccc38384a20e2714d5af04c2f7c08b84ed07c9db11f1143df32b09450"
+    },
+    {
+      "path": "reVC-src/vendor/librw/src/world.cpp",
+      "bytes": 4280,
+      "sha256": "1c59c11a7146d475adcef163e673230e2b57144ea2acc89f9ffccbd98ab750c3"
+    },
+    {
+      "path": "reVC-src/vendor/librw/TODO",
+      "bytes": 210,
+      "sha256": "5cb3108780e4f28742b1a801a56d7a7b305661599359e6290c924e4df7ffeb13"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/CMakeLists.txt",
+      "bytes": 203,
+      "sha256": "71a8139dd638fd1ed0c3b713254cf0ec051f1eef137280f8a761141c26c2edcc"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/dumprwtree/CMakeLists.txt",
+      "bytes": 226,
+      "sha256": "40d8df7d1de2158b38fa1e7e7f87b468f4d5c015c1fa0e4578445a730e435b0d"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/dumprwtree/dumprwtree.cpp",
+      "bytes": 4847,
+      "sha256": "85a31b9f2e8664408b1cec6d14bc9abae152a6422f1062c9ae3d87154160c81b"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/imguitest/CMakeLists.txt",
+      "bytes": 252,
+      "sha256": "845b40cdacce342a2097bf82060785387cb11e214ab4d9a6936aefca8ec15c47"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/imguitest/main.cpp",
+      "bytes": 4508,
+      "sha256": "04c54ee4b183b7d0eb814784efb7bcaccc1267dd46ad9a28651906471830daf7"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/lights/main.cpp",
+      "bytes": 7973,
+      "sha256": "36f5c4b9fe1cd60e2ac4131dffc7a3453c9390e1378f05bc8f591348b4287554"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/playground/camera.cpp",
+      "bytes": 2770,
+      "sha256": "8686fea1d5ec95ccc780b8c40c51abf0aac21d8712c68cbf5bd6d45bacd55aba"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/playground/camera.h",
+      "bytes": 453,
+      "sha256": "87ccf757740fb287ba8c3c9f5ead7d75925bcba0d67a2231c4520368c6478c5d"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/playground/font.cpp",
+      "bytes": 4063,
+      "sha256": "810a045f8db596c17d7c39174ba18e5270ef5a48bdcf10f34a2be8cab7715629"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/playground/main.cpp",
+      "bytes": 15006,
+      "sha256": "c95d89e22c0ef3c42ec65bb8099dfd744d6f041fe209e93bee22375e4fd4848d"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/playground/ras_test.cpp",
+      "bytes": 17962,
+      "sha256": "b15922d1b777899c7ef103799d305c70c755f5ef525dd3ca975de00e174564cf"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/playground/splines.cpp",
+      "bytes": 11458,
+      "sha256": "ad641c35579c91c393e062f5442b327bb70349dad63af68ebba68fb8b1015d68"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/playground/tl_tests.cpp",
+      "bytes": 19996,
+      "sha256": "0275505cbecd2858263a71bd19ae800bfe38a273196fd359731897e31564f182"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/ps2test/CMakeLists.txt",
+      "bytes": 426,
+      "sha256": "6cd96533c596b9e5a06c409b4760868cfe323f8359319ab622de570a7027128c"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/ps2test/gs.h",
+      "bytes": 8353,
+      "sha256": "9123682b65e80b74647fb3f83f7fc64abbe39b45158785b507ea9a39ada91990"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/ps2test/main.cpp",
+      "bytes": 17974,
+      "sha256": "8ca8647bd71308e1516581a5c760a3cf23661f9d37fd405233e21476e2a02e48"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/ps2test/mem.h",
+      "bytes": 3983,
+      "sha256": "3985d04c3a014ee28841f88498daa505b9ab08e4db204068cba2de2099018194"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/ps2test/ps2.h",
+      "bytes": 670,
+      "sha256": "a100ed6dc57a6c79233acb49bd08974634255d49fb1741ad8b9762701f4918bf"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/ps2test/vu/defaultpipe.dsm",
+      "bytes": 2249,
+      "sha256": "5ddd33a1ee2d393fe3687e79a739a99fb2a04f57274f72720bd82d44b7622024"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/ps2test/vu/light.vu",
+      "bytes": 1942,
+      "sha256": "94a9512dbe31497567e0109c93858f4c0cc9942838d36ad3e95e6caa089b2744"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/ps2test/vu/setup_persp.vu",
+      "bytes": 1792,
+      "sha256": "ecc4868e09a67c245fc4e5bba83195c425053c18d61395b652762cd801ccdcec"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/ps2test/vu/skinpipe.dsm",
+      "bytes": 2288,
+      "sha256": "8361b5dba20c1e950088a026ea846dfcde609c2082999557c1edc03478f572d6"
+    },
+    {
+      "path": "reVC-src/vendor/librw/tools/ska2anm/ska2anm.cpp",
+      "bytes": 1486,
+      "sha256": "795dfa52c96e7718a6cda1b805753f6d36569e5315a9f28f399b39e48fa2fba8"
+    },
+    {
+      "path": "reVC-src/vendor/milessdk/include/mss.h",
+      "bytes": 5987,
+      "sha256": "f67932f343f82cc6b70bf60845266323c29d262ae2d0c5e6be81f0846123e8b9"
+    },
+    {
+      "path": "tools/check_publish.py",
+      "bytes": 4645,
+      "sha256": "e815a58dd4fd1f9bad32dcbf6b261f2da6936c7f90a5ce96c814545f250f6e6c"
+    }
+  ]
+}

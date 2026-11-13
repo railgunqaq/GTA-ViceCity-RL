@@ -1,0 +1,77 @@
+# Local Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Personal configuration and credentials
+.env
+.env.*
+!.env.example
+.zcode/
+.codex/
+.vscode/
+.idea/
+*.pem
+*.key
+*.pfx
+*.user
+*.suo
+
+# Training outputs, raw traces and local evidence
+ml/runs/
+ml/shots/
+audit/local/
+audit/**/building-collision-evidence.json
+*.pt
+*.pt.*
+*.pth
+*.npz
+*.jsonl
+*.out
+*.log
+ml/*.csv
+
+# Build products and external tools/libraries
+build/
+bin/
+.vs/
+CMakeFiles/
+CMakeCache.txt
+*.exe
+*.dll
+*.lib
+*.pdb
+*.obj
+*.cso
+*.ilk
+*.exp
+
+# Game installations, resources and bulk archives
+game-VC/
+gamefiles/
+revc-ml-full-*/
+*.zip
+*.7z
+*.rar
+*.img
+*.txd
+*.dff
+*.col
+*.ipl
+*.ide
+*.gxt
+*.scm
+*.adf
+*.raw
+*.sdt
+*.mp3
+*.wav
+
+# Required generated shader include sources are intentionally versioned.
+!reVC-src/src/extras/shaders/obj/
+!reVC-src/src/extras/shaders/obj/*.inc

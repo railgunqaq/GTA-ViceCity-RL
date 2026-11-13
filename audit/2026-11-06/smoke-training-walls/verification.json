@@ -1,0 +1,67 @@
+{
+  "status": "passed",
+  "test_only_hyperparameters": true,
+  "updates_before_resume": 55,
+  "updates_after_resume": 85,
+  "total_steps": 100,
+  "evaluation": {
+    "run_id": "eval-20261106T123400Z-926b63d5",
+    "status": "completed",
+    "error": "",
+    "stop_reason": "episode_budget",
+    "run_steps": 20,
+    "elapsed_seconds": 25.59486247599125,
+    "baseline": "policy",
+    "evaluation_step_limit": 20,
+    "stall_limit": 0,
+    "min_progress": 1.0,
+    "launch_steps": 16,
+    "trace": true,
+    "seed_scope": "Python/NumPy/PyTorch only; game seed is not controlled",
+    "episodes": 1,
+    "valid_episodes": 1,
+    "environment_errors": 0,
+    "outcome_known_episodes": 1,
+    "outcome_unknown_episodes": 0,
+    "successes": 0,
+    "success_rate": 0.0,
+    "success_rate_denominator": "episodes without environment errors and with success telemetry",
+    "success_rate_all_attempts": 0.0,
+    "pickup_events": 0,
+    "drop_events": 0,
+    "episodes_with_pickup": 0,
+    "episodes_with_drop": 0,
+    "task_event_count_scope": "last verified cumulative telemetry from all attempted episodes, including partial episodes ending in environment_error",
+    "final_stage_counts": {
+      "pickup": 1
+    },
+    "end_reasons": {
+      "step_limit": 1
+    }
+  },
+  "process_cleanup": [
+    {
+      "pid": 5628,
+      "outcome": "already_exited"
+    },
+    {
+      "pid": 6564,
+      "outcome": "already_exited"
+    },
+    {
+      "pid": 1196,
+      "outcome": "already_exited",
+      "exit_confirmed": true,
+      "handles_retained": false
+    },
+    {
+      "pid": 9260,
+      "outcome": "terminated",
+      "exit_wait_seconds": 19.518427621980663,
+      "exit_timeout_ms": 30000,
+      "exit_confirmed": true,
+      "handles_retained": false
+    }
+  ],
+  "cleanup_errors": []
+}

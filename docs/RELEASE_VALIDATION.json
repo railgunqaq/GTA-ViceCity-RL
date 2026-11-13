@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-13",
+  "scope": "Selected local source export; no GitHub repository or upload was created.",
+  "offline_tests": {
+    "command": "python -B -m unittest discover -s ml/tests -v",
+    "passed": true,
+    "tests": 135,
+    "seconds": 3.119,
+    "full_log_included": false
+  },
+  "runtime": {
+    "python": "3.15.2",
+    "numpy": "2.5.4",
+    "torch": "2.15.0+cpu"
+  },
+  "original_source_preservation": {
+    "checked_files": 828,
+    "all_source_sha256_unchanged": true
+  },
+  "publication_checks": {
+    "selected_files_checked": true,
+    "common_secret_patterns_found": false,
+    "personal_windows_paths_found": false,
+    "redacted_path_fields": 2,
+    "required_shader_includes": 25,
+    "full_game_assets_or_models_included": false
+  },
+  "export_adaptations": [
+    "REVC_GAME_DIR shared default for current ML entry points; training/reward logic unchanged.",
+    "Publication documentation, ignore rules and required shader include exception.",
+    "Personal workspace paths redacted in two JSON fields.",
+    "Collision mesh arrays replaced by metadata summary; raw traces and backups omitted."
+  ],
+  "not_performed": [
+    "Native build of the exported tree",
+    "Game launch or integration test of the exported tree",
+    "New training or task-performance evaluation",
+    "Git commit, remote repository creation or push"
+  ],
+  "git": {
+    "branch": "main",
+    "initial_commit_created": false,
+    "remote_configured": false
+  },
+  "manifest": "../PUBLISH_MANIFEST.json"
+}

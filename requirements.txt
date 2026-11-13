@@ -1,0 +1,3 @@
+# Core Python dependencies. Re-run offline tests after resolving versions.
+numpy
+torch

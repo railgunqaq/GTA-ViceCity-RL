@@ -1,0 +1,726 @@
+{
+  "analysis_type": "offline_observed_trace_and_stop_rule_counterfactual",
+  "source": "audit\\2026-11-06\\navigation-placement-v5",
+  "source_trace_sha256": "df6a87837e075586e14dbe724f79b099b765d3b67d87fc320d5b3309949a4694",
+  "progress_source_sha256": "749076e3f27b615afd405de1adec756e1e4495f9c2eb82f20381fb0454c02ce1",
+  "scope": [
+    "one script-controlled partial-task demonstration; no empirical policy success-rate estimate",
+    "recorded actions replayed through EpisodeProgress only; no simulation or substituted 16-step launch actions",
+    "phase/waypoint labels reconstructed from existing diagnostic script; no new game run"
+  ],
+  "demonstration": {
+    "steps": 2775,
+    "sim_seconds": 277.5,
+    "delta_ms_counts": {
+      "100": 2775
+    },
+    "delta_frame_counts": {
+      "10": 2775
+    },
+    "travel_m": 214.18990678685546,
+    "health": {
+      "min": 1.399999976158142,
+      "median": 1.399999976158142,
+      "mean": 1.399999976158142,
+      "max": 1.399999976158142
+    },
+    "max_tilt_degrees": 8.351835927013559,
+    "max_speed_mps": 1.2752728403093698,
+    "phases": [
+      {
+        "phase": "pickup_feedback",
+        "steps": [
+          1,
+          99
+        ],
+        "count": 99,
+        "sim_seconds": 9.9,
+        "travel_m": 3.1295423345960116,
+        "fraction": 0.03567567567567568,
+        "semantic_distances_split_by_target": [
+          {
+            "target_id": [
+              1,
+              1,
+              2
+            ],
+            "steps": [
+              1,
+              98
+            ],
+            "first_dist_m": 3.971002997368758,
+            "last_dist_m": 2.5724294191532073,
+            "min_dist_m": 2.5534963296238957
+          },
+          {
+            "target_id": [
+              1,
+              2,
+              1
+            ],
+            "steps": [
+              99,
+              99
+            ],
+            "first_dist_m": 72.61991074110924,
+            "last_dist_m": 72.61991074110924,
+            "min_dist_m": 72.61991074110924
+          }
+        ],
+        "action_mean": [
+          0.022505808644186116,
+          0.047679036844634246,
+          0.0,
+          0.2204252094605504,
+          0.0
+        ],
+        "action_min": [
+          0.010336620300149153,
+          0.007725927672647479,
+          0.0,
+          0.20557324980758118,
+          0.0
+        ],
+        "action_max": [
+          0.057963617238312205,
+          0.22251441823020796,
+          0.0,
+          0.2960500328838824,
+          0.0
+        ]
+      },
+      {
+        "phase": "climb",
+        "steps": [
+          100,
+          142
+        ],
+        "count": 43,
+        "sim_seconds": 4.3,
+        "travel_m": 3.578269519288679,
+        "fraction": 0.015495495495495495,
+        "semantic_distances_split_by_target": [
+          {
+            "target_id": [
+              1,
+              2,
+              1
+            ],
+            "steps": [
+              100,
+              142
+            ],
+            "first_dist_m": 72.6442429931763,
+            "last_dist_m": 72.4372971641699,
+            "min_dist_m": 72.4372971641699
+          }
+        ],
+        "action_mean": [
+          -0.010251704709165024,
+          -0.015128091294667486,
+          0.0,
+          0.3981078486439101,
+          0.0
+        ],
+        "action_min": [
+          -0.10410680153738162,
+          -0.15273967287543802,
+          0.0,
+          0.19660868003964424,
+          0.0
+        ],
+        "action_max": [
+          0.026510745842655892,
+          0.039732626071445634,
+          0.0,
+          0.6,
+          0.0
+        ]
+      },
+      {
+        "phase": "route_following",
+        "steps": [
+          143,
+          2770
+        ],
+        "count": 2628,
+        "sim_seconds": 262.8,
+        "travel_m": 207.35978186665204,
+        "fraction": 0.947027027027027,
+        "semantic_distances_split_by_target": [
+          {
+            "target_id": [
+              1,
+              2,
+              1
+            ],
+            "steps": [
+              143,
+              2770
+            ],
+            "first_dist_m": 72.43561785368317,
+            "last_dist_m": 3.7758588945642297,
+            "min_dist_m": 3.7758588945642297
+          }
+        ],
+        "action_mean": [
+          -0.03306277848517426,
+          -0.05011899231843691,
+          0.0,
+          0.21798184224593553,
+          0.0
+        ],
+        "action_min": [
+          -0.25,
+          -0.25,
+          0.0,
+          0.18794199459363867,
+          0.0
+        ],
+        "action_max": [
+          0.25,
+          0.25,
+          0.0,
+          0.34348690181445474,
+          0.0
+        ]
+      },
+      {
+        "phase": "release_observation",
+        "steps": [
+          2771,
+          2775
+        ],
+        "count": 5,
+        "sim_seconds": 0.5,
+        "travel_m": 0.12231306631873425,
+        "fraction": 0.0018018018018018018,
+        "semantic_distances_split_by_target": [
+          {
+            "target_id": [
+              1,
+              2,
+              1
+            ],
+            "steps": [
+              2771,
+              2774
+            ],
+            "first_dist_m": 3.7713990866651317,
+            "last_dist_m": 3.767301104610279,
+            "min_dist_m": 3.766739064127303
+          },
+          {
+            "target_id": [
+              1,
+              1,
+              3
+            ],
+            "steps": [
+              2775,
+              2775
+            ],
+            "first_dist_m": 66.42409146526491,
+            "last_dist_m": 66.42409146526491,
+            "min_dist_m": 66.42409146526491
+          }
+        ],
+        "action_mean": [
+          -0.0014290649782897722,
+          -0.12078569298413142,
+          0.0,
+          0.23931365942955019,
+          0.2
+        ],
+        "action_min": [
+          -0.0025505609241724078,
+          -0.16326457909131745,
+          0.0,
+          0.2096541870199144,
+          0.0
+        ],
+        "action_max": [
+          0.002938224179207178,
+          0.018172853275761586,
+          0.0,
+          0.2499517800286412,
+          1.0
+        ]
+      }
+    ],
+    "task_events": [
+      {
+        "step": 99,
+        "events": [
+          {
+            "type": "pickup",
+            "bomb_index": 1,
+            "reward": 5.0
+          }
+        ]
+      },
+      {
+        "step": 2775,
+        "events": [
+          {
+            "type": "drop",
+            "objective_index": 1,
+            "reward": 25.0
+          }
+        ]
+      }
+    ],
+    "release_positive_count": 1,
+    "release_positive_fraction": 0.00036036036036036037,
+    "release_steps": [
+      {
+        "step": 2771,
+        "trace_line": 2771,
+        "sim_seconds": 277.1,
+        "phase": "release_observation",
+        "waypoint": 11,
+        "position": [
+          156.5333709716797,
+          -347.431884765625,
+          20.575590133666992
+        ],
+        "semantic_target_id": [
+          1,
+          2,
+          1
+        ],
+        "semantic_dist_m": 3.7713990866651317,
+        "stage": "falling",
+        "pickup_events": 1,
+        "drop_events": 0,
+        "completed_mask": 0,
+        "remaining_timer_ms": 152740
+      }
+    ],
+    "final_success": false,
+    "final_completed_mask": 2,
+    "final_mission_running": 1,
+    "final_hover_goal_error_m": 0.5559057703529591,
+    "semantic_goal_changed_on_placement": [
+      1,
+      1,
+      3
+    ],
+    "all_actions_axes": [
+      "roll",
+      "pitch",
+      "yaw",
+      "collective",
+      "release"
+    ],
+    "all_action_statistics": {
+      "roll": {
+        "min": -0.25,
+        "median": -0.03645873656406049,
+        "mean": -0.030669865020053692,
+        "max": 0.25
+      },
+      "pitch": {
+        "min": -0.25,
+        "median": -0.019487496344044546,
+        "mean": -0.04621510758768455,
+        "max": 0.25
+      },
+      "yaw": {
+        "min": 0.0,
+        "median": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "collective": {
+        "min": 0.18794199459363867,
+        "median": 0.21369401909074925,
+        "mean": 0.2208985884496392,
+        "max": 0.6
+      },
+      "release": {
+        "min": 0.0,
+        "median": 0.0,
+        "mean": 0.00036036036036036037,
+        "max": 1.0
+      }
+    },
+    "reward_sum": -384.1521800589491,
+    "reward_terms_sums": {
+      "time_cost": -416.24999999998255,
+      "progress": 2.09781994105087,
+      "pickup": 5.0,
+      "drop": 25.0,
+      "collision": 0.0,
+      "success": 0.0,
+      "failure": 0.0
+    },
+    "pickup_controller_selected_bomb": 1,
+    "pickup_feature_target_before_event": [
+      1,
+      1,
+      2
+    ],
+    "pickup_teacher_initial_error_m": 3.9609566239891913,
+    "pickup_teacher_pre_event_error_m": 0.9136285442653325
+  },
+  "stop_rule_counterfactual": {
+    "min_progress_m": 1.0,
+    "condition": "stall > stall_limit; current EpisodeProgress code, target change resets",
+    "first_truncation": {
+      "60": {
+        "step": 728,
+        "trace_line": 728,
+        "sim_seconds": 72.8,
+        "phase": "route_following",
+        "waypoint": 2,
+        "position": [
+          183.98475646972656,
+          -370.10345458984375,
+          12.67681884765625
+        ],
+        "semantic_target_id": [
+          1,
+          2,
+          1
+        ],
+        "semantic_dist_m": 35.46057297491695,
+        "stage": "carrying",
+        "pickup_events": 1,
+        "drop_events": 0,
+        "completed_mask": 0,
+        "remaining_timer_ms": 357040,
+        "stall_counter": 61,
+        "best_distance_m": 36.24924410221006,
+        "last_1m_improvement_step": 667
+      },
+      "200": {
+        "step": 868,
+        "trace_line": 868,
+        "sim_seconds": 86.8,
+        "phase": "route_following",
+        "waypoint": 2,
+        "position": [
+          175.48049926757812,
+          -379.4565734863281,
+          12.22183895111084
+        ],
+        "semantic_target_id": [
+          1,
+          2,
+          1
+        ],
+        "semantic_dist_m": 36.98057229789373,
+        "stage": "carrying",
+        "pickup_events": 1,
+        "drop_events": 0,
+        "completed_mask": 0,
+        "remaining_timer_ms": 343040,
+        "stall_counter": 201,
+        "best_distance_m": 36.24924410221006,
+        "last_1m_improvement_step": 667
+      }
+    },
+    "longest_no_1m_improvement_steps": 1119,
+    "longest_gap_start_best_step": 1132,
+    "longest_gap_end_step": 2251,
+    "minimum_stall_limit_to_keep_this_recorded_trajectory": 1119,
+    "max_steps_default": 1500,
+    "at_max_steps": {
+      "step": 1500,
+      "trace_line": 1500,
+      "sim_seconds": 150.0,
+      "phase": "route_following",
+      "waypoint": 5,
+      "position": [
+        121.57331848144531,
+        -380.2003479003906,
+        12.201196670532227
+      ],
+      "semantic_target_id": [
+        1,
+        2,
+        1
+      ],
+      "semantic_dist_m": 47.74899093594688,
+      "stage": "carrying",
+      "pickup_events": 1,
+      "drop_events": 0,
+      "completed_mask": 0,
+      "remaining_timer_ms": 279840
+    },
+    "steps_lost_after_max_steps": 1275
+  },
+  "script_privilege": {
+    "controller": "native-position/velocity PD; roll/pitch limited +/-0.25; yaw always zero",
+    "route_source": "native_checked_geometry_hints",
+    "via_source": {
+      "path": "audit/2026-11-06/first-floor-route-hints.json",
+      "sha256": "ec3f301eda221ca7c7f3022dc867148eaaec4fc796fadc3be008a172695d4672",
+      "evidence": "Candidates derived from nbeachw.col models buildingsite2 and bldngst2mesh, matching streamed gta3.img collision resource. Not flight authorization: every segment still requires a native full-clearance query in the current frozen snapshot."
+    },
+    "planned_waypoints": 12,
+    "planning_queries": 728,
+    "all_query_records": 5989,
+    "query_error_records": 0,
+    "planning_elapsed_seconds": 11.673076047969516,
+    "waypoint_segments": [
+      {
+        "waypoint": 1,
+        "destination": [
+          197.47121177445487,
+          -355.3423078833311,
+          13.308842658996582
+        ],
+        "steps": [
+          143,
+          509
+        ],
+        "count": 367
+      },
+      {
+        "waypoint": 2,
+        "destination": [
+          175.0,
+          -380.0,
+          12.0
+        ],
+        "steps": [
+          510,
+          879
+        ],
+        "count": 370
+      },
+      {
+        "waypoint": 3,
+        "destination": [
+          167.0,
+          -384.0,
+          12.0
+        ],
+        "steps": [
+          880,
+          993
+        ],
+        "count": 114
+      },
+      {
+        "waypoint": 4,
+        "destination": [
+          157.0,
+          -382.0,
+          12.0
+        ],
+        "steps": [
+          994,
+          1119
+        ],
+        "count": 126
+      },
+      {
+        "waypoint": 5,
+        "destination": [
+          117.7,
+          -380.0,
+          12.0
+        ],
+        "steps": [
+          1120,
+          1551
+        ],
+        "count": 432
+      },
+      {
+        "waypoint": 6,
+        "destination": [
+          117.7,
+          -367.0,
+          12.0
+        ],
+        "steps": [
+          1552,
+          1710
+        ],
+        "count": 159
+      },
+      {
+        "waypoint": 7,
+        "destination": [
+          117.7,
+          -354.0,
+          19.5
+        ],
+        "steps": [
+          1711,
+          2046
+        ],
+        "count": 336
+      },
+      {
+        "waypoint": 8,
+        "destination": [
+          117.7,
+          -343.5,
+          20.35
+        ],
+        "steps": [
+          2047,
+          2179
+        ],
+        "count": 133
+      },
+      {
+        "waypoint": 9,
+        "destination": [
+          153.0,
+          -340.0,
+          20.0
+        ],
+        "steps": [
+          2180,
+          2575
+        ],
+        "count": 396
+      },
+      {
+        "waypoint": 10,
+        "destination": [
+          156.55,
+          -343.5,
+          20.35
+        ],
+        "steps": [
+          2576,
+          2646
+        ],
+        "count": 71
+      },
+      {
+        "waypoint": 11,
+        "destination": [
+          156.54910278320312,
+          -348.0284118652344,
+          20.351699829101562
+        ],
+        "steps": [
+          2647,
+          2771
+        ],
+        "count": 125
+      }
+    ],
+    "note": "native swept geometry queries plus supplied collision-derived hints and hand-written PD; not learned navigation; queries freeze simulated time"
+  },
+  "smoke": {
+    "train": {
+      "status": "completed",
+      "run_steps": 70,
+      "total_steps": 70,
+      "updates": 55,
+      "run_updates": 55,
+      "elapsed_seconds": 31.26565834498615,
+      "reset_seconds": 23.099828889011405,
+      "environment_errors": 0,
+      "pickup_events": 0,
+      "drop_events": 0,
+      "successes": 0,
+      "end_reasons": {
+        "step_budget": 1
+      },
+      "trace_steps": 70,
+      "phase_counts": {
+        "launch": 16,
+        "policy": 54
+      },
+      "release_requests": 10,
+      "effective_releases": 0,
+      "reward_sum": -10.992808937302938,
+      "env_version": "rc-heli-v5",
+      "obs_dim": 76,
+      "warmup": 16,
+      "batch": 8,
+      "grads_per_step": 1,
+      "gamma": 0.99,
+      "active_steps_per_second": 8.572307366618176
+    },
+    "resumed": {
+      "status": "completed",
+      "run_steps": 30,
+      "total_steps": 100,
+      "updates": 85,
+      "run_updates": 30,
+      "elapsed_seconds": 29.578926371992566,
+      "reset_seconds": 25.961450686998433,
+      "environment_errors": 0,
+      "pickup_events": 0,
+      "drop_events": 0,
+      "successes": 0,
+      "end_reasons": {
+        "step_budget": 1
+      },
+      "trace_steps": 30,
+      "phase_counts": {
+        "launch": 16,
+        "policy": 14
+      },
+      "release_requests": 6,
+      "effective_releases": 0,
+      "reward_sum": -4.320813685963689,
+      "env_version": "rc-heli-v5",
+      "obs_dim": 76,
+      "warmup": 16,
+      "batch": 8,
+      "grads_per_step": 1,
+      "gamma": 0.99,
+      "active_steps_per_second": 8.29307578332725
+    },
+    "evaluation": {
+      "status": "completed",
+      "run_steps": 20,
+      "total_steps": null,
+      "updates": null,
+      "run_updates": null,
+      "elapsed_seconds": 25.59486247599125,
+      "reset_seconds": null,
+      "environment_errors": 0,
+      "pickup_events": 0,
+      "drop_events": 0,
+      "successes": 0,
+      "end_reasons": {
+        "step_limit": 1
+      },
+      "trace_steps": 20,
+      "phase_counts": {
+        "launch": 16,
+        "policy": 4
+      },
+      "release_requests": 0,
+      "effective_releases": 0,
+      "reward_sum": -3.09890561820028,
+      "env_version": "rc-heli-v5",
+      "obs_dim": 76,
+      "warmup": 16,
+      "batch": 8,
+      "grads_per_step": 1,
+      "gamma": 0.99
+    }
+  },
+  "credit_assignment_context": {
+    "gamma": 0.99,
+    "pickup_to_drop_delay_steps": 2676,
+    "discounted_drop_reward_from_pickup": 5.220603999059054e-11,
+    "carry_progress_reward_in_trace": 0.0,
+    "note": "delayed placement return contribution at gamma .99, not an impossibility proof for learning"
+  },
+  "recommended_next_experiment": {
+    "kind": "reproduce_fixed_script_teacher_across_fresh_resets_before_large_SAC_training",
+    "episodes": 5,
+    "step_cap_per_episode": 3500,
+    "external_semantic_distance_stall_limit": 0,
+    "maximum_physical_transitions": 17500,
+    "suggested_initial_wall_budget_minutes": 60,
+    "scope": "same bomb/drop index 1 and same checked route hints; measure per-attempt pickup, verified placement, error, damage, time and steps; full mission success remains separate",
+    "throughput_caveat": "smoke active training 8.3-8.6 steps/s suggests ~35 min for 17500 steps plus resets; not a measured teacher/planning runtime guarantee",
+    "next_gate": "if repeatable, collect more phase-balanced demonstrations with held-out reset episodes before behavior-cloning or SAC comparisons; one release example is insufficient"
+  }
+}
